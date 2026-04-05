@@ -22,6 +22,7 @@ import { createClient } from '@supabase/supabase-js';
 import Database from 'better-sqlite3';
 import { fileURLToPath } from 'url';
 import path from 'path';
+import { existsSync, mkdirSync } from 'fs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 process.on('uncaughtException',  e => console.error('💥 UNCAUGHT:', e));
@@ -32,7 +33,7 @@ const PORT = process.env.PORT || 3000;
 const SECRET       = process.env.SWARM_SECRET      || 'armee-swarm-secret-2025';
 const APIFY_KEY    = process.env.APIFY_API_KEY;
 const CLAUDE_KEY   = process.env.ANTHROPIC_API_KEY;
-const GEMINI_KEY   = process.env.GEMINI_API_KEY;
+const GEMINI_KEY = process.env.GOOGLE_GENAI_API_KEY;
 const YT_KEY       = process.env.YOUTUBE_API_KEY;
 const PIN_KEY      = process.env.PINTEREST_API_KEY;
 const N8N_URL      = process.env.N8N_WEBHOOK_URL;
@@ -112,6 +113,7 @@ async function callGemini(prompt, maxTokens=500) {
     return callClaude('Tu es un assistant utile. Réponds en JSON uniquement sans markdown.', prompt, maxTokens);
   }
 }
+
 
 // ─────────────────────────────────────────────────────────────
 // 🤖 ROUTER IA — Choisit le bon modèle selon la tâche
@@ -725,7 +727,7 @@ app.get('/api/status', (req,res) => {
 // ═══════════════════════════════════════════════════════════════
 
 
-import { existsSync, mkdirSync } from 'fs';
+
 
 // ─────────────────────────────────────────────
 // SQLITE — Initialisation
@@ -946,29 +948,23 @@ app.get('/api/agent/stats', (req, res) => {
 // Tu dois voir dans le terminal du serveur :
 //   📡 PING reçu · AGENT-INFLUENCEUR-01 · run #1 · "sérum visage" score:78%
 // ─────────────────────────────────────────────
-app.listen(PORT, () => {
-  const kwCount=Object.values(VIRAL_KEYWORDS).reduce((s,arr)=>s+arr.length,0);
+// Force l'affichage de l'interface sur l'URL principale
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+// 🚀 LANCEMENT DU SERVEUR
+app.listen(PORT, '0.0.0.0', () => {
+  const kwCount = Object.values(VIRAL_KEYWORDS).reduce((s, arr) => s + arr.length, 0);
   console.log(`
-╔══════════════════════════════════════════════════════╗
-║    Swarm Creator Data Engine  v11.0  DUAL AI        ║
-╠══════════════════════════════════════════════════════╣
-║  🧠 Claude  → Analyse, Scripts, Stratégie           ║
-║  ⚡ Gemini  → Keywords, Hooks, Classification        ║
-║  💰 Économie estimée : ~67% sur coûts IA            ║
-╠══════════════════════════════════════════════════════╣
-║  Claude  : ${CLAUDE_KEY?'✅ connecté              ':'❌ manquant                '}║
-║  Gemini  : ${GEMINI_KEY?'✅ connecté              ':'⚠️  ajouter GEMINI_API_KEY  '}║
-║  Apify   : ${APIFY_KEY?'✅ connecté              ':'❌ manquant                '}║
-║  YouTube : ${YT_KEY?'✅ connecté              ':'⚠️  ajouter YOUTUBE_API_KEY '}║
-║  Supabase: ${supabaseAdmin?'✅ connecté              ':'⚠️  config manquante       '}║
-╠══════════════════════════════════════════════════════╣
-║  🔭 POST /api/veille    → Radar viralité            ║
-║  🔍 POST /api/scan      → Analyse produit           ║
-║  🤖 POST /api/trigger   → Mission agent             ║
-║  Keywords: ${kwCount} mots-clés surveillés          ║
-╚══════════════════════════════════════════════════════╝
-`);
+  ╔══════════════════════════════════════════════════════════════╗
+  ║    🚀 Swarm OS : Opérationnel sur le port ${PORT}               ║
+  ║    🌍 Accès externe : 0.0.0.0 (Requis pour Railway)          ║
+  ╚══════════════════════════════════════════════════════════════╝
+  `);
+  console.log(`🔭 Keywords: ${kwCount} mots-clés surveillés`);
 });
 
-process.on('SIGINT',()=>{ console.log('\n🛑 Arrêt...'); process.exit(0); });
-process.stdin.resume();
+process.on('SIGINT', () => { 
+  console.log('\n🛑 Arrêt...'); 
+  process.exit(0); 
+});

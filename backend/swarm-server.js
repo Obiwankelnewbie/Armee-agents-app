@@ -28,7 +28,7 @@ process.on('uncaughtException',  e => console.error('💥 UNCAUGHT:', e));
 process.on('unhandledRejection', r => console.error('💥 REJECTION:', r));
 
 const app          = express();
-const PORT         = 3000;
+const PORT = process.env.PORT || 3000;
 const SECRET       = process.env.SWARM_SECRET      || 'armee-swarm-secret-2025';
 const APIFY_KEY    = process.env.APIFY_API_KEY;
 const CLAUDE_KEY   = process.env.ANTHROPIC_API_KEY;

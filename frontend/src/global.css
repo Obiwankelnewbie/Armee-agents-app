@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1A3C34;     /* Vert forêt suisse */
+  --accent: #00A386;      /* Émeraude discret */
+  --text: #1F1F1F;
+  --text-light: #555555;
+  --bg: #F8F8F8;
+  --card: #FFFFFF;
+  --border: #E5E5E5;
+}
+
+body {
+  font-family: 'Inter', system_ui, sans-serif;
+}
+
+/* Style corporate suisse */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent);
+}

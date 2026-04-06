@@ -1,212 +1,301 @@
-// backend/agent_superviseur.js — SUPERVISOR v2.7 — BRIDGE MODE ACTIVATED
+// backend/agent_superviseur.js — SUPERVISOR v3.0 — MASTER BRIDGE
+// Améliorations : retry/backoff, circuit-breaker, jitter anti-ban,
+//                 pagination, import statique, idempotence des WON
+'use strict';
 require('dotenv').config();
-const { createClient } = require('@supabase/supabase-js');
-const { processCrmSignal } = require('./agent_crm_optimizer');
+
+const { createClient }     = require('@supabase/supabase-js');
 const { executeNextAction } = require('./agent_executor');
-
-const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
-
-const SERVER_URL = process.env.SERVER_URL || 'http://localhost:3000';
-const AGENT_ID = 'SUPERVISOR-v2.7';
-const CHECK_INTERVAL = 4 * 60 * 1000; // 4 minutes
+const { rewriteForMedia }  = require('./agents/agent_media');
+const { rewriteForForum }  = require('./agents/agent_forum');
+const { runTraderScan }    = require('./agents/agent_trader');
+const { sendTelegramAlert } = require('./telegram/bot'); // ← import statique, hors cycle
 
 // ─────────────────────────────────────────────────────────────
-// LOGS ET MONITORING
+// CONFIG
+// ─────────────────────────────────────────────────────────────
+
+const AGENT_ID       = 'SUPERVISOR-v3.0';
+const CHECK_INTERVAL = 4 * 60 * 1000;   // 4 min
+const CYCLE_TIMEOUT  = 3 * 60 * 1000;   // 3 min max par cycle (circuit-breaker)
+const LEADS_PAGE     = 10;               // leads traités par cycle
+const WON_WINDOW_MS  = CHECK_INTERVAL + 30_000; // fenêtre WON légèrement > intervalle
+
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
+
+// ─────────────────────────────────────────────────────────────
+// UTILITAIRES
+// ─────────────────────────────────────────────────────────────
+
+/**
+ * Pause aléatoire entre [min, max] ms — jitter humain anti-ban
+ */
+const jitter = (min = 1500, max = 4000) =>
+  new Promise(r => setTimeout(r, min + Math.random() * (max - min)));
+
+/**
+ * Retry exponentiel avec jitter sur une fn async.
+ * @param {Function} fn       Fonction à réessayer
+ * @param {number}   retries  Nombre de tentatives max
+ * @param {number}   base     Délai de base en ms
+ */
+async function withRetry(fn, retries = 3, base = 800) {
+  let lastErr;
+  for (let attempt = 0; attempt < retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries - 1) {
+        const delay = base * 2 ** attempt + Math.random() * 500;
+        console.warn(`⚠️  Retry ${attempt + 1}/${retries - 1} dans ${Math.round(delay)}ms — ${err.message}`);
+        await new Promise(r => setTimeout(r, delay));
+      }
+    }
+  }
+  throw lastErr;
+}
+
+/**
+ * Race un Promise contre un timeout — circuit-breaker simple.
+ * Lance une erreur si la fn dépasse `ms` ms.
+ */
+function withTimeout(fn, ms, label = 'Operation') {
+  return Promise.race([
+    fn(),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`TIMEOUT — ${label} a dépassé ${ms}ms`)), ms)
+    ),
+  ]);
+}
+
+// ─────────────────────────────────────────────────────────────
+// TÉLÉMÉTRIE
 // ─────────────────────────────────────────────────────────────
 
 async function logToFeed(type, message, leadId = null) {
   try {
-    await supabase.from('live_feed_events').insert([{
-      type,
-      message: `[${type}] ${new Date().toLocaleTimeString('fr-FR')} → ${message}`,
-      lead_id: leadId,
-      run_id: `SUP-${Date.now()}`
-    }]);
+    await withRetry(() =>
+      supabase.from('live_feed_events').insert([{
+        type,
+        message: `[${type}] ${new Date().toLocaleTimeString('fr-FR')} → ${message}`,
+        lead_id: leadId,
+        run_id: `SUP-${Date.now()}`,
+      }])
+    );
   } catch (err) {
-    console.error('Erreur logToFeed:', err.message);
+    console.error('❌ logToFeed failed (non-fatal):', err.message);
   }
 }
 
 async function updateAgentStatus(status = 'ONLINE', currentTask = null, error = null) {
   try {
-    await supabase.from('agent_status').upsert({
-      agent_id: AGENT_ID,
-      agent_name: 'Supervisor',
-      status,
-      last_ping: new Date().toISOString(),
-      uptime_seconds: Math.floor(process.uptime()),
-      memory_mb: Math.round(process.memoryUsage().heapUsed / 1024 / 1024),
-      current_task: currentTask,
-      last_error: error ? error.toString().slice(0, 500) : null,
-      version: 'v2.7 (Bridge)'
-    }, { onConflict: 'agent_id' });
+    await withRetry(() =>
+      supabase.from('agent_status').upsert({
+        agent_id:      AGENT_ID,
+        agent_name:    'Supervisor (Central)',
+        status,
+        last_ping:     new Date().toISOString(),
+        uptime_seconds: Math.floor(process.uptime()),
+        memory_mb:     Math.round(process.memoryUsage().heapUsed / 1024 / 1024),
+        current_task:  currentTask,
+        last_error:    error ? String(error).slice(0, 500) : null,
+        version:       'v3.0 Master',
+      }, { onConflict: 'agent_id' })
+    );
   } catch (e) {
-    console.error('Status update failed:', e.message);
+    console.error('❌ updateAgentStatus failed (non-fatal):', e.message);
   }
 }
 
 // ─────────────────────────────────────────────────────────────
-// TELEGRAM : NOTIFICATIONS STRATÉGIQUES
+// RECYCLAGE CONTENU
 // ─────────────────────────────────────────────────────────────
 
-async function sendTelegramAlert(message, options = {}) {
-  try {
-    const { sendTelegramAlert: send } = require('./telegram/bot');
-    await send(message, options);
-  } catch (e) {
-    console.warn('⚠️ Telegram non disponible :', e.message);
-  }
-}
+async function recycleSuccessToContent(lead) {
+  await updateAgentStatus('WORKING', `Recycling: ${lead.name}`);
 
-async function startupAlert() {
-  await sendTelegramAlert(
-    `<b>👁️ SUPERVISOR v2.7 ACTIVÉ</b>\n\n` +
-    `✅ SwarmOS est opérationnel\n` +
-    `🌉 <b>BRIDGE MODE :</b> Actif (Growth → Executor)\n` +
-    `🤖 Agents : Supervisor • CRM Optimizer • Executor • Growth Hacker\n\n` +
-    `Système autonome prêt pour l'exécution massive.`,
-    { emoji: '🛰️' }
+  const rawContent = [
+    `Succès Client : ${lead.name} a rejoint Swarm OS`,
+    `dans le secteur ${lead.niche}.`,
+    `Qualification BANT validée à ${lead.bant_score}%.`,
+  ].join(' ');
+
+  const results = await Promise.allSettled([
+    withRetry(() => rewriteForMedia(rawContent, lead.niche)),
+    withRetry(() => rewriteForForum(rawContent, lead.niche)),
+  ]);
+
+  const ok  = results.filter(r => r.status === 'fulfilled').length;
+  const ko  = results.filter(r => r.status === 'rejected');
+
+  ko.forEach((r, i) =>
+    console.error(`❌ Content agent ${i} failed:`, r.reason?.message)
+  );
+
+  await logToFeed(
+    'SUPERVISOR',
+    `BRIDGE CONTENT : ${ok}/2 actifs générés pour la niche ${lead.niche}`,
+    lead.id
   );
 }
 
 // ─────────────────────────────────────────────────────────────
-// LE BRIDGE : GROWTH HACKER → EXECUTOR
+// ÉTAPE 1 — SCAN FINANCIER
 // ─────────────────────────────────────────────────────────────
 
-async function checkGrowthIdeasAndExecute() {
-  await updateAgentStatus('ONLINE', 'Checking Bridge: Growth -> Executor');
-
-  try {
-    // Récupère les dernières idées HIGH priority du Growth Hacker
-    const { data: growthLogs } = await supabase
-      .from('live_feed_events')
-      .select('*')
-      .eq('type', 'GROWTH')
-      .order('created_at', { ascending: false })
-      .limit(5);
-
-    for (const log of growthLogs || []) {
-      // Si l'idée est HIGH ou mentionne une action prioritaire
-      if (log.message.includes('HIGH')) {
-        const ideaTitle = log.message.split('→')[1] || 'Action stratégique';
-
-        await logToFeed('SUPERVISOR', `BRIDGE: Exécution automatique de l'idée : ${ideaTitle}`);
-
-        // On cible le dernier lead qualifié pour porter cette action
-        const { data: targetLead } = await supabase
-          .from('leads')
-          .select('*')
-          .eq('status', 'QUALIFIED')
-          .order('created_at', { ascending: false })
-          .limit(1)
-          .single();
-
-        if (targetLead) {
-          // On déclenche l'exécution (on peut adapter l'action selon le titre de l'idée)
-          await executeNextAction(targetLead, 'SEND_PROPOSAL'); 
-          
-          await sendTelegramAlert(
-            `<b>🔗 BRIDGE ACTIVÉ</b>\n\n` +
-            `L'idée Growth <b>"${ideaTitle.trim()}"</b> a été convertie en action immédiate pour <b>${targetLead.name}</b>.`,
-            { emoji: '🌉' }
-          );
-          
-          // On ne traite qu'une idée par cycle pour éviter la saturation
-          break; 
-        }
-      }
-    }
-  } catch (e) {
-    console.error('Bridge error:', e.message);
-  }
+async function stepTraderScan() {
+  console.log('  [1/3] Financial scan…');
+  await updateAgentStatus('ONLINE', 'Financial Market Scan');
+  await withTimeout(
+    () => withRetry(runTraderScan),
+    60_000,
+    'TraderScan'
+  );
 }
 
 // ─────────────────────────────────────────────────────────────
-// ORCHESTRATION DU SWARM
+// ÉTAPE 2 — ORCHESTRATION CRM
 // ─────────────────────────────────────────────────────────────
 
-async function runCrmOrchestration() {
-  await updateAgentStatus('ONLINE', 'Orchestrating CRM Leads');
-  try {
-    const { data: leads } = await supabase
+async function stepCrmOrchestration() {
+  console.log('  [2/3] CRM orchestration…');
+  await updateAgentStatus('ONLINE', 'Orchestrating CRM');
+
+  const { data: leads, error } = await withRetry(() =>
+    supabase
       .from('leads')
       .select('*')
       .in('status', ['QUALIFIED', 'CONTACTED', 'NEGOTIATION'])
-      .limit(10);
+      .order('updated_at', { ascending: true }) // les plus anciens en priorité
+      .limit(LEADS_PAGE)
+  );
 
-    for (const lead of leads || []) {
-      const nextTask = lead.metadata?.next_task || 
-                      (lead.status === 'NEGOTIATION' ? 'SEND_PROPOSAL' : 'SEND_LINKEDIN_DM');
+  if (error) throw new Error(`CRM query failed: ${error.message}`);
 
-      await executeNextAction(lead, nextTask);
-      await new Promise(r => setTimeout(r, 2000));
+  for (const lead of leads ?? []) {
+    const task = lead.status === 'NEGOTIATION' ? 'SEND_PROPOSAL' : 'SEND_LINKEDIN_DM';
+    try {
+      await withRetry(() => executeNextAction(lead, task));
+    } catch (err) {
+      // Un lead qui échoue ne bloque pas les suivants
+      console.error(`❌ Lead ${lead.id} action failed:`, err.message);
+      await logToFeed('ERROR', `Action ${task} échouée pour ${lead.name}: ${err.message}`, lead.id);
     }
-  } catch (e) {
-    console.error('Orchestration error:', e.message);
-  }
-}
-
-async function mainCycle() {
-  console.log(`\n👁 [SUPERVISOR v2.7] Cycle — ${new Date().toLocaleTimeString('fr-FR')}`);
-  
-  try {
-    // 1. Gérer le flux CRM habituel
-    await runCrmOrchestration();
-
-    // 2. Vérifier les idées du Growth Hacker et les EXÉCUTER (Bridge)
-    await checkGrowthIdeasAndExecute();
-
-    // 3. Vérifier les victoires (leads WON récents)
-    const tenMinutesAgo = new Date(Date.now() - 10 * 60 * 1000).toISOString();
-    const { data: wonLeads } = await supabase
-      .from('leads')
-      .select('*')
-      .eq('status', 'WON')
-      .gt('updated_at', tenMinutesAgo);
-
-    for (const lead of wonLeads || []) {
-      await sendTelegramAlert(
-        `<b>💰 VICTOIRE : CASH COLLECTED !</b>\n\n` +
-        `👤 Client : ${lead.name}\n` +
-        `🚀 Lead ID : <code>${lead.id}</code>`,
-        { emoji: '🎉' }
-      );
-    }
-
-    await updateAgentStatus('IDLE', 'Cycle complete - Waiting');
-    console.log('✅ Cycle terminé avec succès');
-  } catch (err) {
-    console.error('Cycle error:', err.message);
-    await updateAgentStatus('ERROR', null, err.message);
+    await jitter(1500, 4500); // délai variable, moins détectable
   }
 }
 
 // ─────────────────────────────────────────────────────────────
-// DÉMARRAGE FINAL
+// ÉTAPE 3 — DÉTECTION DES VICTOIRES (WON)
+// ─────────────────────────────────────────────────────────────
+
+async function stepWonLeads() {
+  console.log('  [3/3] WON leads detection…');
+
+  const windowStart = new Date(Date.now() - WON_WINDOW_MS).toISOString();
+
+  const { data: wonLeads, error } = await withRetry(() =>
+    supabase
+      .from('leads')
+      .select('*')
+      .eq('status', 'WON')
+      .eq('content_recycled', false)   // ← idempotence : ne traiter qu'une fois
+      .gt('updated_at', windowStart)
+      .limit(LEADS_PAGE)
+  );
+
+  if (error) throw new Error(`WON query failed: ${error.message}`);
+
+  for (const lead of wonLeads ?? []) {
+    try {
+      // Alerte Telegram (non-bloquante)
+      sendTelegramAlert(`<b>💰 CASH COLLECTED : ${lead.name}</b>`, { emoji: '🎉' })
+        .catch(e => console.warn('⚠️ Telegram non joignable:', e.message));
+
+      await recycleSuccessToContent(lead);
+
+      // Marquer comme traité — évite le retraitement au prochain cycle
+      await withRetry(() =>
+        supabase
+          .from('leads')
+          .update({ content_recycled: true })
+          .eq('id', lead.id)
+      );
+    } catch (err) {
+      console.error(`❌ WON processing failed pour ${lead.id}:`, err.message);
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// CYCLE PRINCIPAL
+// ─────────────────────────────────────────────────────────────
+
+let cycleRunning = false; // guard contre l'empilement de cycles
+
+async function mainCycle() {
+  if (cycleRunning) {
+    console.warn('⚠️  Cycle précédent toujours actif — skip.');
+    return;
+  }
+  cycleRunning = true;
+  const start = Date.now();
+  console.log(`\n👁  [SUPERVISOR] Cycle Master — ${new Date().toLocaleTimeString('fr-FR')}`);
+
+  try {
+    await withTimeout(
+      async () => {
+        await stepTraderScan();
+        await stepCrmOrchestration();
+        await stepWonLeads();
+      },
+      CYCLE_TIMEOUT,
+      'MainCycle'
+    );
+
+    const elapsed = ((Date.now() - start) / 1000).toFixed(1);
+    console.log(`✅ Cycle v3.0 terminé en ${elapsed}s.`);
+    await updateAgentStatus('IDLE', 'Cycle complete — monitoring markets');
+
+  } catch (err) {
+    console.error('❌ CYCLE CRITICAL ERROR:', err.message);
+    await updateAgentStatus('ERROR', 'Main Cycle Failure', err.message);
+    await logToFeed('ERROR', `Cycle critique: ${err.message}`);
+  } finally {
+    cycleRunning = false;
+  }
+}
+
+// ─────────────────────────────────────────────────────────────
+// DÉMARRAGE
 // ─────────────────────────────────────────────────────────────
 
 console.log(`
 ╔══════════════════════════════════════════════════════╗
-║   SUPERVISOR v2.7 — SWARM OS (BRIDGE MODE)          ║
-╠══════════════════════════════════════════════════════╣
-║  Intelligence -> Action • Autonomie Totale          ║
+║   SUPERVISOR v3.0 — MASTER BRIDGE ACTIVATED          ║
 ╚══════════════════════════════════════════════════════╝
 `);
 
-logToFeed('SUPERVISOR', 'Supervisor v2.7 Online — Bridge Growth/Executor actif.');
-updateAgentStatus('ONLINE', 'Stabilizing system');
-
 setTimeout(async () => {
-  await startupAlert();
-  await updateAgentStatus('ONLINE', 'Ready');
-  
-  mainCycle();
+  await logToFeed('SUPERVISOR', 'Master Supervisor Online — Bridge, Content & Trading synchronisés.');
+  await mainCycle();
   setInterval(mainCycle, CHECK_INTERVAL);
-}, 30000);
+}, 5_000);
 
-process.on('SIGINT', async () => {
-  await updateAgentStatus('OFFLINE', 'Stopped by Master');
-  await sendTelegramAlert("<b>🛑 SUPERVISOR ARRÊTÉ</b>\nLe Swarm est en veille.", { emoji: '⛔' });
-  console.log('\n🛑 Arrêt propre.');
+// ─────────────────────────────────────────────────────────────
+// ARRÊT PROPRE
+// ─────────────────────────────────────────────────────────────
+
+async function gracefulShutdown(signal) {
+  console.log(`\n🛑 Signal ${signal} reçu — arrêt propre…`);
+  await updateAgentStatus('OFFLINE', 'Graceful Shutdown');
+  await logToFeed('SUPERVISOR', `Shutdown propre via ${signal}.`);
   process.exit(0);
-});
+}
+
+process.on('SIGINT',  () => gracefulShutdown('SIGINT'));
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM')); // requis pour Docker/PM2

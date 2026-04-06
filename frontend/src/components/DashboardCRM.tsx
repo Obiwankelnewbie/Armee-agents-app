@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 import AgentStatusPanel from '../components/AgentStatusPanel';
 import { motion } from 'framer-motion';
-
+import SignalAudit from './SignalAudit';
 export default function OptimusPrimeDashboard() {
   const [activeTab, setActiveTab] = useState<'crm' | 'agents' | 'growth' | 'trader'>('crm');
   const [traderSignals, setTraderSignals] = useState<any[]>([]);

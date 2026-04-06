@@ -2,29 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ─────────────────────────────────────────────────────────────
-   CUSTOM SCROLLBAR (Pour le B2B Live Feed)
-   ───────────────────────────────────────────────────────────── */
-.custom-scroll::-webkit-scrollbar {
-  width: 3px;
+:root {
+  --bg: #FBFBFF;
+  --dark: #0A0A0F;
+  --emerald: #10B981;
+  --zinc-border: #E5E5E7;
 }
 
-.custom-scroll::-webkit-scrollbar-track {
-  background: transparent;
+@layer base {
+  body {
+    @apply bg-[#FBFBFF] text-[#0A0A0F] antialiased selection:bg-emerald-100;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* DA OPTIMUS : TITRES MASSIFS & ITALIC */
+  h1, h2, h3, .font-display {
+    font-family: 'Space Grotesk', sans-serif;
+    @apply font-black italic uppercase tracking-tighter;
+  }
 }
 
-.custom-scroll::-webkit-scrollbar-thumb {
-  background: #222;
-  border-radius: 20px;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb:hover {
-  background: #444;
-}
-
-/* Optionnel : Pour un noir profond sur tout le site */
-body {
-  @apply bg-black text-white;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+@layer components {
+  .swarm-card {
+    @apply bg-white rounded-[40px] border border-zinc-100 shadow-2xl shadow-zinc-200/50 p-10 transition-all duration-500 hover:scale-[1.01] hover:border-emerald-500/20;
+  }
+  
+  .btn-primary {
+    @apply bg-[#0A0A0F] text-white px-8 py-4 rounded-2xl text-[10px] font-black uppercase tracking-[0.2em] hover:bg-[#10B981] transition-all active:scale-95 shadow-xl shadow-black/10;
+  }
 }

@@ -8,12 +8,14 @@
 // ═══════════════════════════════════════════════════════════════
 
 'use strict';
-require('dotenv').config();
-const { spawn, execSync } = require('child_process');
-const path  = require('path');
-const fs    = require('fs');
-const readline = require('readline');
+import 'dotenv/config';
+import { spawn, execSync } from 'child_process';
+import path from 'path';
+import fs from 'fs';
+import readline from 'readline';
+import { fileURLToPath } from 'url';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // ─── CONFIG ───────────────────────────────────────────────────
 
 const SWARM_DIR = process.cwd();

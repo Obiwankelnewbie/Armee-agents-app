@@ -1,17 +1,17 @@
 {
-  "name": "swarm-creator-ai-backend",
-  "version": "2.0.0",
-  "private": true,
+  "name": "swarm-server",
+  "version": "1.0.0",
   "type": "module",
+  "main": "swarm-server.js",
   "scripts": {
     "start": "node swarm-server.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.101.1",
-    "better-sqlite3": "^12.0.0",
+    "@supabase/supabase-js": "^2.42.0",
+    "better-sqlite3": "^9.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^17.4.1",
-    "express": "^4.18.2",
-    "node-fetch": "^2.7.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
   }
 }

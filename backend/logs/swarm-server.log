@@ -3811,3 +3811,27 @@
   ╚══════════════════════════════════════════════════════════════╝
   
 🔭 Keywords: 96 mots-clés surveillés
+  💾 SQLite connecté : ./swarm_memory.db
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║    🚀 Swarm OS : Opérationnel sur le port 3000               ║
+  ║    🌍 Accès externe : 0.0.0.0 (Requis pour Railway)          ║
+  ╚══════════════════════════════════════════════════════════════╝
+  
+🔭 Keywords: 96 mots-clés surveillés
+  💾 SQLite connecté : ./swarm_memory.db
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║    🚀 Swarm OS : Opérationnel sur le port 3000               ║
+  ║    🌍 Accès externe : 0.0.0.0 (Requis pour Railway)          ║
+  ╚══════════════════════════════════════════════════════════════╝
+  
+🔭 Keywords: 96 mots-clés surveillés
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+    =========================================
+       🚀 SWARM SERVER IS LIVE
+       Port: 3000
+       Mode: ES Modules
+    =========================================
+    

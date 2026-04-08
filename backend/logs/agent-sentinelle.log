@@ -1,0 +1,544 @@
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+🛡️  [AGENT-SENTINELLE-02] EN GARDE
+   Seuil EXECUTE : 0.55 | MONITOR : 0.35
+   Cible Trader  : AGENT-TRADER-01
+
+
+📥 6 briefing(s) à filtrer…
+🔴 #37b700b9 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #965bb832 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #0f141b5a | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #a9f13097 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #1016cd62 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #b32df4f0 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 16 briefing(s) à filtrer…
+🔴 #ff0671d9 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #18a9f898 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #2066df2f | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #a56c5392 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #9f64abaf | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #dddf8661 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #51826aff | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #df22da53 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #5b1ef885 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #fac2cb52 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #f7a15a67 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #4f711e2b | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #30de6e05 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #db86f9b1 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #386a9487 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #13ec6141 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 15 briefing(s) à filtrer…
+🟡 #44fe4937 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #e2f35b44 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #2d40d913 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #4fb585ae | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #a120455d | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #b2593dd1 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #3b7a729c | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #af7ade2f | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #5dfe3320 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #d52276bd | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #124a28f9 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #77a64df6 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #8712fdf8 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #6615e41c | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #a8f27981 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 17 briefing(s) à filtrer…
+🟡 #7c0257f5 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #8181b779 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #85dfa7e3 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #4ffc6a6e | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #e0cf9156 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #bcb8b1e1 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #8c6a5e53 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #9e75dae6 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #c197c503 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #87e547a2 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #858090b6 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #4b5fac2f | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #377d2c18 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #05a7680e | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #eced4c6d | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #11966dc6 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #6688635c | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 15 briefing(s) à filtrer…
+🔴 #a164b17c | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #73529bb2 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #e4a96934 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #96d6c120 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #bd83fefe | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #4cdd6ecd | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #ddeb1ffd | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #b3373394 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #bc8e2052 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #6318b153 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #b2e34ffd | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #0a41112b | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #56bc462e | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #c190e40f | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #a1c29334 | ABORT (0.3) — Pas de CA + score faible (0.30)
+
+📥 11 briefing(s) à filtrer…
+🟡 #996471d8 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #d460f504 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #92b80335 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #010f996a | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #b9b3e2ba | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #36bd2913 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #d28d075b | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #5cfdfe4d | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #7c894b61 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #e88691aa | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #55333a93 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 6 briefing(s) à filtrer…
+🔴 #80fa8fba | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #4b02b024 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #4959065c | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #2090d6d9 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #d1a7caf2 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #10a065b3 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 4 briefing(s) à filtrer…
+🔴 #1dfc372a | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #ef40658a | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #9125b9ad | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #4c9b5ba4 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #c594dd98 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #d6e038a2 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #7c67d712 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+🛡️  [AGENT-SENTINELLE-02] EN GARDE
+   Seuil EXECUTE : 0.55 | MONITOR : 0.35
+   Cible Trader  : AGENT-TRADER-01
+
+
+📥 2 briefing(s) à filtrer…
+🟢 #108f474d | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #071c0bb0 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 13 briefing(s) à filtrer…
+🔴 #2f98efbf | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #ae0c3e90 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #365567ef | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #195154dc | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #e931f9f0 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #dc9f121c | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #5c4dd72f | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #4388241d | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #f030fb95 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #f5cc61cb | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #5e0a13c4 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #ff9b2f72 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #296fd058 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 13 briefing(s) à filtrer…
+🔴 #7b0bed19 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #cba9fd5c | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #e04f39eb | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #ab697291 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #e7fcafaf | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #9c46bc37 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #5304d400 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #8107c187 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #343de6cf | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #3a0a0c1d | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #e7354629 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #c979a7c3 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #10475340 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 15 briefing(s) à filtrer…
+🟢 #616c3f29 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #d7e567f6 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #3283e45f | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #4ecb0ebf | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #6575b5ca | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #73fb9b1f | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #8b0eeeb9 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #d3f52cf1 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #e9293f03 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #3307a445 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #61170150 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #04c43947 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #5f334077 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #af5a1b11 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #29d6305b | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 12 briefing(s) à filtrer…
+🔴 #8eb63079 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #22981a6a | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #20463458 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #72fdaac8 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #67b67446 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #8e195bfe | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #b1b9556b | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #63f71624 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #0d872b96 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #7940e974 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #fd5d87de | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #0f163626 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 11 briefing(s) à filtrer…
+🟢 #4907c9ec | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #ba2e80e5 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #bbe81b83 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #7ec1cbf8 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #5eae1187 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #c114cc8e | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #3fff8c79 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #53e4b82b | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #516436ca | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #958a9d9a | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #95831135 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 6 briefing(s) à filtrer…
+🟡 #5ddfc9f3 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #1022b293 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #d278e086 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #1fb650b8 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #e3ab1c5a | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #09f2ed3e | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 3 briefing(s) à filtrer…
+🔴 #34b0211b | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #3a312a52 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #59a3fdcd | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 1 briefing(s) à filtrer…
+🟢 #46cf3c41 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #be1577d8 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #7b87e1b5 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #23a831a1 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #8fae041a | EXECUTE (0.65) — Signal actionnable (score 0.65, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #81b7e429 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #44abc6a6 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #5c9fdd05 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #fe0debcc | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #226f75b2 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #c5c60596 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #4f50f3a7 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #53309da2 | ABORT (0.25) — Pas de CA + score faible (0.25)
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+🛡️  [AGENT-SENTINELLE-02] EN GARDE
+   Seuil EXECUTE : 0.55 | MONITOR : 0.35
+   Cible Trader  : AGENT-TRADER-01
+
+
+📥 1 briefing(s) à filtrer…
+🟡 #6f4b2413 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 14 briefing(s) à filtrer…
+🟡 #d3b08620 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #2eb500c2 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #e965f452 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #be7458da | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #54610dca | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #03ece0b8 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #fa2ac04b | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #b2117663 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #d4ab5338 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #c615aa42 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #d4ab8734 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #dacd471f | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #3449fa0f | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #94ce03dc | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 9 briefing(s) à filtrer…
+🟡 #43c78274 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #97602d62 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #ac409594 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #eb1dabc5 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #a91898dd | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #732a1bfe | EXECUTE (0.8) — Signal actionnable (score 0.80, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #481a9ec7 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #477ed55e | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #943f3f1d | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 10 briefing(s) à filtrer…
+🟢 #169a6d9a | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #fbb064c9 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #62b2b8b1 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #af2d1358 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #dbd420fd | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #e4ecdf8f | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #e28eacbb | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #4d5ad735 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #c222bdae | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #83ee6eb1 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 11 briefing(s) à filtrer…
+🟢 #8cc7addc | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #92467097 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #dd865f86 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #89f5ec1a | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #c7970305 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #d0cba17d | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #4eb151d8 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #6b2bf5b3 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #1552eed5 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #34b1197f | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #818d4666 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 5 briefing(s) à filtrer…
+🔴 #944c15fb | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #afb260b0 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #e3be9387 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #6353ffd7 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #83dba570 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+🛡️  [AGENT-SENTINELLE-02] EN GARDE
+   Seuil EXECUTE : 0.55 | MONITOR : 0.35
+   Cible Trader  : AGENT-TRADER-01
+
+
+📥 1 briefing(s) à filtrer…
+🟡 #6e94d86a | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 3 briefing(s) à filtrer…
+🟢 #4c2b69d1 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #47ac8af9 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #aa4665ec | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 2 briefing(s) à filtrer…
+🟢 #73a47e67 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #8b018f9a | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 3 briefing(s) à filtrer…
+🟢 #5af86c22 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #d89e9e47 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #40efc825 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 4 briefing(s) à filtrer…
+🟢 #24c2d07a | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟡 #e1b1e5ec | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟡 #b8db4b4b | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #6477592f | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+🛡️  [AGENT-SENTINELLE-02] EN GARDE
+   Seuil EXECUTE : 0.55 | MONITOR : 0.35
+   Cible Trader  : AGENT-TRADER-01
+
+
+📥 1 briefing(s) à filtrer…
+🟡 #bd740d06 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 4 briefing(s) à filtrer…
+🟢 #87d70b71 | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #afaea11b | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #a95d6f80 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟢 #1a72cd74 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 3 briefing(s) à filtrer…
+🟢 #e6aaeeca | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #b611c55f | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #ba7a89fa | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 3 briefing(s) à filtrer…
+🔴 #fc8180e0 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🔴 #e0f6d1c1 | ABORT (0.25) — Pas de CA + score faible (0.25)
+🟡 #a5069e4c | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 2 briefing(s) à filtrer…
+🟡 #2c291e68 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🔴 #eccb8e09 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 3 briefing(s) à filtrer…
+🟢 #1fe0053a | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #a6fee166 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🟢 #5d331667 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 3 briefing(s) à filtrer…
+🟡 #6de9a520 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+🟢 #c2190b0f | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #40d8bd77 | ABORT (0.3) — Pas de CA + score faible (0.30)
+
+📥 1 briefing(s) à filtrer…
+🔴 #62cec22e | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 2 briefing(s) à filtrer…
+🟢 #b6a19d0b | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+🔴 #07b9716a | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🔴 #76b7c82d | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #0af43561 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🟡 #d31565d3 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 1 briefing(s) à filtrer…
+🟢 #fe241c41 | EXECUTE (0.6) — Signal actionnable (score 0.60, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🟢 #228d5fdc | EXECUTE (0.7) — Signal actionnable (score 0.70, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🔴 #dc942c84 | ABORT (0.25) — Pas de CA + score faible (0.25)
+
+📥 1 briefing(s) à filtrer…
+🟢 #eddd8c60 | EXECUTE (0.75) — Signal actionnable (score 0.75, risque MEDIUM)
+   🚀 Transmis à AGENT-TRADER-01
+
+📥 1 briefing(s) à filtrer…
+🟡 #cc862e1f | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 1 briefing(s) à filtrer…
+🟡 #c18cf965 | MONITOR (0.45) — Signal faible (score 0.45) — surveillance
+
+📥 1 briefing(s) à filtrer…
+🟡 #ac13e2da | MONITOR (0.45) — Signal faible (score 0.45) — surveillance

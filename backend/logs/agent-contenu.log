@@ -1,0 +1,154 @@
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   ✍️   AGENT CONTENU SAURON — SWARM OS  v1.0               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Formats   : Blog · TikTok · Twitter · Instagram · News     ║
+║  Domaines  : CRYPTO · TREND · MUSIC · SHOP · NEWS           ║
+║  Publie    : WordPress · Twitter/X · Brevo · Queue          ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables d'env pour la publication automatique :
+  TWITTER_BEARER_TOKEN + TWITTER_API_KEY  → Thread Twitter
+  WP_URL + WP_USER + WP_APP_PASSWORD      → Blog WordPress
+  BREVO_API_KEY + BREVO_LIST_ID           → Newsletter
+  (Sans ces vars → stockage Supabase + content_queue)
+
+
+📥 1 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [MUSIC] → 3 formats à générer
+   Briefing : Pink Floyd annonce un nouvel album compilation '8-Tracks'
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TIKTOK_SCRIPT] Généré
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [INSTAGRAM] Généré
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…

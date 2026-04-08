@@ -1,0 +1,20 @@
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🐉  ANCALAGON — DRAGON DE MÉMOIRE — SWARM OS  v1.0       ║
+╠══════════════════════════════════════════════════════════════╣
+║  Mémoire   : épisodique (signal→action→résultat)            ║
+║  Scoring   : adaptatif recalibré sur données réelles        ║
+║  Feedback  : règles réécrites toutes les heures             ║
+║  Profondeur: 30 jours de données                            ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🐉 [ANCALAGON] Cycle d'apprentissage #1
+
+🧠 [ANCALAGON] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés
+
+📈 [ANCALAGON] Calcul des scores adaptatifs…

@@ -1,0 +1,706 @@
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+🚀 AGENT-MEDIA-01 démarré — 9 sources RSS
+🎯 Cible : AGENT-SENTINELLE-02
+
+
+🔍 TEST INITIAL DES FLUX RSS...
+
+✅ cointelegraph.com    → 30 items
+✅ coindesk.com         → 25 items
+❌ cryptoslate.com      → Status code 403
+✅ thedefiant.io        → 100 items
+✅ cryptopotato.com     → 36 items
+✅ decrypt.co           → 35 items
+✅ bitcoinist.com       → 8 items
+✅ newsbtc.com          → 10 items
+✅ cryptonews.com       → 20 items
+
+📊 8/9 flux fonctionnent.
+
+
+🔄 Scan de tous les flux RSS…
+📡 Analyse (cointelegraph.com) : South Korea tightens crypto withdrawal-delay exemptions after scam los…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Stablecoin yields won’t harm banks, White House economists say…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea draft bill puts stablecoins, RWAs under finance laws: Repo…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Thailand proposes tighter scrutiny of funders behind crypto firms…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : NYT revives Adam Back theory in latest bid to identify Bitcoin creator…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Oil falls, Bitcoin jumps to $72K, but is this BTC price breakout for r…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : ARK buys $13M in Robinhood as US Treasury taps platform for Trump Acco…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : UBS partners with five banks for Swiss franc stablecoin sandbox…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Will quantum-safe cryptography slow Ethereum down? The performance tra…
+   Score: 0.55 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum stablecoin supply hits $180B all-time high: Token Terminal…
+   Score: 0.55 | Asset: ETH | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Three Polymarket traders made timely bets on US-Iran ceasefire…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Coinbase plans expansion to stock trading in Australia after securing …
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum buyers are back, data shows, as bulls defend $2K support…
+   Score: 0.35 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Morgan Stanley's Bitcoin ETF set to launch on Wednesday…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Anthropic limits access to AI model over cyberattack concerns…
+   Score: 0.85 | Asset: OTHER | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : SEC admits certain crypto enforcement cases delivered no investor bene…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : FDIC moves to regulate stablecoin issuers under the GENIUS Act…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin reclaims $72K after US, Iran agree to 2-week ceasefire…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict…
+   Score: 0.70 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Crypto billionaire to prison: CZ’s autobiography revisits turbulent Bi…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin wallets absorb 4.37M BTC as network activity flips to ‘bull ph…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Democrats question CFTC chair on insider trading in prediction markets…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Here’s what happened in crypto today…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Spot Bitcoin ETF inflows top $471M but BTC is pinned under $70K: Here’…
+   Score: 0.80 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Americans lost $11B to crypto scams in 2025, says FBI…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin holds $67K support as data exposes price to sentiment divergen…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : US prosecutors reject Tornado Cash co-founder’s argument for dismissal…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Split Capital winds down as founder joins stablecoin startup Plasma…
+   Score: 0.55 | Asset: OTHER | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Polymarket bags 97% of onchain prediction market fees after pricing ov…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin waits at $68K as hours tick down to Iran deadline…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billi…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Iran eyes crypto toll for oil tanker transits through Strait of Hormuz…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : CoinDesk 20 performance update: Internet Computer (ICP) rises 12.1% …
+   Score: 0.35 | Asset: ICP | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin’s quantum threat is distant, but migration clock is ticking, s…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billi…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin buyers gobbled up nearly 850,000 BTC between $60,000 and $70,0…
+   Score: 0.55 | Asset: BTC | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Ceasefire lifts bitcoin, but animal spirits may not return just yet…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Six Swiss banks join forces to build a unified digital franc…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Move over bitcoin and quantum risks. Anthropic's Mythos AI could have …
+   Score: 0.55 | Asset: OTHER | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : South Korea takes away exchange discretion in a major anti-phishing cr…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto markets rally as Trump announces two-week Iran ceasefire…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : MEXC's new CEO wants to tame a memecoin machine without killing what m…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto-related stocks higher across the board after the ceasefire news…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto's 'AWS' Alchemy unveils tool to make AI payment systems talk to…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto whale holding oil shorts walks away with $2 million in profit…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : U.S. bank with $1.9 trillion in assets could debut its bitcoin ETF Wed…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Attacking bitcoin mining with a quantum computer would require the ene…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : XRP zooms 5% on bitcoin strength, but trend reversal still unconfirmed…
+   Score: 0.35 | Asset: XRP | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin, ether, oil shorts lead $427 million wipeout on US-Iran ceasef…
+   Score: 0.35 | Asset: BTC|ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : CZ says SBF asked for billions 'like a Bologna sandwich' as FTX collap…
+   Score: 0.85 | Asset: FTX|GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week …
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin rises past $69,000 as risk markets reverse big early losses on…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Argentine President Milei’s call logs link him to multimillion-dollar …
+   Score: 0.85 | Asset: LIBRA | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Stablecoin issuers get closer to U.S. federal rules with FDIC's new pr…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Trump-linked World Liberty faces scrutiny over ties to sanctioned netw…
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+🚀 AGENT-MEDIA-01 démarré — 9 sources RSS
+🎯 Cible : AGENT-SENTINELLE-02
+
+
+🔍 TEST INITIAL DES FLUX RSS...
+
+✅ cointelegraph.com    → 30 items
+✅ coindesk.com         → 25 items
+❌ cryptoslate.com      → Status code 403
+✅ thedefiant.io        → 100 items
+✅ cryptopotato.com     → 36 items
+✅ decrypt.co           → 35 items
+✅ bitcoinist.com       → 8 items
+✅ newsbtc.com          → 10 items
+✅ cryptonews.com       → 20 items
+
+📊 8/9 flux fonctionnent.
+
+
+🔄 Scan de tous les flux RSS…
+📡 Analyse (cointelegraph.com) : South Korea tightens crypto withdrawal-delay exemptions after scam los…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Stablecoin yields won’t harm banks, White House economists say…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea draft bill puts stablecoins, RWAs under finance laws: Repo…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Thailand proposes tighter scrutiny of funders behind crypto firms…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : NYT revives Adam Back theory in latest bid to identify Bitcoin creator…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Oil falls, Bitcoin jumps to $72K, but is this BTC price breakout for r…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : ARK buys $13M in Robinhood as US Treasury taps platform for Trump Acco…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : UBS partners with five banks for Swiss franc stablecoin sandbox…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Will quantum-safe cryptography slow Ethereum down? The performance tra…
+   Score: 0.55 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum stablecoin supply hits $180B all-time high: Token Terminal…
+   Score: 0.55 | Asset: ETH | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Three Polymarket traders made timely bets on US-Iran ceasefire…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Coinbase plans expansion to stock trading in Australia after securing …
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum buyers are back, data shows, as bulls defend $2K support…
+   Score: 0.35 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Morgan Stanley's Bitcoin ETF set to launch on Wednesday…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Anthropic limits access to AI model over cyberattack concerns…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : SEC admits certain crypto enforcement cases delivered no investor bene…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : FDIC moves to regulate stablecoin issuers under the GENIUS Act…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin reclaims $72K after US, Iran agree to 2-week ceasefire…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict…
+   Score: 0.70 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Crypto billionaire to prison: CZ’s autobiography revisits turbulent Bi…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin wallets absorb 4.37M BTC as network activity flips to ‘bull ph…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Democrats question CFTC chair on insider trading in prediction markets…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Here’s what happened in crypto today…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Spot Bitcoin ETF inflows top $471M but BTC is pinned under $70K: Here’…
+   Score: 0.80 | Asset: BTC | CA: null | Type: LISTING|ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Americans lost $11B to crypto scams in 2025, says FBI…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin holds $67K support as data exposes price to sentiment divergen…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : US prosecutors reject Tornado Cash co-founder’s argument for dismissal…
+   Score: 0.80 | Asset: OTHER | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Split Capital winds down as founder joins stablecoin startup Plasma…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Polymarket bags 97% of onchain prediction market fees after pricing ov…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin waits at $68K as hours tick down to Iran deadline…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billi…
+   Score: 0.80 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Iran eyes crypto toll for oil tanker transits through Strait of Hormuz…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : CoinDesk 20 performance update: Internet Computer (ICP) rises 12.1% …
+   Score: 0.35 | Asset: ICP | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin’s quantum threat is distant, but migration clock is ticking, s…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billi…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin buyers gobbled up nearly 850,000 BTC between $60,000 and $70,0…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Ceasefire lifts bitcoin, but animal spirits may not return just yet…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Six Swiss banks join forces to build a unified digital franc…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Move over bitcoin and quantum risks. Anthropic's Mythos AI could have …
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : South Korea takes away exchange discretion in a major anti-phishing cr…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto markets rally as Trump announces two-week Iran ceasefire…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : MEXC's new CEO wants to tame a memecoin machine without killing what m…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto-related stocks higher across the board after the ceasefire news…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto's 'AWS' Alchemy unveils tool to make AI payment systems talk to…
+   Score: 0.75 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Crypto whale holding oil shorts walks away with $2 million in profit…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : U.S. bank with $1.9 trillion in assets could debut its bitcoin ETF Wed…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Attacking bitcoin mining with a quantum computer would require the ene…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : XRP zooms 5% on bitcoin strength, but trend reversal still unconfirmed…
+   Score: 0.35 | Asset: XRP | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin, ether, oil shorts lead $427 million wipeout on US-Iran ceasef…
+   Score: 0.35 | Asset: BTC|ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : CZ says SBF asked for billions 'like a Bologna sandwich' as FTX collap…
+   Score: 0.85 | Asset: FTX|OTHER | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week …
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin rises past $69,000 as risk markets reverse big early losses on…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Argentine President Milei’s call logs link him to multimillion-dollar …
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+🚀 AGENT-MEDIA-01 démarré — 9 sources RSS
+🎯 Cible : AGENT-SENTINELLE-02
+
+
+🔍 TEST INITIAL DES FLUX RSS...
+
+✅ cointelegraph.com    → 30 items
+✅ coindesk.com         → 25 items
+❌ cryptoslate.com      → Status code 403
+✅ thedefiant.io        → 100 items
+✅ cryptopotato.com     → 36 items
+✅ decrypt.co           → 35 items
+✅ bitcoinist.com       → 8 items
+✅ newsbtc.com          → 10 items
+✅ cryptonews.com       → 20 items
+
+📊 8/9 flux fonctionnent.
+
+
+🔄 Scan de tous les flux RSS…
+📡 Analyse (cointelegraph.com) : Cango sells 2,000 BTC, cuts Bitcoin production cost by 19% in March…
+   Score: 0.55 | Asset: BTC | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea tightens crypto withdrawal-delay exemptions after scam los…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Stablecoin yields won’t harm banks, White House economists say…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea draft bill puts stablecoins, RWAs under finance laws: Repo…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Thailand proposes tighter scrutiny of funders behind crypto firms…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : NYT revives Adam Back theory in latest bid to identify Bitcoin creator…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Oil falls, Bitcoin jumps to $72K, but is this BTC price breakout for r…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : ARK buys $13M in Robinhood as US Treasury taps platform for Trump Acco…
+   Score: 0.55 | Asset: OTHER | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : UBS partners with five banks for Swiss franc stablecoin sandbox…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Will quantum-safe cryptography slow Ethereum down? The performance tra…
+   Score: 0.55 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum stablecoin supply hits $180B all-time high: Token Terminal…
+   Score: 0.55 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Three Polymarket traders made timely bets on US-Iran ceasefire…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Coinbase plans expansion to stock trading in Australia after securing …
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum buyers are back, data shows, as bulls defend $2K support…
+   Score: 0.35 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Morgan Stanley's Bitcoin ETF set to launch on Wednesday…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Anthropic limits access to AI model over cyberattack concerns…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : SEC admits certain crypto enforcement cases delivered no investor bene…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : FDIC moves to regulate stablecoin issuers under the GENIUS Act…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin reclaims $72K after US, Iran agree to 2-week ceasefire…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict…
+   Score: 0.70 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Crypto billionaire to prison: CZ’s autobiography revisits turbulent Bi…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin wallets absorb 4.37M BTC as network activity flips to ‘bull ph…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Democrats question CFTC chair on insider trading in prediction markets…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Here’s what happened in crypto today…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Spot Bitcoin ETF inflows top $471M but BTC is pinned under $70K: Here’…
+   Score: 0.80 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Americans lost $11B to crypto scams in 2025, says FBI…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin holds $67K support as data exposes price to sentiment divergen…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : US prosecutors reject Tornado Cash co-founder’s argument for dismissal…
+   Score: 0.85 | Asset: OTHER | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Split Capital winds down as founder joins stablecoin startup Plasma…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Polymarket bags 97% of onchain prediction market fees after pricing ov…
+   Score: 0.85 | Asset: OTHER | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : White House study bolsters crypto's stance in stablecoin yield fight a…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Quantum threat to Bitcoin is real, but manageable, according to Wall S…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Saylor’s solo act: JPMorgan says Strategy is practically the only thin…
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+🚀 AGENT-MEDIA-01 démarré — 9 sources RSS
+🎯 Cible : AGENT-SENTINELLE-02
+
+
+🔍 TEST INITIAL DES FLUX RSS...
+
+✅ cointelegraph.com    → 30 items
+✅ coindesk.com         → 25 items
+❌ cryptoslate.com      → Status code 403
+✅ thedefiant.io        → 100 items
+✅ cryptopotato.com     → 36 items
+✅ decrypt.co           → 35 items
+✅ bitcoinist.com       → 8 items
+✅ newsbtc.com          → 10 items
+✅ cryptonews.com       → 20 items
+
+📊 8/9 flux fonctionnent.
+
+
+🔄 Scan de tous les flux RSS…
+📡 Analyse (cointelegraph.com) : Cango sells 2,000 BTC, cuts Bitcoin production cost by 19% in March…
+   Score: 0.55 | Asset: BTC | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea tightens crypto withdrawal-delay exemptions after scam los…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Stablecoin yields won’t harm banks, White House economists say…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea draft bill puts stablecoins, RWAs under finance laws: Repo…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Thailand proposes tighter scrutiny of funders behind crypto firms…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : NYT revives Adam Back theory in latest bid to identify Bitcoin creator…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Oil falls, Bitcoin jumps to $72K, but is this BTC price breakout for r…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : ARK buys $13M in Robinhood as US Treasury taps platform for Trump Acco…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : UBS partners with five banks for Swiss franc stablecoin sandbox…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Will quantum-safe cryptography slow Ethereum down? The performance tra…
+   Score: 0.55 | Asset: ETH | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum stablecoin supply hits $180B all-time high: Token Terminal…
+   Score: 0.55 | Asset: ETH | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Three Polymarket traders made timely bets on US-Iran ceasefire…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Coinbase plans expansion to stock trading in Australia after securing …
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum buyers are back, data shows, as bulls defend $2K support…
+   Score: 0.35 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Morgan Stanley's Bitcoin ETF set to launch on Wednesday…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Anthropic limits access to AI model over cyberattack concerns…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : SEC admits certain crypto enforcement cases delivered no investor bene…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : FDIC moves to regulate stablecoin issuers under the GENIUS Act…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin reclaims $72K after US, Iran agree to 2-week ceasefire…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict…
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+🚀 AGENT-MEDIA-01 démarré — 9 sources RSS
+🎯 Cible : AGENT-SENTINELLE-02
+
+
+🔍 TEST INITIAL DES FLUX RSS...
+
+✅ cointelegraph.com    → 30 items
+✅ coindesk.com         → 25 items
+❌ cryptoslate.com      → Status code 403
+✅ thedefiant.io        → 100 items
+✅ cryptopotato.com     → 36 items
+✅ decrypt.co           → 55 items
+✅ bitcoinist.com       → 8 items
+✅ newsbtc.com          → 10 items
+✅ cryptonews.com       → 20 items
+
+📊 8/9 flux fonctionnent.
+
+
+🔄 Scan de tous les flux RSS…
+📡 Analyse (cointelegraph.com) : MEXC targets EU MiCA compliance as new CEO takes helm…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Zcash leads US–Iran ceasefire rally with 30% gains: ZEC price bull tra…
+   Score: 0.55 | Asset: ZEC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Standard Chartered mulls folding parts of Zodia Custody in-house: Bloo…
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : CZ memoir revives feud with OKX founder Star Xu over contract forgery,…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Instant settlement strains crypto’s capital efficiency: Ethan Buchman…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Cango sells 2,000 BTC, cuts Bitcoin production cost by 19% in March…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea tightens crypto withdrawal-delay exemptions after scam los…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Stablecoin yields won’t harm banks, White House economists say…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : South Korea draft bill puts stablecoins, RWAs under finance laws: Repo…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Thailand proposes tighter scrutiny of funders behind crypto firms…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : NYT revives Adam Back theory in latest bid to identify Bitcoin creator…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Oil falls, Bitcoin jumps to $72K, but is this BTC price breakout for r…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : ARK buys $13M in Robinhood as US Treasury taps platform for Trump Acco…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : UBS partners with five banks for Swiss franc stablecoin sandbox…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: PARTNERSHIP
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Will quantum-safe cryptography slow Ethereum down? The performance tra…
+   Score: 0.55 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum stablecoin supply hits $180B all-time high: Token Terminal…
+   Score: 0.55 | Asset: ETH | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Three Polymarket traders made timely bets on US-Iran ceasefire…
+   Score: 0.35 | Asset: OTHER | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Coinbase plans expansion to stock trading in Australia after securing …
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Ethereum buyers are back, data shows, as bulls defend $2K support…
+   Score: 0.35 | Asset: ETH | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Morgan Stanley's Bitcoin ETF set to launch on Wednesday…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Anthropic limits access to AI model over cyberattack concerns…
+   Score: 0.85 | Asset: OTHER | CA: null | Type: HACK
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : SEC admits certain crypto enforcement cases delivered no investor bene…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : FDIC moves to regulate stablecoin issuers under the GENIUS Act…
+   Score: 0.85 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin reclaims $72K after US, Iran agree to 2-week ceasefire…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Iran’s Bitcoin hashrate falls 77% over the past quarter amid conflict…
+   Score: 0.70 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Crypto billionaire to prison: CZ’s autobiography revisits turbulent Bi…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Bitcoin wallets absorb 4.37M BTC as network activity flips to ‘bull ph…
+   Score: 0.55 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Democrats question CFTC chair on insider trading in prediction markets…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Here’s what happened in crypto today…
+   Score: 0.35 | Asset: GLOBAL | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (cointelegraph.com) : Spot Bitcoin ETF inflows top $471M but BTC is pinned under $70K: Here’…
+   Score: 0.80 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : RWA network Pharos lands a $1 billion valuation in $44M funding round …
+   Score: 0.80 | Asset: GLOBAL | CA: null | Type: FUNDING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Adam Back denies he’s Satoshi Nakamoto after NYT report claims he’s Bi…
+   Score: 0.35 | Asset: BTC | CA: null | Type: OTHER
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : White House study bolsters crypto's stance in stablecoin yield fight a…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Quantum threat to Bitcoin is real, but manageable, according to Wall S…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Saylor’s solo act: JPMorgan says Strategy is practically the only thin…
+   Score: 0.55 | Asset: GLOBAL | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Iran eyes crypto toll for oil tanker transits through Strait of Hormuz…
+   Score: 0.70 | Asset: GLOBAL | CA: null | Type: REGULATION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : CoinDesk 20 performance update: Internet Computer (ICP) rises 12.1% …
+   Score: 0.35 | Asset: ICP | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin’s quantum threat is distant, but migration clock is ticking, s…
+   Score: 0.35 | Asset: BTC | CA: null | Type: MACRO
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Morgan Stanley's bitcoin ETF opens today, giving BlackRock’s $55 billi…
+   Score: 0.85 | Asset: BTC | CA: null | Type: LISTING
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Bitcoin buyers gobbled up nearly 850,000 BTC between $60,000 and $70,0…
+   Score: 0.55 | Asset: BTC | CA: null | Type: ADOPTION
+✅ Envoyé à AGENT-SENTINELLE-02
+📡 Analyse (coindesk.com) : Ceasefire lifts bitcoin, but animal spirits may not return just yet…

@@ -1,0 +1,709 @@
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+🚀 [AGENT-TRADER-01] Démarré
+   Écoute : target_agent = 'AGENT-TRADER-01'
+   Envoie vers : AGENT-EXECUTOR-BASE-01
+
+🔍 Briefings trouvés : 1 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #20a0b765 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | L'impact du signal est trop faible (score 0.70) et le risque est moyen, mais il n'y a pas de token spécifique à acheter.
+🔍 Briefings trouvés : 0 | Erreur : aucune
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ca2c9153 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est moyen et la confiance ajustée est faible (0.75). Il vaut mieux attendre une confirmation avant de prendre position.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #5eeeb32d | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0,60) et le risque est moyen. Il est préférable d'attendre davantage avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #164e2cb1 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0,7)
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #fc6e0f4a | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais la confiance ajustée est relativement faible (0.60) et le risque niveau est moyen.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #2c175909 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #b8adaf28 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact potentiel sur le marché n'est pas directement lié à une action de trading on-chain.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #08f34a97 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Lancement de l'ETF Bitcoin par Morgan Stanley peut entraîner une augmentation des prix du BTC, bénéficiant aux investisseurs qui s'y mettent.
+
+📝 [TRADER] Création ordre BUY → AGENT-EXECUTOR-BASE-01
+   Token : 0x6B175474E89094C44DA98B285E0608B1F681E3B8
+   Montant : 0.001 ETH
+   Confiance : 0.75
+✅ Ordre transmis à AGENT-EXECUTOR-BASE-01
+
+───────────────────────────────────────────────────────
+🧠 Briefing #d9262a9e | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance ajusté est bas (0.60) et le risque est moyen, il vaut mieux attendre plus d'informations avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #b13fa47b | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0.7). Il convient donc d'attendre davantage avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #58ef996f | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact potentiel du signal est faible, et le risque n'est pas immédiat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #6e894f1d | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Lancement d'un ETF Bitcoin par Morgan Stanley, une institution financière réputée, devrait avoir un impact positif sur le prix du Bitcoin.
+
+📝 [TRADER] Création ordre BUY → AGENT-EXECUTOR-BASE-01
+   Token : 0x6b9c29f8a1d7e4b2a5fbc49f3c21d3e7a4c97a87
+   Montant : 0.01 ETH
+   Confiance : 0.85
+✅ Ordre transmis à AGENT-EXECUTOR-BASE-01
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4e53ab92 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est important mais l'action demandée est une simple 'WATCH', pas un achat ou une vente.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f929d234 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est élevé mais le risque n'est pas suffisamment clair pour prendre une décision de trading.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f6d7cf71 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict EXECUTE n'est pas suffisamment confiant (0.7) pour prendre une position de trading.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #fe2296be | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | L'impact du signal est trop faible et le risque est moyen, mais l'action demandée est WATCH et non EXECUTE.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f00d36a5 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | Le signal est déjà été exécuté, il n'y a donc pas d'action à prendre.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #03acc7d8 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.6) et le risque niveau est moyen, il convient donc de patienter avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #78d5c06e | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | L'impact du signal est déjà pris en compte par l'utilisateur, il n'y a donc pas besoin d'une action supplémentaire.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #02322c96 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'influx de fonds dans les ETF Bitcoin Spot est positif, mais le prix de BTC est bloqué sous 70 000 dollars. Il faudrait plus d'informations pour confirmer une action.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #34c55132 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est relativement faible (0,75). Il convient donc de patienter avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #0c713c74 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact score est élevé mais le verdict EXECUTE n'est pas suffisamment clair pour justifier une action immédiate.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #1ad9994d | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est relativement bas (0.75) et le risque est moyen, il vaut donc mieux attendre.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #22bce0b7 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque niveau est MEDIUM et la confiance ajustée est de 0.75, il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #cfaa2d85 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE mais le score de confiance ajusté est faible (0.75) et nous ne disposons pas d'informations sur l'adresse du token.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #c0c02d3c | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal a un faible niveau de confiance ajusté (0.60) et n'a pas d'adresse de token spécifique.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #523c25fa | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE mais le risque est MEDIUM et la confiance ajustée est de 0.75, nous attendons une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #27a2846c | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+🚀 [AGENT-TRADER-01] Démarré
+   Écoute : target_agent = 'AGENT-TRADER-01'
+   Envoie vers : AGENT-EXECUTOR-BASE-01
+
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #27a2846c | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict EXECUTE est déjà donné, je vais donc attendre les prochaines étapes avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #337dedbd | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance n'est pas suffisamment élevé pour prendre une décision d'achat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #537077d6 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation supplémentaire.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #e0d052ff | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact score est élevé, mais la confiance ajustée est relativement faible (0.75). Il est préférable d'attendre des informations plus claires avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #404bf955 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est classé MEDIUM et la confiance ajustée est de 0.75, ce qui n'est pas suffisant pour prendre une décision d'achat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #fcb899a9 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance ajusté est relativement bas (0,75) et le risque est moyen. Il convient donc d'attendre davantage avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #1a153b80 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.60) et le risque est moyen, il vaut donc mieux attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #b62cce42 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.60) et le risque niveau est moyen, il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f6f14732 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est basse (0.7)
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #11365722 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance est faible (0.60) et le risque est moyen, je préfère attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3a739704 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le niveau de confiance ajusté est bas (0.60) et le risque est moyen.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7d57e164 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le score d'impact est élevé mais la confiance ajustée est faible (0.6). Il est préférable de patienter avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #b618313f | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est classé MEDIUM et la confiance ajustée est de 0.75, ce qui n'est pas suffisant pour une décision d'achat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4b74542b | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est considéré comme actionnable mais le niveau de confiance ajusté est faible (0,60) et le risque est moyen. Il convient donc d'attendre davantage avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #00ed92ff | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.6) et le risque est moyen, il vaudrait mieux attendre une confirmation supplémentaire avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #c4146b60 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est déjà pris en compte par le marché, il ne semble pas opportun de réagir immédiatement.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4b05bedd | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0,7). Il convient de patienter avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #0f578a18 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Lancement d'un ETF Bitcoin par Morgan Stanley, ce signal est actionnable et a un impact potentiel sur le marché.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ffc67d02 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict 'EXECUTE' n'est pas suffisamment précis pour nous permettre de prendre une décision d'achat ou de vente claire. Nous attendons des informations plus détaillées.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #8a5a9ccb | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de risque est moyen et la confiance ajustée est faible (0,75). Il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #de9b3a7a | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | L'impact du signal est faible (score 0.70) et le risque est moyen, mais l'action demandée est de 'WATCH', ce qui n'est pas une action de trading.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ea334621 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal a un score de confiance ajusté de 0.60, ce qui est relativement faible pour une action sur le marché.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #8477c0d7 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est faible, le score d'impact est de 0.85 mais l'action recommandée est IGNORE donc nous attendrons une action plus significative.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ef63c13e | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE mais la confiance ajustée est faible (0,60) et le risque est moyen. Il est préférable d'attendre davantage de renseignements avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #687562e9 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais la confiance ajustée est faible (0.60) et le risque niveau est moyen. Il est préférable d'attendre des informations plus claires avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3445c19f | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact_score est élevé mais le verdict EXECUTE n'est pas suffisamment clair pour un achat ou une action immédiate.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #e0f3ca6f | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et il n'y a pas d'information sur l'adresse du token.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #8c4c05ae | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et le risque est moyen, il vaut donc mieux attendre avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #8195146b | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est bas (0.6) et le risque est moyen, il convient donc d'attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #703c9ad1 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'influx de fonds dans les ETF Bitcoin spot est un signe positif, mais le prix de BTC reste en dessous de 70 000 dollars, ce qui suggère que l'investisseur devrait attendre une confirmation avant de prendre position.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7240f6a3 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est important mais le verdict initial est EXECUTE, nous attendons des mises à jour pour confirmer l'action.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3deece51 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0,75) et l'impact score est élevé (0,85), il convient donc d'en attendre davantage avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #1267ca2f | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est bas (0,7) et l'impact score est élevé (0,8), il convient donc d'attendre avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f07077f5 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est relativement faible (0.75) et le risque est moyen, il vaut donc mieux attendre une confirmation supplémentaire avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #651a0e83 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est considéré comme MEDIUM, il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3f025861 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | Le signal est déjà été exécuté, il n'y a donc pas d'action à prendre.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ed50de0a | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+🚀 [AGENT-TRADER-01] Démarré
+   Écoute : target_agent = 'AGENT-TRADER-01'
+   Envoie vers : AGENT-EXECUTOR-BASE-01
+
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #ed50de0a | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0,6) et le risque niveau est moyen. Il convient donc d'attendre une confirmation avant de prendre position.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3868075d | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Lancement d'un ETF Bitcoin par Morgan Stanley, potentiellement concurrent pour IBIT de BlackRock
+
+───────────────────────────────────────────────────────
+🧠 Briefing #9f6256db | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #0e372256 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE mais la confiance ajustée est faible (0.6), ce qui ne me permet pas de recommander l'achat avec certitude.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #cb8a5675 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est classé MEDIUM, il faudrait plus d'informations pour prendre une décision de trading.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #186cbf22 | Token : N/A | Score : 0.65
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance n'est que de 0.65 et le risque est moyen, il vaut donc mieux attendre une confirmation supplémentaire avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #674579fe | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Signal non actionnable à cause de la faible confiance ajustée (0.60)
+
+───────────────────────────────────────────────────────
+🧠 Briefing #28149e41 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est classé MEDIUM et la confiance ajustée est de 0.75. Il convient donc d'attendre une confirmation avant d'intervenir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #26ca5422 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.60) et le risque est moyen, il vaut donc mieux attendre des informations plus claires avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4a62f3a6 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal a un score d'impact de 0.7, mais une confiance ajustée de seulement 0.6, ce qui indique qu'il est préférable de patienter avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7d7238ea | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict EXECUTE n'est pas suffisamment confiant (0,75) pour prendre une décision de trading.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #578ce246 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est moyen (0.8) et le risque est également moyen, mais l'action requise est WATCH et non EXECUTE.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #e841468f | Token : N/A | Score : 0.8
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.80) et le risque niveau est moyen, il vaut donc mieux attendre une confirmation avant de prendre position.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #a8fd6eb6 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.7) et l'impact score n'est pas suffisamment élevé pour prendre une décision d'achat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3eee551d | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance est faible (0.7) et il n'y a pas d'informations sur l'adresse du token.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3d96a622 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact potentiel est déjà pris en compte par les utilisateurs, mais le risque n'est pas évalué avec certitude.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #c5f3e3d4 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE, mais le score de confiance est ajusté à 0.75 et le risque est MEDIUM. Il est préférable d'attendre avant d'exécuter la transaction.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4adbe6bd | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Lancement d'un ETF Bitcoin par Morgan Stanley, ce signal est actionnable et a un impact potentiel sur le marché.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #97e5ce29 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact score est élevé mais le verdict EXECUTE n'est pas suffisamment précis pour une décision de trading.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #96377c53 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est jugé MEDIUM et la confiance ajustée est de 0.75, ce qui n'est pas suffisant pour une décision d'achat.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #e9f30f09 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+🚀 [AGENT-TRADER-01] Démarré
+   Écoute : target_agent = 'AGENT-TRADER-01'
+   Envoie vers : AGENT-EXECUTOR-BASE-01
+
+🔍 Briefings trouvés : 0 | Erreur : aucune
+🔍 Briefings trouvés : 2 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #5102d22b | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0,75). Il vaut mieux attendre plus d'informations avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7b4fdb8e | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le score d'impact est relativement bas (0,7) et le risque est moyen. Il faudrait plus de données pour confirmer l'intérêt du signal.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #396986c1 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : BUY | Étude du White House confirme la position de crypto en faveur des rendements des stablecoins contre les banques
+
+───────────────────────────────────────────────────────
+🧠 Briefing #df50a019 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est considéré comme actionnable mais la confiance ajustée est faible (0,60) et le risque niveau moyen. Il est préférable de patienter avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3552a65a | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est déjà en cours d'observation, nous attendrons une mise à jour pour prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #6819a896 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact potentiel de l'événement sur le marché est incertain et la confiance dans ce signal est faible (0,60)
+
+───────────────────────────────────────────────────────
+🧠 Briefing #959d32e6 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée n'est que de 0.75, il vaut donc mieux attendre avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #fe15bc7d | Token : N/A | Score : 0.8
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est relativement basse (0.80) et le risque niveau est moyen, il est préférable d'attendre avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7477a474 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0,7) et l'impact score est élevé (0,8), il est préférable d'attendre pour prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #55b8e5ad | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+🚀 [AGENT-TRADER-01] Démarré
+   Écoute : target_agent = 'AGENT-TRADER-01'
+   Envoie vers : AGENT-EXECUTOR-BASE-01
+
+🔍 Briefings trouvés : 0 | Erreur : aucune
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #3111812f | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.6). Il est préférable d'attendre des informations supplémentaires avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #6085d487 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance est relativement faible (0,60) et la situation n'est pas urgente.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7cf51a3d | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact du signal est important mais le risque est moyen et la confiance ajustée est faible. Il est préférable d'attendre davantage avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #09757deb | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance est relativement bas (0,75) et l'impact potentiel du signal n'est pas clairement évalué dans ce briefing.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #349f51ce | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est relativement faible (0,7)
+
+───────────────────────────────────────────────────────
+🧠 Briefing #0240a1b9 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est moyen et la confiance ajustée est faible (0.7). Il convient donc de patienter avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #c0ab95d6 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact potentiel de cette régulation sur les prix des cryptomonnaies n'est pas clair et nécessite une analyse plus approfondie.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #5dc2fbdd | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est bas (0,6) et le risque est moyen. Il vaut mieux attendre davantage d'informations avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #2eefc9fe | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0,75). Il convient donc de patienter avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #4f77bce3 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation avant de prendre position.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #9c42c4f2 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le score d'impact est relativement élevé mais la confiance ajustée est faible (0.60). Il vaut mieux attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #011d05dd | Token : N/A | Score : 0.8
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais la confiance ajustée est relativement faible (0.80) et le risque est moyen.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #95cee169 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le score d'impact est relativement faible (0.7) et le risque n'est pas élevé, il convient donc de patienter avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #c5b091aa | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance ajusté est faible (0.60) et la risque niveau est moyen, je préfère attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #d1df432f | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'original_signal n'est pas suffisamment clair pour un verdict d'action immédiate, mais il est important de suivre la situation.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #98f8f222 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le verdict est EXECUTE, mais le niveau de confiance ajusté est faible (0.6) et aucune information n'est fournie sur l'adresse du token.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #56bd28b1 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est trop faible (score 0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #2f7ad216 | Token : N/A | Score : 0.7
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.70) et le risque est moyen, il est donc préférable d'attendre davantage avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #dba3f45e | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0,75). Il vaut mieux attendre pour prendre une décision plus sûre.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #7a97e7fa | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est considéré comme MEDIUM et la confiance ajustée est de 0.75. Il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #fcc6f7e4 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | L'impact de l'événement est déjà pris en compte par le marché, il est donc préférable d'attendre avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #27ba82ac | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : SKIP | L'impact du signal est déjà pris en compte par l'utilisateur (action_signal : IGNORE), il n'y a donc pas besoin d'une action supplémentaire.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #d465434e | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le niveau de confiance ajusté est faible (0.75) et l'impact score est élevé (0.85), il convient donc d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #e90e0cea | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est classé MEDIUM et la confiance ajustée est de 0,75. Il est préférable d'attendre avant de prendre une décision.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #677311c5 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable, mais le risque est moyen et la confiance ajustée est relativement faible. Il convient peut-être de patienter avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #47a97731 | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le risque est moyen et la confiance ajustée est faible (0,75). Il est préférable d'attendre avant de prendre une décision.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #46aea826 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais la confiance ajustée est faible (0,60) et le risque niveau est moyen. Il vaut mieux attendre une confirmation avant d'agir.
+🔍 Briefings trouvés : 3 | Erreur : aucune
+
+───────────────────────────────────────────────────────
+🧠 Briefing #f52721a2 | Token : N/A | Score : 0.6
+📡 Requête vers http://127.0.0.1:3333/api/trigger…
+🤖 Verdict : WAIT | Le signal est actionnable mais le score de confiance est faible (0.60) et le risque est moyen, il vaut donc mieux attendre une confirmation avant d'agir.
+
+───────────────────────────────────────────────────────
+🧠 Briefing #97b6685a | Token : N/A | Score : 0.75
+📡 Requête vers http://127.0.0.1:3333/api/trigger…

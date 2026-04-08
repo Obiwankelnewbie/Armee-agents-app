@@ -1,0 +1,2363 @@
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   ✍️   AGENT CONTENU SAURON — SWARM OS  v1.0               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Formats   : Blog · TikTok · Twitter · Instagram · News     ║
+║  Domaines  : CRYPTO · TREND · MUSIC · SHOP · NEWS           ║
+║  Publie    : WordPress · Twitter/X · Brevo · Queue          ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables d'env pour la publication automatique :
+  TWITTER_BEARER_TOKEN + TWITTER_API_KEY  → Thread Twitter
+  WP_URL + WP_USER + WP_APP_PASSWORD      → Blog WordPress
+  BREVO_API_KEY + BREVO_LIST_ID           → Newsletter
+  (Sans ces vars → stockage Supabase + content_queue)
+
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion de l'énergie
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Google lève le voile sur une application de dictée AI fonctionnant hors ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Arcee, un créateur de modèles AI ouvert et open source, gagne du soutien
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Tractive lève le niveau avec des trackers de santé pour chiens et chats
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Tractive lève le niveau avec des trackers de santé pour chiens et chats
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Tractive lève le niveau avec des trackers de santé pour chiens et chats
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu de course pour Xbox, fait l'objet d'un aperçu positif.
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Zepath 3600, la meilleure batterie AA USB-C selon TheVerge
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGY] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   ✍️   AGENT CONTENU SAURON — SWARM OS  v1.0               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Formats   : Blog · TikTok · Twitter · Instagram · News     ║
+║  Domaines  : CRYPTO · TREND · MUSIC · SHOP · NEWS           ║
+║  Publie    : WordPress · Twitter/X · Brevo · Queue          ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables d'env pour la publication automatique :
+  TWITTER_BEARER_TOKEN + TWITTER_API_KEY  → Thread Twitter
+  WP_URL + WP_USER + WP_APP_PASSWORD      → Blog WordPress
+  BREVO_API_KEY + BREVO_LIST_ID           → Newsletter
+  (Sans ces vars → stockage Supabase + content_queue)
+
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Atlassian lance outils AI visuels et agents tiers dans Confluence
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : X lance traduction automatique et édition photo avec Grok
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Google lève le voile sur une application de dictée AI fonctionnant offline
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGIE] → 2 formats à générer
+   Briefing : Arcee, un créateur de modèles d'IA open source miniature, suscite l'enthousiasme
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   ✍️   AGENT CONTENU SAURON — SWARM OS  v1.0               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Formats   : Blog · TikTok · Twitter · Instagram · News     ║
+║  Domaines  : CRYPTO · TREND · MUSIC · SHOP · NEWS           ║
+║  Publie    : WordPress · Twitter/X · Brevo · Queue          ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables d'env pour la publication automatique :
+  TWITTER_BEARER_TOKEN + TWITTER_API_KEY  → Thread Twitter
+  WP_URL + WP_USER + WP_APP_PASSWORD      → Blog WordPress
+  BREVO_API_KEY + BREVO_LIST_ID           → Newsletter
+  (Sans ces vars → stockage Supabase + content_queue)
+
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECHNOLOGIE] → 2 formats à générer
+   Briefing : Arcee, un créateur de modèles d'IA open source miniature, suscite l'enthousiasme
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Suivez la santé de vos animaux avec les nouveaux trackers de Tractive
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu pour l'époque nouvelle de Xbox
+
+   🔄 Génération [BLOG]…
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   ✍️   AGENT CONTENU SAURON — SWARM OS  v1.0               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Formats   : Blog · TikTok · Twitter · Instagram · News     ║
+║  Domaines  : CRYPTO · TREND · MUSIC · SHOP · NEWS           ║
+║  Publie    : WordPress · Twitter/X · Brevo · Queue          ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables d'env pour la publication automatique :
+  TWITTER_BEARER_TOKEN + TWITTER_API_KEY  → Thread Twitter
+  WP_URL + WP_USER + WP_APP_PASSWORD      → Blog WordPress
+  BREVO_API_KEY + BREVO_LIST_ID           → Newsletter
+  (Sans ces vars → stockage Supabase + content_queue)
+
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [GAMES] → 2 formats à générer
+   Briefing : Forza Horizon 6, un jeu pour l'époque nouvelle de Xbox
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Insta360 présente Snap, un écran magnétique pour selfies arrière
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica employés en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [HEALTH] → 2 formats à générer
+   Briefing : Danielle Fishel, star de Boy Meets World, révèle avoir le cancer du sein
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Produits que l'on regrette de ne pas avoir achetés plus tôt sur BuzzFeed
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NOSTALGIE] → 2 formats à générer
+   Briefing : Liste de photos nostalgiques des années 80 pour les enfants d'alors
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [NEWSLETTER]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : YouTube développe des vidéos interactives sur les plateformes TV et en ligne
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [NEWSLETTER]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [NEWSLETTER]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [NEWS] → 3 formats à générer
+   Briefing : ProPublica staff en grève contre l'AI, les licenciements et les salaires
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [NEWSLETTER]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [NEWSLETTER]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion énergétique
+
+   🔄 Génération [BLOG]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [INSTAGRAM]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+   🔄 Génération [TWITTER_THREAD]…
+
+   🔄 Génération [INSTAGRAM]…
+   ✅ [TWITTER_THREAD] Généré
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+
+📥 3 signal(s) reçu(s) de l'Œil de Sauron
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TREND] → 3 formats à générer
+   Briefing : Économise jusqu'à $500 pour TechCrunch Disrupt 2026
+
+   🔄 Génération [TIKTOK_SCRIPT]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…
+
+════════════════════════════════════════════════════════════
+✍️  Signal [TECH] → 2 formats à générer
+   Briefing : Noyaux nucléaires pour accélérer la fusion énergétique
+
+   🔄 Génération [BLOG]…
+
+   🔄 Génération [TWITTER_THREAD]…
+   ✅ [TWITTER_THREAD] Généré
+
+   🔄 Génération [NEWSLETTER]…

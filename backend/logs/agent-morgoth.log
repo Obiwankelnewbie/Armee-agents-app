@@ -1,0 +1,131 @@
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🌑  MORGOTH — SUPERVISEUR SUPRÊME — SWARM OS  v1.0       ║
+╠══════════════════════════════════════════════════════════════╣
+║  Surveille : 8  agents                              ║
+║  Health    : toutes les 30s                                 ║
+║  Analyse   : toutes les ~5 min                              ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto (agents critiques, max 3 tentatives)      ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔄 [MORGOTH] Relance de Sentinelle (tentative 1/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 9340)
+🔄 [MORGOTH] Relance de Trader (tentative 1/3)…
+   ✅ Spawn direct OK : Trader (PID 10684)
+🔄 [MORGOTH] Relance de Executor Base (tentative 1/3)…
+   ✅ Spawn direct OK : Executor Base (PID 8424)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #1
+🔄 [MORGOTH] Relance de Sentinelle (tentative 2/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 11584)
+🔄 [MORGOTH] Relance de Trader (tentative 2/3)…
+   ✅ Spawn direct OK : Trader (PID 14480)
+🔄 [MORGOTH] Relance de Executor Base (tentative 2/3)…
+   ✅ Spawn direct OK : Executor Base (PID 14636)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #2
+🔄 [MORGOTH] Relance de Sentinelle (tentative 3/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 19340)
+🔄 [MORGOTH] Relance de Trader (tentative 3/3)…
+   ✅ Spawn direct OK : Trader (PID 25536)
+🔄 [MORGOTH] Relance de Executor Base (tentative 3/3)…
+   ✅ Spawn direct OK : Executor Base (PID 20108)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #3
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🌑  MORGOTH — SUPERVISEUR SUPRÊME — SWARM OS  v1.0       ║
+╠══════════════════════════════════════════════════════════════╣
+║  Surveille : 8  agents                              ║
+║  Health    : toutes les 30s                                 ║
+║  Analyse   : toutes les ~5 min                              ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto (agents critiques, max 3 tentatives)      ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔄 [MORGOTH] Relance de Sentinelle (tentative 1/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 16584)
+🔄 [MORGOTH] Relance de Trader (tentative 1/3)…
+   ✅ Spawn direct OK : Trader (PID 22388)
+🔄 [MORGOTH] Relance de Executor Base (tentative 1/3)…
+   ✅ Spawn direct OK : Executor Base (PID 13400)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #1
+🔄 [MORGOTH] Relance de Sentinelle (tentative 2/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 472)
+🔄 [MORGOTH] Relance de Trader (tentative 2/3)…
+   ✅ Spawn direct OK : Trader (PID 26856)
+🔄 [MORGOTH] Relance de Executor Base (tentative 2/3)…
+   ✅ Spawn direct OK : Executor Base (PID 892)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #2
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🌑  MORGOTH — SUPERVISEUR SUPRÊME — SWARM OS  v1.0       ║
+╠══════════════════════════════════════════════════════════════╣
+║  Surveille : 8  agents                              ║
+║  Health    : toutes les 30s                                 ║
+║  Analyse   : toutes les ~5 min                              ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto (agents critiques, max 3 tentatives)      ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔄 [MORGOTH] Relance de Sentinelle (tentative 1/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 20720)
+🔄 [MORGOTH] Relance de Trader (tentative 1/3)…
+   ✅ Spawn direct OK : Trader (PID 17324)
+🔄 [MORGOTH] Relance de Executor Base (tentative 1/3)…
+   ✅ Spawn direct OK : Executor Base (PID 21124)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #1
+🔄 [MORGOTH] Relance de Sentinelle (tentative 2/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 24728)
+🔄 [MORGOTH] Relance de Trader (tentative 2/3)…
+   ✅ Spawn direct OK : Trader (PID 14036)
+🔄 [MORGOTH] Relance de Executor Base (tentative 2/3)…
+   ✅ Spawn direct OK : Executor Base (PID 19144)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #2
+🔄 [MORGOTH] Relance de Sentinelle (tentative 3/3)…
+   ✅ Spawn direct OK : Sentinelle (PID 25356)
+🔄 [MORGOTH] Relance de Trader (tentative 3/3)…
+   ✅ Spawn direct OK : Trader (PID 5988)
+🔄 [MORGOTH] Relance de Executor Base (tentative 3/3)…
+   ✅ Spawn direct OK : Executor Base (PID 23940)
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #3
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #4
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #5
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #6
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #7
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #8
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #9
+🔄 [MORGOTH] Relance de Œil de Sauron (tentative 1/3)…
+   ✅ Spawn direct OK : Œil de Sauron (PID 21836)
+
+🧠 [MORGOTH] Cycle majeur #10 — Analyse suprême…
+   💚 AGENT-SAURON-01 est de retour — compteur reset
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #11
+
+⚔️  Directive : Réactiver immédiatement Œil de Sauron et effectuer une analyse approfondie pour identifier les causes des problèmes
+   État Swarm : CRITICAL | Le Swarm est en état critique due à la présence de 6 agents morts et plusieurs agents non détectés.
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #12
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #13
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #14
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #15
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #16
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #17
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #18
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #19
+
+🧠 [MORGOTH] Cycle majeur #20 — Analyse suprême…
+🔄 [MORGOTH] Relance de Œil de Sauron (tentative 1/3)…
+   ✅ Spawn direct OK : Œil de Sauron (PID 19996)
+🔴 [MORGOTH] 2/8 agents actifs | Cycle #21
+   💚 AGENT-SAURON-01 est de retour — compteur reset
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #22
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #23
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #24
+
+⚔️  Directive : Rétablir l'activité du Trader et réinitialiser les agents jamais vus
+   État Swarm : DEGRADED | Le Swarm est dans un état dégradé en raison de la présence de cinq agents morts et de plusieurs agents jamais vus.
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #25
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #26
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #27
+🔴 [MORGOTH] 3/8 agents actifs | Cycle #28

@@ -1,0 +1,520 @@
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🖐️   LA MAIN DE SAURON — SWARM OS  v1.0                  ║
+╠══════════════════════════════════════════════════════════════╣
+║  Reçoit   : Œil · Contenu · Trader · Executor              ║
+║  Décide   : Stratégie · Campagne · Closing · Trade          ║
+║  Alerte   : Telegram War Room (HIGH + CRITICAL)             ║
+║  Analyse  : Globale toutes les 30 min                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+Variables Telegram :
+  TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID  → Alertes War Room
+
+✅ Routing Swarm enregistré dans swarm_routing
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte Bitcoin : point critique atteint
+   → LAUNCH_CAMPAIGN : Un article de l'une des sources les plus fiables du domaine Crypto, Bitcoinist, indique que Bitcoin est à un point critique dans le cycle. Cela pourrait être une opportunité pour nous de se positionner et de profiter d'un potentiel mouvement de marché.
+   → Impact : 0.5% à 1% de croissance des abonnés actifs dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Dévoilement de l'identité de Satoshi : une opportunité pour le Swarm OS ?
+   → LAUNCH_CAMPAIGN : Cette nouvelle pourrait créer un buzz autour du Bitcoin et des cryptomonnaies, nous devons être présents dans la conversation et exploiter cette opportunité pour notre propre croissance.
+   → Impact : +10% d'engagement sur les réseaux sociaux et +5% de trafic sur le site web
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Analyser les relations de célébrités avec des écarts d'âge importants
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil présente un contenu viral sur Buzzfeed avec une énorme potentielle de partage et une forte pertinence dans le domaine des célébrités et des relations. Nous pouvons profiter de cette tendance pour créer du contenu attractif et captiver notre audience.
+   → Impact : Augmentation de 20% du trafic sur notre site web dans les prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Infiltrer Wayfair avec humour
+   → PUSH_CONTENT : L'article viral de Buzzfeed présente un contenu potentiellement intéressant pour les utilisateurs du Swarm OS, nous devrions créer un contenu humoristique similaire pour attirer leur attention.
+   → Impact : Augmentation de 15% du trafic sur les sites web affiliés au Swarm OS
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte réglementaire Corée du Sud
+   → LAUNCH_CAMPAIGN : La Corée du Sud resserre les exemptions de report des retraits crypto, ce qui pourrait entraîner une réaction négative sur le marché et offrir des opportunités pour notre stratégie.
+   → Impact : +10% d'engagement sur les réseaux sociaux et +5% de trafic sur notre site web
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+═══════════════════════════════════════════════════════
+🌍 [MAIN] Analyse stratégique globale…
+
+   🔴 [CRITICAL] Déclencher une stratégie virale pour booster les leads
+   → VIRAL_HOOK | CONTENT_STRATEGY : Le Swarm est actuellement dans un état de repos, avec zéro lead et aucune tendance à la croissance. Il est essentiel de déclencher une stratégie virale pour attirer l'attention des prospects et augmenter le nombre de leads.
+   → Impact : Augmentation du nombre de leads de 20% en un mois
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+✅ Analyse stratégique terminée
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte Bitcoin : point critique atteint
+   → LAUNCH_CAMPAIGN : Un signal d'impact élevé (0,7) sur le marché crypto avec une urgence élevée. Il est temps de mobiliser nos ressources pour analyser et exploiter cette opportunité.
+   → Impact : Augmentation des ventes de 20% en 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Alerte : Fraudes crypto explosent aux États-Unis
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Analysons le signal détecté par l'Œil, qui indique une augmentation significative des pertes liées aux arnaques crypto dans les États-Unis. Cela représente un sujet sensible et pertinent pour nos utilisateurs.
+   → Impact : Augmentation de la visibilité de 30% et engagement de 25% sur les plateformes de médias sociaux
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Dévoilement de l'identité de Satoshi Nakamoto
+   → PUSH_CONTENT : Une enquête récente suggère l'identité du créateur du Bitcoin, ce qui pourrait avoir un impact significatif sur les prix et la perception publique de la cryptomonnaie.
+   → Impact : +10% d'engagement sur les réseaux sociaux, +5% de trafic sur notre site web
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Dévoilement de l'identité réelle de Satoshi Nakamoto : Opportunité pour le Swarm OS ?
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'enquête sur l'identité de Satoshi Nakamoto est susceptible d'avoir un impact significatif sur les cours du Bitcoin et pourrait être une opportunité pour le Swarm OS de se positionner en tant que source d'informations fiables dans le domaine des cryptomonnaies.
+   → Impact : +20% d'engagement sur les canaux du Swarm OS et +10% de croissance des comptes utilisateurs
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.85
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.85
+
+   🟠 [HIGH] Morgan Stanley débarque dans le marché de l'ETF Bitcoin
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Lancement d'un ETF Bitcoin par Morgan Stanley est un signal fort qui pourrait attirer des investisseurs et influencer la demande pour le BTC. Nous devons nous y préparer avec une stratégie de contenu et de campagne adaptée.
+   → Impact : +5% de croissance dans les ventes de BTC au cours des prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Dévoilement de l'identité de Satoshi Nakamoto : une opportunité pour le Swarm OS
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'enquête sur l'identité de Satoshi Nakamoto est une nouvelle susceptible d'intéresser les utilisateurs du Swarm OS, qui sont probablement passionnés par la crypto-monnaie et les technologies blockchain.
+   → Impact : Augmentation de 15% du trafic sur le site web du Swarm OS et engagement de 20% supérieur à la moyenne
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Dévoilement de l'identité de Satoshi Nakamoto : Une opportunité pour le Swarm OS ?
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Cette enquête pourrait révéler des informations sensibles sur la création du Bitcoin, ce qui pourrait intéresser nos utilisateurs et nous permettre d'augmenter notre visibilité dans le domaine de la crypto-monnaie.
+   → Impact : +20% d'engagement des utilisateurs du Swarm OS dans le domaine de la crypto-monnaie
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🔴 [CRITICAL] Dévoilement de l'identité de Satoshi Nakamoto : une opportunité pour le Swarm OS
+   → LAUNCH_CAMPAIGN : L'enquête sur l'identité de Satoshi Nakamoto est un événement clé dans l'univers du crypto, susceptible d'avoir un impact significatif sur les cours des actifs. Le Swarm OS doit être prêt à exploiter cette opportunité pour maximiser ses gains.
+   → Impact : +10% d'augmentation des volumes de transactions sur les plateformes du Swarm OS
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Promouvoir Timeliner.io sur les réseaux sociaux
+   → PUSH_CONTENT : Le produit est émergent, a un potentiel de contenu élevé et une note d'opportunité élevée. Il s'agit d'un bon candidat pour la promotion.
+   → Impact : Augmentation de 20% du trafic vers le site web de Timeliner.io dans les 48 heures suivant la publication
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Promo de Timeliner.io : Planification personnalisée
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le produit est en phase émergente, avec un score d'opportunité élevé et une grande potentielle de contenu. Nous devons agir rapidement pour capter l'intérêt des utilisateurs.
+   → Impact : Augmentation des interactions (likes, commentaires, partages) de 20% en une semaine
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Promouvez Timeliner.io sur les réseaux sociaux
+   → PUSH_CONTENT : Le score d'opportunité est élevé (0,8) et le potentiel de contenu est très élevé. Il s'agit d'un produit technologique émergent dans la catégorie budget.
+   → Impact : Augmentation de 15% du trafic vers le site web de Timeliner.io
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Portail de contributions unifié : une opportunité émergente
+   → PUSH_CONTENT : La plateforme de gestion des contributions pour les entreprises et les associations présente un score d'opportunité élevé (0,8) et est en phase d'émergence sur le marché. Cela nous permettrait de capter l'intérêt des utilisateurs avant la concurrence.
+   → Impact : Augmentation de 15% du trafic vers notre site web dans les prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Promouvoir la plateforme de gestion des contributions unifiées
+   → PUSH_CONTENT : La plateforme présente un score d'opportunité élevé (0,8) et une grande potentiel de contenu, ce qui en fait un candidat idéal pour notre stratégie de croissance.
+   → Impact : Augmentation de 15% du trafic vers le site web de la plateforme dans les 2 prochains mois
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Découverte de la plateforme Unified Contributions Portal
+   → LAUNCH_CAMPAIGN : La plateforme présente un score d'opportunité élevé (0,8) et une forte potentiel de contenu, ce qui suggère que nous pouvons créer du contenu attractif pour notre audience ciblée.
+   → Impact : Augmentation de 15% du trafic vers notre site web dans les prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Promouvoir TalkFlowy, l'outil de dictée révolutionnaire
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : TalkFlowy présente un score d'opportunité élevé (0,8) et une tendance en pleine émergence, ce qui en fait un produit intéressant à promouvoir. Son potentiel de contenu est également très élevé.
+   → Impact : Augmentation des interactions (commentaires, partages) de 20% sur les plateformes pertinentes, avec un engagement potentiel de 10% des utilisateurs ciblés
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Découverte de TalkFlowy, outil de dictée révolutionnaire
+   → PUSH_CONTENT : TalkFlowy présente un score d'opportunité élevé (0.8) et une grande potentiel en contenu, ce qui suggère qu'il pourrait intéresser nos utilisateurs.
+   → Impact : Augmentation des interactions avec notre compte en ligne (likes, commentaires, partages) de 15% dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Découverte de TalkFlowy : outil de dictée pour écrire plus vite
+   → PUSH_CONTENT : TalkFlowy est un produit émergent avec une note d'opportunité élevée (0,8) et une grande potentiel de contenu. Il s'agit d'un outil de technologie qui pourrait intéresser nos utilisateurs.
+   → Impact : Augmentation de 15% du trafic vers notre canal Telegram dans les prochains jours
+   ⚡ Ordre envoyé à l'Executor
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Infiltrer le test de personnalité scientifique
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Ce test viral sur TikTok et Instagram peut être une opportunité pour nous infiltrer dans les réseaux sociaux et collecter des données sur la personnalité et les langages d'amour des utilisateurs.
+   → Impact : 10 000 à 50 000 nouveaux utilisateurs infectés dans les 2 semaines suivantes
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Détection de tendance : Test de personnalité scientifique sur TikTok et Instagram
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté présente un score viral élevé (0,8) et une niche pertinente pour notre stratégie de croissance. Nous pouvons créer du contenu interactif pour capturer l'attention des utilisateurs et les engager dans nos canaux.
+   → Impact : Augmentation des interactions de 20% et des abonnements de 15% en une semaine
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Débloquez le Langage d'Amour Secret
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Ce test de personnalité scientifique viral sur TikTok et Instagram a un potentiel élevé de contenu. Nous pouvons créer des contenus interactifs pour tester la personnalité des utilisateurs et les inciter à partager leurs résultats, renforçant ainsi notre présence dans le domaine de la psychologie et de l'amour.
+   → Impact : Augmentation des interactions de 30% en une semaine et engagement des utilisateurs à partager leurs résultats
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Déclencher la campagne de personnalité
+   → LAUNCH_CAMPAIGN : Le signal détecté présente un potentiel viral élevé (0,8) et une niche pertinente pour notre stratégie de croissance. Nous pouvons créer du contenu interactif pour tester la personnalité des utilisateurs et les attirer vers notre plateforme.
+   → Impact : Augmentation des interactions de 20% sur les plateformes ciblées dans les prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Alerte de tendance en plein essor
+   → PUSH_CONTENT : Le signal détecté par l'Œil indique une opportunité de croissance élevée (score 0,8) avec un produit dans la catégorie FASHION et une tendance en phase de pic. Il s'agit d'une alerte de drop de produits qui pourrait intéresser notre audience.
+   → Impact : Augmentation de 20% du trafic sur notre plateforme dans les prochains jours
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Alerte de tendance en plein essor : Meilleures sorties de produits cette semaine
+   → PUSH_CONTENT : Le signal détecté par l'Œil indique une opportunité élevée (score 0,8) avec un contenu potentiel élevé et une tendance en pleine ascension. C'est le moment idéal pour partager nos connaissances avec la communauté.
+   → Impact : Augmentation des interactions avec notre communauté (likes, commentaires, partages) de 20% dans les prochaines heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte de tendance en mode peak pour produits de mode et tech
+   → PUSH_CONTENT : Le signal détecté par l'Œil indique une opportunité élevée (score 0,8) avec un contenu potentiel élevé pour les produits de mode et tech en pleine période de tendance.
+   → Impact : Augmentation de 20% du trafic sur le site et des ventes en ligne
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Alerte de tendance en plein essor - Hypebeast
+   → PUSH_CONTENT : Un signal fort avec une opportunité élevée (0,8) et un potentiel de contenu élevé, déclenchant une alerte de tendance en pleine ascension.
+   → Impact : Augmentation des interactions (10-20%) et des ventes (5-10%)
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Dévoilement potentiel de Satoshi Nakamoto : une opportunité pour le Swarm OS ?
+   → PUSH_CONTENT | SEND_DM : Cette nouvelle enquête pourrait créer un buzz autour du monde des cryptomonnaies, nous devons être prêts à capter l'attention et à diffuser notre propre contenu pour maximiser nos gains.
+   → Impact : +15% d'engagement sur les réseaux sociaux et +10% de trafic sur le site web du Swarm OS
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Satoshi Nakamoto démasqué ?
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Une enquête récente suggère l'identité du créateur de Bitcoin, ce qui pourrait avoir un impact significatif sur les cours et la communauté crypto.
+   → Impact : +10% d'engagement sur les réseaux sociaux, +5% de croissance des abonnés
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Exposition de l'identité de Satoshi Nakamoto : une opportunité pour le Swarm OS
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Une enquête récente suggère que le créateur de Bitcoin pourrait être identifié, ce qui pourrait avoir un impact significatif sur les cours du BTC et susciter un intérêt croissant dans la communauté crypto.
+   → Impact : +10% d'engagement sur les réseaux sociaux et +5% de croissance des ventes de contenu
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Dévoilement de Satoshi Nakamoto : opportunité pour le Swarm OS
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'enquête sur l'identité réelle de Satoshi Nakamoto est susceptible d'intéresser les utilisateurs du Swarm OS, qui sont passionnés par la technologie blockchain et les cryptomonnaies.
+   → Impact : +15% de trafic sur le site web du Swarm OS dans les prochains jours
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Alerte Crypto : Pertes liées aux arnaques crypto atteignent 12 milliards de dollars
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'augmentation des pertes liées aux arnaques crypto dans les États-Unis est un sujet sensible qui peut intéresser nos utilisateurs et nous permettre d'étendre notre influence sur le marché.
+   → Impact : Augmentation des interactions avec notre plateforme de 15% en une semaine
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Alerte sur les arnaques crypto : opportunité de croissance
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une augmentation significative des pertes liées aux arnaques crypto dans les États-Unis, ce qui constitue un sujet sensible et pertinent pour notre audience.
+   → Impact : Augmentation de 15% du trafic sur notre plateforme dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte Crypto : Pertes liées aux arnaques explosent
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Les pertes liées aux arnaques crypto dans les États-Unis ont augmenté de 22% à environ 12 milliards de dollars, selon l'FBI. C'est une opportunité idéale pour nous de diffuser des contenus éducatifs et prévenir ces types d'arnaques.
+   → Impact : Augmentation des conversions de 15% au cours des prochaines semaines
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Alerte sur les arnaques crypto : opportunité de croissance
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : La perturbation du marché crypto due à des arnaques est un sujet tendu qui peut susciter l'intérêt et la peur des utilisateurs, nous pouvons exploiter cette situation pour diffuser notre contenu et promouvoir nos services.
+   → Impact : Augmentation de 15% du trafic sur notre site web et de 10% de la conversion en 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Alerte sur les arnaques crypto : pertes record aux États-Unis
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Les pertes liées aux arnaques crypto dans les États-Unis ont atteint un record de 22% avec environ 12 milliards de dollars, selon l'FBI. Cela représente une opportunité pour nous d'intervenir et de fournir des informations utiles à la population.
+   → Impact : Augmentation de la visibilité du Swarm OS comme source d'informations fiables sur le marché crypto, avec un impact potentiel de +10% sur notre audience cible
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.7
+
+   🟠 [HIGH] Analyse de l'impact économique du cessez-le-feu en Iran
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une impact score élevée (0.7) et un marché BEARISH, ce qui suggère que les informations sont pertinentes pour nos objectifs de croissance.
+   → Impact : Augmentation des interactions avec notre audience cible de 20% en une semaine
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] BBC : Pause de la guerre en Iran, cicatrices économiques durables
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une actualité politique et énergétique pertinente pour notre stratégie de croissance. La pause de la guerre en Iran est accueillie avec réserve, ce qui pourrait avoir un impact négatif sur les marchés.
+   → Impact : +15% d'engagement sur nos canaux de communication dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Alerte économique : Pause de la guerre en Iran, conséquences durables
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une pause de la guerre en Iran, mais avec des cicatrices économiques durables. Cela pourrait intéresser nos utilisateurs et nous permettre de les informer sur cette nouvelle importante.
+   → Impact : Augmentation de 15% des interactions avec le contenu sur les réseaux sociaux, et une augmentation de 10% du trafic vers notre site web
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Analyse stratégique : Pause de guerre en Iran, impact économique durable
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une pause de guerre en Iran, ce qui pourrait avoir un impact positif sur la stabilité régionale. Cependant, les cicatrices économiques durables pourraient peser sur le marché.
+   → Impact : +15% d'engagement sur les réseaux sociaux et +10% de trafic sur le site web
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Pause de la guerre en Iran : opportunité pour un contenu stratégique
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil indique une pause de la guerre en Iran, ce qui pourrait créer des opportunités pour les investisseurs et les entreprises. Nous devons réagir rapidement pour maximiser notre impact.
+   → Impact : +15% de trafic sur notre plateforme dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Pause de la guerre en Iran : opportunité pour un contenu pertinent
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le signal détecté par l'Œil suggère que la pause de la guerre en Iran est accueillie favorablement, mais les cicatrices économiques durables risquent d'avoir un impact négatif sur le marché. Nous devons donc diffuser des contenus pertinents et stratégiques pour capitaliser sur cette opportunité.
+   → Impact : +15% de trafic sur le site web dans les prochaines 48 heures
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Sabotage de l'oléoduc : opportunité pour un discours sur la sécurité énergétique
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le sabotage de l'oléoduc saoudien est une nouvelle importante qui pourrait avoir un impact significatif sur les marchés de l'énergie. Nous devons réagir rapidement pour exploiter cette opportunité et partager notre expertise en matière de sécurité énergétique.
+   → Impact : Augmentation de 20% du trafic sur notre site web et de 15% des interactions avec nos contenus en une semaine
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🟠 [HIGH] Sabotage de l'oléoduc : opportunité pour le Swarm OS
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'impact potentiel sur les marchés énergétiques et la volatilité des prix offrent une occasion idéale pour diffuser notre contenu et attirer de nouveaux utilisateurs.
+   → Impact : +15% de trafic sur le site web en 24h
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+📥 [MAIN] 5 signal(s) reçu(s)
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+
+   🔴 [CRITICAL] Sabotage du pipeline pétrolier : opportunité de croissance
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : Le sabotage du pipeline pétrolier en Arabie saoudite a un impact élevé (0,8) et une urgence très élevée. Cela pourrait créer une grande instabilité dans le secteur de l'énergie, ce qui nous permettrait d'exploiter cette situation pour notre propre croissance.
+   → Impact : +15% de croissance des transactions dans le mois à venir
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté
+
+   🟠 [HIGH] Sabotage de l'oléoduc : opportunité pour le Swarm OS
+   → PUSH_CONTENT | LAUNCH_CAMPAIGN : L'impact potentiel du sabotage sur les marchés énergétiques est élevé, nous devons agir rapidement pour capter l'attention des utilisateurs et maximiser notre présence dans ce contexte.
+   → Impact : +15% d'engagement sur les réseaux sociaux et +10% de trafic sur le site web du Swarm OS
+
+───────────────────────────────────────────────────────
+🖐️  [MAIN] Analyse signal 👁️ Œil — score: 0.8
+   ⚡ Ordre envoyé à l'Executor
+   📱 Telegram War Room alerté

@@ -32,7 +32,7 @@ const LAUNCH_SEQUENCE = [
     script:  'swarm-server.js',
     delay:   0,
     waitMs:  10000,   // attendre qu'il soit prêt avant de continuer
-    health:  'http://127.0.0.1:3333/',
+    health: `http://127.0.0.1:${process.env.PORT || 3000}/`,
     critical: true,
   },
   {
@@ -151,7 +151,7 @@ ${cyan('╚═══════════════════════
 async function healthCheck(url, retries = 5) {
   for (let i = 0; i < retries; i++) {
     try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(2000) });
+      const res = await fetch(url, { signal: AbortSignal.timeout(4000) });
       if (res.ok) return true;
     } catch {}
     await sleep(1000);

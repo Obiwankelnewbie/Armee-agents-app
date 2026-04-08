@@ -3803,3 +3803,11 @@
 🛠️ ROUTES : /api/trigger, /api/swarm/launch
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+  💾 SQLite connecté : ./swarm_memory.db
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║    🚀 Swarm OS : Opérationnel sur le port 3000               ║
+  ║    🌍 Accès externe : 0.0.0.0 (Requis pour Railway)          ║
+  ╚══════════════════════════════════════════════════════════════╝
+  
+🔭 Keywords: 96 mots-clés surveillés

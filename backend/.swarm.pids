@@ -1,3 +1,14 @@
 {
-  "swarm-server": 26276
+  "swarm-server": 2280,
+  "agent-media": 12240,
+  "agent-sauron": 27480,
+  "agent-sentinelle": 6456,
+  "agent-trader": 28732,
+  "agent-executor": 7640,
+  "agent-contenu sauron": 9832,
+  "agent-nexus": 10824,
+  "agent-main sauron": 27164,
+  "agent-gandalf": 20448,
+  "agent-morgoth": 27612,
+  "agent-ancalagon": 17320
 }

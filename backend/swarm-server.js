@@ -309,15 +309,22 @@ app.get('/api/leads', async (req, res) => {
 app.post('/api/trigger', async (req, res) => {
   const { agent_id, prompt, user_message } = req.body;
 
-  // TODO : brancher ici ton LLM (Anthropic, OpenAI, etc.)
-  // Exemple Anthropic :
-  // const response = await anthropic.messages.create({
-  //   model: 'claude-opus-4-6',
-  //   max_tokens: 1000,
-  //   system: prompt,
-  //   messages: [{ role: 'user', content: user_message }],
-  // });
-  // return res.json({ text: response.content[0].text });
+  // Assurez-vous d'avoir installé le SDK OpenAI : npm install openai
+const openai = new (require('openai'))({
+    baseURL: "http://localhost:1234/v1",
+    apiKey: "lm-studio",
+  });
+
+  const response = await openai.chat.completions.create({
+    model: "meta-llama-3.1-8b-instruct",
+    messages: [
+      { role: "system", content: prompt },
+      { role: "user", content: user_message }
+    ],
+    temperature: 0.7,
+  });
+
+  return res.json({ text: response.choices[0].message.content });
 
   res.json({ text: '', agent_id });
 });

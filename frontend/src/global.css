@@ -1,31 +1,33 @@
+/* app/globals.css — Swarm OS Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --primary: #1A3C34;     /* Vert forêt suisse */
-  --accent: #00A386;      /* Émeraude discret */
-  --text: #1F1F1F;
-  --text-light: #555555;
-  --bg: #F8F8F8;
-  --card: #FFFFFF;
-  --border: #E5E5E5;
+  --font-mono: 'DM Mono', monospace;
+  --font-sans: 'DM Sans', sans-serif;
 }
+
+* { box-sizing: border-box; }
 
 body {
-  font-family: 'Inter', system_ui, sans-serif;
+  background: #08090c;
+  color: #e8e9ec;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Style corporate suisse */
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-  transition: all 0.3s ease;
-}
+/* Scrollbar ultra-fine */
+.scrollbar-thin::-webkit-scrollbar { width: 2px; }
+.scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #1a1d24; border-radius: 2px; }
+.scrollbar-thin::-webkit-scrollbar-thumb:hover { background: #2a2d34; }
 
-.card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  border-color: var(--accent);
-}
+/* Sélection */
+::selection { background: rgba(45, 202, 114, 0.2); }
+
+/* Inputs — reset */
+input:focus { outline: none; }
+button { cursor: pointer; font-family: var(--font-sans); }

@@ -1,204 +1,651 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { supabase } from '@/lib/supabase';
-import AgentStatusPanel from '../components/AgentStatusPanel';
-import { motion } from 'framer-motion';
-import SignalAudit from './SignalAudit';
-export default function OptimusPrimeDashboard() {
-  const [activeTab, setActiveTab] = useState<'crm' | 'agents' | 'growth' | 'trader'>('crm');
-  const [traderSignals, setTraderSignals] = useState<any[]>([]);
+// ═══════════════════════════════════════════════════════════════
+//   SWARM OS — DASHBOARD PRIVÉ
+//   Placer dans : frontend/src/components/SwarmDashboard.tsx
+//   (ou remplacer DashboardCRM.tsx)
+//
+//   Appelle le backend Express sur process.env.NEXT_PUBLIC_API_URL
+//   + Supabase Realtime pour les mises à jour en temps réel
+// ═══════════════════════════════════════════════════════════════
 
-  const fetchSignals = async () => {
-    const { data, error } = await supabase
-      .from('private_trader_signals')
-      .select('*')
-      .order('created_at', { ascending: false });
-    
-    if (!error && data) setTraderSignals(data);
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { createClient, RealtimeChannel } from '@supabase/supabase-js';
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+);
+
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+
+// ═══════════════════════════════════════════════════════════════
+// TYPES
+// ═══════════════════════════════════════════════════════════════
+
+type AgentStatus = 'offline' | 'booting' | 'online' | 'busy' | 'error' | 'manual';
+
+interface Agent {
+  id:        string;
+  name:      string;
+  role:      string;
+  script:    string;
+  critical:  boolean;
+  order:     number;
+  manual:    boolean;
+  status:    AgentStatus;
+  task:      string;
+  uptime?:   number;
+  memoryMb?: number;
+  lastPing?: string;
+}
+
+interface FeedItem {
+  id:         string;
+  type:       string;
+  message:    string;
+  created_at: string;
+}
+
+interface TraderSignal {
+  id:            number;
+  asset:         string;
+  verdict:       string;
+  confidence:    string;
+  risk_level:    string;
+  opportunity:   string;
+  original_score: number;
+  scanned_at:    string;
+}
+
+interface MirrorMemory {
+  etat_swarm:       string;
+  message_dragon:   string;
+  niches_chaudes:   string[];
+  niches_mortes:    string[];
+  prediction_48h:   string;
+  action_critique:  string;
+  pattern_dominant: string;
+  version:          number;
+  updated_at:       string;
+}
+
+interface ContentReady {
+  id:              number;
+  domain:          string;
+  angle_nexo:      string;
+  posts:           any;
+  meilleur_moment: string;
+  longevite:       string;
+  status:          string;
+  created_at:      string;
+}
+
+interface KPIs {
+  signals:  number;
+  contents: number;
+  leads:    number;
+  trades:   number;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// AGENTS
+// ═══════════════════════════════════════════════════════════════
+
+const AGENTS_DEF: Omit<Agent, 'status' | 'task' | 'uptime' | 'memoryMb' | 'lastPing'>[] = [
+  { id: 'AGENT-ANCALAGONE-01', name: 'Ancalagone',  role: 'Mémoire · CRM · conseil',     script: 'ancalagone.js',  critical: true,  order: 1, manual: false },
+  { id: 'AGENT-ARGUS-01',      name: 'Argus',        role: 'Scraping · détection',        script: 'argus.js',       critical: true,  order: 2, manual: false },
+  { id: 'AGENT-GENERAL-01',    name: 'Le Général',   role: 'Supervision · filtrage',      script: 'le_general.js',  critical: true,  order: 3, manual: false },
+  { id: 'AGENT-STRATEGE-01',   name: 'Le Stratège',  role: 'Growth · War Room · contenu', script: 'le_stratege.js', critical: false, order: 4, manual: false },
+  { id: 'AGENT-NEXO-01',       name: 'Nexo',         role: 'Influenceur · leads',         script: 'nexo.js',        critical: false, order: 5, manual: false },
+  { id: 'AGENT-TRADER-01',     name: 'Le Trader',    role: 'Analyse · BUY/WAIT/SKIP',     script: 'le_trader.js',   critical: false, order: 6, manual: false },
+  { id: 'AGENT-EXECUTOR-01',   name: "L'Executor",   role: 'Actions · DM · trades',       script: 'le_executor.js', critical: false, order: 7, manual: false },
+];
+
+// ═══════════════════════════════════════════════════════════════
+// COMPOSANTS
+// ═══════════════════════════════════════════════════════════════
+
+function StatusDot({ status }: { status: AgentStatus }) {
+  const cls: Record<AgentStatus, string> = {
+    offline: 'bg-[#1e2028]',
+    booting: 'bg-amber-500 animate-pulse',
+    online:  'bg-emerald-500 shadow-[0_0_6px_rgba(45,202,114,0.5)]',
+    busy:    'bg-amber-400 shadow-[0_0_6px_rgba(239,159,39,0.5)] animate-pulse',
+    error:   'bg-red-500 shadow-[0_0_6px_rgba(226,75,74,0.5)]',
+    manual:  'bg-blue-400 shadow-[0_0_6px_rgba(55,138,221,0.5)]',
   };
+  return <div className={`w-2 h-2 rounded-full flex-shrink-0 transition-all duration-500 ${cls[status]}`} />;
+}
+
+function StatusBadge({ status }: { status: AgentStatus }) {
+  const cfg: Record<AgentStatus, { label: string; cls: string }> = {
+    offline: { label: 'Offline',    cls: 'bg-[#14161c] text-[#3a3f4a] border border-[#1e2028]' },
+    booting: { label: 'Démarrage',  cls: 'bg-[#1a1108] text-amber-400 border border-[#2a1e0a]' },
+    online:  { label: 'En ligne',   cls: 'bg-[#0a1f14] text-emerald-400 border border-[#0d2b1a]' },
+    busy:    { label: 'Actif',      cls: 'bg-[#1a1408] text-amber-400 border border-[#2a1e0a]' },
+    error:   { label: 'Erreur',     cls: 'bg-[#1a0d0d] text-red-400 border border-[#2a1010]' },
+    manual:  { label: 'Manuel',     cls: 'bg-[#0a1428] text-blue-400 border border-[#0d1e38]' },
+  };
+  const { label, cls } = cfg[status];
+  return <span className={`font-mono text-[9px] tracking-widest px-2 py-1 rounded uppercase ${cls}`}>{label}</span>;
+}
+
+function Toggle({ on, onChange }: { on: boolean; onChange: () => void }) {
+  return (
+    <div
+      onClick={e => { e.stopPropagation(); onChange(); }}
+      className={`w-9 h-5 rounded-full border cursor-pointer relative transition-all duration-300 flex-shrink-0
+        ${on ? 'bg-[#0d2b1a] border-[#1a4a2a]' : 'bg-[#1a1d24] border-[#24282f]'}`}
+    >
+      <div className={`absolute top-[3px] left-[3px] w-[13px] h-[13px] rounded-full transition-all duration-300
+        ${on ? 'translate-x-4 bg-emerald-400' : 'bg-[#3a3f4a]'}`} />
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════
+// DASHBOARD PRINCIPAL
+// ═══════════════════════════════════════════════════════════════
+
+export default function SwarmDashboard() {
+  const [agents,     setAgents]     = useState<Agent[]>(AGENTS_DEF.map(a => ({ ...a, status: 'offline' as AgentStatus, task: '' })));
+  const [feedItems,  setFeedItems]  = useState<FeedItem[]>([]);
+  const [traderSigs, setTraderSigs] = useState<TraderSignal[]>([]);
+  const [mirror,     setMirror]     = useState<MirrorMemory | null>(null);
+  const [contents,   setContents]   = useState<ContentReady[]>([]);
+  const [kpis,       setKpis]       = useState<KPIs>({ signals: 0, contents: 0, leads: 0, trades: 0 });
+  const [clock,      setClock]      = useState('');
+  const [bootActive, setBootActive] = useState(false);
+  const [bootDone,   setBootDone]   = useState(false);
+  const [showModal,  setShowModal]  = useState(false);
+  const [showContent, setShowContent] = useState(false);
+  const [newName,    setNewName]    = useState('');
+  const [newScript,  setNewScript]  = useState('');
+
+  const channelsRef = useRef<RealtimeChannel[]>([]);
 
   useEffect(() => {
-    fetchSignals();
-    const channel = supabase
-      .channel('trader-realtime')
-      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'private_trader_signals' }, 
-        (payload) => { setTraderSignals((prev) => [payload.new, ...prev]); }
-      ).subscribe();
-    return () => { supabase.removeChannel(channel); };
+    const tick = () => setClock(new Date().toLocaleTimeString('fr-FR'));
+    tick();
+    const t = setInterval(tick, 1000);
+    return () => clearInterval(t);
   }, []);
 
+  const loadAll = useCallback(async () => {
+    await Promise.allSettled([loadStatuses(), loadFeed(), loadSignals(), loadMirror(), loadKpis(), loadContents()]);
+  }, []);
+
+  useEffect(() => {
+    loadAll();
+    setupRealtime();
+    return () => { channelsRef.current.forEach(c => supabase.removeChannel(c)); };
+  }, [loadAll]);
+
+  // ── Chargement via backend Express ────────────────────────
+
+  async function loadStatuses() {
+    try {
+      const res  = await fetch(`${API}/api/swarm/status`);
+      const data = await res.json() as any[];
+      if (!Array.isArray(data)) return;
+      setAgents(prev => prev.map(a => {
+        const row = data.find((r: any) => r.agent_id === a.id);
+        if (!row) return a;
+        return { ...a, status: mapStatus(row.status), task: row.current_task ?? '', uptime: row.uptime_seconds, memoryMb: row.memory_mb, lastPing: row.last_ping };
+      }));
+    } catch { /* backend offline */ }
+  }
+
+  async function loadFeed() {
+    try {
+      const res  = await fetch(`${API}/api/feed?limit=40`);
+      const data = await res.json();
+      if (Array.isArray(data)) setFeedItems(data);
+    } catch {}
+  }
+
+  async function loadSignals() {
+    try {
+      const res  = await fetch(`${API}/api/signals`);
+      const data = await res.json();
+      if (Array.isArray(data)) setTraderSigs(data);
+    } catch {}
+  }
+
+  async function loadMirror() {
+    try {
+      const res  = await fetch(`${API}/api/mirror`);
+      const data = await res.json();
+      if (data?.message_dragon) setMirror(data);
+    } catch {}
+  }
+
+  async function loadKpis() {
+    try {
+      const res  = await fetch(`${API}/api/kpis`);
+      const data = await res.json();
+      setKpis(data);
+    } catch {}
+  }
+
+  async function loadContents() {
+    try {
+      const res  = await fetch(`${API}/api/contents`);
+      const data = await res.json();
+      if (Array.isArray(data)) setContents(data);
+    } catch {}
+  }
+
+  async function markPosted(id: number) {
+    try {
+      await fetch(`${API}/api/contents/${id}/posted`, { method: 'POST' });
+      setContents(prev => prev.filter(c => c.id !== id));
+      setKpis(prev => ({ ...prev, contents: Math.max(0, prev.contents - 1) }));
+    } catch {}
+  }
+
+  // ── Realtime Supabase ─────────────────────────────────────
+
+  function setupRealtime() {
+    const feedCh = supabase.channel('dash-feed')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'live_feed_events' },
+        p => setFeedItems(prev => [p.new as FeedItem, ...prev.slice(0, 39)])
+      ).subscribe();
+
+    const statusCh = supabase.channel('dash-status')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'agent_status' },
+        p => {
+          const r = p.new as any;
+          setAgents(prev => prev.map(a =>
+            a.id === r.agent_id
+              ? { ...a, status: mapStatus(r.status), task: r.current_task ?? '', uptime: r.uptime_seconds, memoryMb: r.memory_mb }
+              : a
+          ));
+        }
+      ).subscribe();
+
+    const traderCh = supabase.channel('dash-trader')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'private_trader_signals' },
+        p => {
+          setTraderSigs(prev => [p.new as TraderSignal, ...prev.slice(0, 9)]);
+          if ((p.new as TraderSignal).verdict === 'BUY') setKpis(prev => ({ ...prev, trades: prev.trades + 1 }));
+        }
+      ).subscribe();
+
+    const mirrorCh = supabase.channel('dash-mirror')
+      .on('postgres_changes', { event: '*', schema: 'public', table: 'ancalagone_mirror' },
+        () => loadMirror()
+      ).subscribe();
+
+    const contentCh = supabase.channel('dash-content')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'generated_contents' },
+        p => {
+          setContents(prev => [p.new as ContentReady, ...prev.slice(0, 9)]);
+          setKpis(prev => ({ ...prev, contents: prev.contents + 1 }));
+        }
+      ).subscribe();
+
+    channelsRef.current = [feedCh, statusCh, traderCh, mirrorCh, contentCh];
+  }
+
+  // ── Contrôle du swarm ─────────────────────────────────────
+
+  async function startBoot() {
+    if (bootActive || bootDone) return;
+    setBootActive(true);
+
+    try {
+      await fetch(`${API}/api/swarm/boot`, { method: 'POST' });
+    } catch {
+      console.warn('Boot via API non disponible — démarrage UI uniquement');
+    }
+
+    // Animation UI pendant le boot (le vrai statut viendra via Realtime)
+    for (let i = 0; i < AGENTS_DEF.length; i++) {
+      await new Promise(r => setTimeout(r, [0,2000,2500,2000,1800,2200,1500][i] || 1500));
+      setAgents(prev => prev.map((a, idx) => idx === i ? { ...a, status: 'booting', task: 'Initialisation...' } : a));
+      await new Promise(r => setTimeout(r, 1200));
+    }
+
+    setBootActive(false);
+    setBootDone(true);
+  }
+
+  async function stopAll() {
+    try {
+      await fetch(`${API}/api/swarm/stop-all`, { method: 'POST' });
+    } catch {}
+    setAgents(prev => prev.map(a => a.manual ? a : { ...a, status: 'offline', task: '' }));
+    setBootDone(false);
+    setBootActive(false);
+  }
+
+  async function manualToggle(idx: number) {
+    const agent = agents[idx];
+    const newStatus = agent.status === 'offline' ? 'manual' : 'offline';
+
+    if (newStatus === 'manual') {
+      try {
+        await fetch(`${API}/api/swarm/start`, {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ script: agent.script, name: agent.id }),
+        });
+      } catch {}
+    } else {
+      try {
+        await fetch(`${API}/api/swarm/stop-one`, {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify({ name: agent.id }),
+        });
+      } catch {}
+    }
+
+    setAgents(prev => prev.map((a, i) =>
+      i === idx ? { ...a, status: newStatus, task: newStatus === 'manual' ? 'Mode test actif' : '' } : a
+    ));
+  }
+
+  function addAgent() {
+    if (!newName.trim()) return;
+    setAgents(prev => [...prev, {
+      id:      'AGENT-TEST-' + Date.now(),
+      name:    newName.trim(),
+      role:    'Agent expérimental',
+      script:  newScript.trim() || newName.toLowerCase().replace(/\s+/g, '_') + '.js',
+      critical: false,
+      order:   prev.length + 1,
+      manual:  true,
+      status:  'offline',
+      task:    '',
+    }]);
+    setShowModal(false);
+    setNewName('');
+    setNewScript('');
+  }
+
+  // ── Helpers ───────────────────────────────────────────────
+
+  function mapStatus(s: string): AgentStatus {
+    return ({ ONLINE:'online', BUSY:'busy', IDLE:'online', ERROR:'error', OFFLINE:'offline', WORKING:'busy' } as any)[s?.toUpperCase()] ?? 'offline';
+  }
+
+  function formatUptime(s?: number) {
+    if (!s) return '—';
+    return `${Math.floor(s / 3600)}h${String(Math.floor((s % 3600) / 60)).padStart(2,'0')}`;
+  }
+
+  function feedClass(type: string) {
+    if (type.includes('ERROR')) return 'border-l-red-500/40';
+    if (type.includes('WARN'))  return 'border-l-amber-500/30';
+    if (type === 'RUPTURE')     return 'border-l-amber-500/30';
+    if (type.includes('INFO'))  return 'border-l-blue-400/30';
+    return 'border-l-emerald-500/30';
+  }
+
+  function verdictStyle(v: string) {
+    if (v === 'BUY')  return 'bg-[#0a1f14] text-emerald-400 border border-[#0d2b1a]';
+    if (v === 'WAIT') return 'bg-[#1a1408] text-amber-400 border border-[#2a1e0a]';
+    return 'bg-[#14161c] text-[#3a3f4a] border border-[#1e2028]';
+  }
+
+  const aliveCount = agents.filter(a => ['online','busy'].includes(a.status)).length;
+
+  // ══════════════════════════════════════════════════════════
+  // RENDER
+  // ══════════════════════════════════════════════════════════
+
   return (
-    <div className="min-h-screen bg-[#0A0A0F] text-zinc-100 font-sans selection:bg-emerald-500/30">
-      
-      {/* --- HEADER DE COMMANDEMENT --- */}
-      <header className="sticky top-0 z-50 border-b border-zinc-800/50 bg-[#0A0A0F]/80 backdrop-blur-2xl">
-        <div className="max-w-7xl mx-auto px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-5 group">
-            <div className="w-14 h-14 bg-gradient-to-br from-emerald-400 via-cyan-400 to-purple-600 rounded-[20px] flex items-center justify-center text-3xl shadow-[0_0_30px_rgba(52,211,153,0.2)] group-hover:scale-105 transition-transform duration-500">
-              ⚔️
+    <div className="min-h-screen bg-[#08090c] text-[#e8e9ec]" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+
+      {/* Header */}
+      <header className="border-b border-[#1a1d24] px-7 py-4 flex items-center justify-between bg-[#08090c] sticky top-0 z-50">
+        <div className="flex items-center gap-4">
+          <div className="w-9 h-9 border border-[#2a4a3a] rounded-xl flex items-center justify-center bg-[#0d1f18]">
+            <svg width="16" height="16" viewBox="0 0 18 18" fill="none">
+              <path d="M9 2L14 5.5V12.5L9 16L4 12.5V5.5L9 2Z" stroke="#2dca72" strokeWidth="1" fill="none"/>
+              <circle cx="9" cy="9" r="2" fill="#2dca72"/>
+            </svg>
+          </div>
+          <div>
+            <div className="text-[13px] font-medium tracking-[0.12em] uppercase">
+              Swarm <span className="text-emerald-400">OS</span>
             </div>
-            <div>
-              <h1 className="text-4xl font-black tracking-tighter uppercase italic font-display leading-none">
-                Swarm <span className="text-emerald-500">OS</span>
-              </h1>
-              <p className="text-[10px] text-zinc-500 font-mono font-bold tracking-[0.3em] uppercase mt-1">
-                Optimus Prime <span className="text-emerald-500/50">v2.7 Master</span>
-              </p>
+            <div className="font-mono text-[9px] text-[#3a3f4a] tracking-widest mt-0.5">Dashboard v2.0 · Privé · {API}</div>
+          </div>
+        </div>
+        <div className="flex items-center gap-6">
+          <div className="flex items-center gap-2">
+            <span className="font-mono text-[10px] text-[#3a3f4a]">{aliveCount}/{AGENTS_DEF.length} agents</span>
+            <div className="w-16 h-1 bg-[#1a1d24] rounded-full overflow-hidden">
+              <div className="h-full bg-emerald-500 rounded-full transition-all duration-700"
+                style={{ width: `${(aliveCount / AGENTS_DEF.length) * 100}%` }} />
             </div>
           </div>
-
-          <nav className="flex bg-zinc-900/40 p-1.5 rounded-[22px] border border-zinc-800/50 backdrop-blur-md">
-            {[
-              { id: 'crm', label: 'Pipeline' },
-              { id: 'agents', label: 'Swarm' },
-              { id: 'growth', label: 'Growth' },
-              { id: 'trader', label: 'Trader' }
-            ].map((tab) => (
-              <button 
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id as any)} 
-                className={`px-8 py-3 rounded-[18px] text-[11px] font-black uppercase tracking-widest transition-all duration-500 ${
-                  activeTab === tab.id 
-                  ? 'bg-emerald-500 text-black shadow-lg shadow-emerald-500/20' 
-                  : 'text-zinc-500 hover:text-zinc-200'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </nav>
+          <div className="font-mono text-[11px] text-[#4a5060]">{clock}</div>
+          <div className={`w-1.5 h-1.5 rounded-full transition-all ${aliveCount > 0 ? 'bg-emerald-500 shadow-[0_0_8px_rgba(45,202,114,0.5)] animate-pulse' : 'bg-[#1e2028]'}`} />
         </div>
       </header>
 
-      {/* --- CONTENU PRINCIPAL --- */}
-      <main className="max-w-7xl mx-auto px-8 py-10">
-        
-        {/* ONGLET : PIPELINE TIKTOK SHOP (Fusionné) */}
-        {activeTab === 'crm' && (
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }} 
-            animate={{ opacity: 1, y: 0 }}
-            className="space-y-8"
-          >
-            {/* Header TikTok avec vibe fun */}
-            <div className="flex items-center justify-between bg-zinc-900 rounded-[35px] p-8 border border-emerald-500/20 shadow-2xl">
-              <div className="flex items-center gap-4">
-                <div className="text-4xl">🚀</div>
-                <div>
-                  <h2 className="text-3xl font-bold tracking-tight text-white uppercase italic">TikTok Shop Pipeline</h2>
-                  <p className="text-emerald-400 text-sm font-mono tracking-widest">Mode Virality Activé • 3 agents en feu</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-6">
-                <div className="text-right">
-                  <div className="text-emerald-400 text-2xl font-mono font-bold tracking-tighter">2 711,55 €</div>
-                  <div className="text-[10px] text-zinc-500 uppercase font-bold tracking-widest">GMV cette semaine</div>
-                </div>
-                <button 
-                  onClick={() => alert('Scan TikTok lancé ! 🔥')}
-                  className="bg-emerald-500 hover:bg-emerald-400 text-black px-8 py-4 rounded-2xl font-bold flex items-center gap-3 transition-all active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
-                >
-                  <span>🔥</span> LANCER SCAN VIRAL
+      <div className="px-7 py-6 grid grid-cols-12 gap-4">
+
+        {/* Colonne gauche */}
+        <div className="col-span-7 flex flex-col gap-4">
+
+          {/* Agents */}
+          <div className="bg-[#0d0f14] border border-[#1a1d24] rounded-2xl p-5">
+            <div className="flex items-center justify-between mb-4">
+              <div className="text-[10px] font-medium tracking-[0.14em] uppercase text-[#3a3f4a]">Agents du swarm</div>
+              <div className="flex gap-2">
+                <button onClick={startBoot} disabled={bootActive || bootDone}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg text-[11px] font-medium tracking-wider transition-all
+                    ${bootDone ? 'bg-[#0a1f14] border border-[#1a3020] text-emerald-500 cursor-default'
+                    : bootActive ? 'bg-[#1a1a0d] border border-[#2a2a10] text-amber-400 cursor-not-allowed'
+                    : 'bg-[#0d2b1a] border border-[#1a4a2a] text-emerald-400 hover:bg-[#0f3320] active:scale-[0.97]'}`}>
+                  {bootDone ? '✓ Swarm actif' : bootActive ? '⟳ Démarrage...' : '⏻ Démarrage séquentiel'}
+                </button>
+                <button onClick={stopAll} className="px-4 py-2 rounded-lg text-[11px] font-medium tracking-wider border border-[#2a1010] text-red-400 hover:bg-[#1a0d0d] transition-all">
+                  Tout arrêter
                 </button>
               </div>
             </div>
 
-            {/* Stats TikTok fun & high-tech */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-              {[
-                { label: 'GMV SEMAINE', val: '2 711€', sub: '+13,7% vs dernière semaine', color: 'emerald' },
-                { label: 'VUES TOTALES', val: '43k', sub: '+8.2k cette semaine', color: 'emerald' },
-                { label: 'TAUX CONVERSION', val: '0.0%', sub: 'En attente de data', color: 'amber' },
-                { label: 'TEMPS MOYEN', val: '15 min', sub: 'Scan → Publication', color: 'emerald' }
-              ].map((stat, i) => (
-                <div key={i} className="bg-zinc-900 rounded-3xl p-8 border border-zinc-800 hover:border-emerald-500/30 transition-all group">
-                  <div className="text-zinc-500 text-[10px] tracking-widest font-bold uppercase">{stat.label}</div>
-                  <div className="text-5xl font-black mt-3 text-white tracking-tighter group-hover:text-emerald-400 transition-colors">{stat.val}</div>
-                  <div className={`text-${stat.color}-400 text-[10px] mt-1 font-bold italic tracking-wide`}>{stat.sub}</div>
+            <div className="flex flex-col gap-2">
+              {agents.map((agent, i) => (
+                <div key={agent.id}
+                  className="flex items-center justify-between px-4 py-3 bg-[#0a0c11] border border-[#1a1d24] rounded-xl hover:border-[#2a3040] hover:bg-[#0d0f14] transition-all cursor-pointer relative overflow-hidden"
+                  onClick={() => !agent.manual && agent.status === 'offline' && !bootActive &&
+                    setAgents(prev => prev.map((a, idx) => idx === i ? {...a, status:'booting', task:'Démarrage manuel...'} : a))
+                  }>
+                  <div className="flex items-center gap-3">
+                    <span className="font-mono text-[9px] text-[#2a3040] w-4 text-right flex-shrink-0">{String(agent.order).padStart(2,'0')}</span>
+                    <StatusDot status={agent.status} />
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-[13px] font-medium text-[#d0d2d8]">{agent.name}</span>
+                        {agent.manual && <span className="font-mono text-[8px] text-blue-400 border border-[#0d1e38] bg-[#0a1428] px-1.5 py-0.5 rounded">TEST</span>}
+                        {agent.critical && agent.status === 'offline' && <span className="font-mono text-[8px] text-red-400/50">critique</span>}
+                      </div>
+                      <div className="font-mono text-[10px] text-[#3a4050] mt-0.5 max-w-[240px] truncate">
+                        {agent.status === 'offline' ? agent.role : (agent.task || agent.role)}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    {agent.uptime && agent.status !== 'offline' && <span className="font-mono text-[9px] text-[#2a3040]">{formatUptime(agent.uptime)}</span>}
+                    {agent.memoryMb && agent.status !== 'offline' && <span className="font-mono text-[9px] text-[#2a3040]">{agent.memoryMb}MB</span>}
+                    <StatusBadge status={agent.status} />
+                    {agent.manual && <Toggle on={agent.status !== 'offline'} onChange={() => manualToggle(i)} />}
+                  </div>
                 </div>
               ))}
+
+              <button onClick={() => setShowModal(true)}
+                className="flex items-center gap-2 px-4 py-3 border border-dashed border-[#1e2028] rounded-xl text-[#3a3f4a] text-[12px] hover:border-[#2a3040] hover:bg-[#0a0c11] hover:text-[#5a6070] transition-all mt-1 w-full">
+                + Ajouter un agent pour test
+              </button>
             </div>
-
-            {/* Pipeline Steps */}
-            <div className="bg-zinc-900 rounded-[40px] p-10 border border-zinc-800">
-              <div className="flex justify-between mb-8">
-                <h3 className="text-2xl font-black italic uppercase tracking-tight">Flux de Production</h3>
-                <div className="text-emerald-400 text-[10px] font-mono tracking-widest uppercase">3 étapes actives • Virality ON</div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="bg-zinc-950 p-8 rounded-3xl border border-emerald-500/40 hover:border-emerald-400 transition-all">
-                  <div className="flex items-center gap-4 mb-6 text-2xl">🔍 <span className="font-black text-lg text-white italic uppercase">Détection</span></div>
-                  <div className="text-emerald-400 font-mono text-xs tracking-tighter">+18,43€ GMV estimé / h</div>
-                </div>
-                <div className="bg-zinc-950 p-8 rounded-3xl border border-amber-500/30 hover:border-amber-400 transition-all">
-                  <div className="flex items-center gap-4 mb-6 text-2xl">✍️ <span className="font-black text-lg text-white italic uppercase">Scripts</span></div>
-                  <div className="text-amber-400 font-mono text-xs tracking-tighter">194 diaporamas prêts</div>
-                </div>
-                <div className="bg-zinc-950 p-8 rounded-3xl border border-cyan-500/30 hover:border-cyan-400 transition-all">
-                  <div className="flex items-center gap-4 mb-6 text-2xl">📤 <span className="font-black text-lg text-white italic uppercase">Post</span></div>
-                  <div className="text-cyan-400 font-mono text-xs tracking-tighter">~12 min cadence moyenne</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Derniers runs */}
-            <div className="bg-zinc-900 rounded-[40px] p-10 border border-zinc-800">
-              <h3 className="text-xl font-black mb-6 flex items-center gap-3 italic uppercase">
-                <span>🔥</span> Activité Swarm Live
-              </h3>
-              <div className="space-y-4 font-mono">
-                <div className="flex justify-between items-center bg-zinc-950 p-6 rounded-2xl border-l-4 border-emerald-500 hover:bg-zinc-900 transition-all">
-                  <div>
-                    <div className="font-black text-emerald-400 uppercase text-sm">Run #11 • Slide Generator</div>
-                    <div className="text-[10px] text-zinc-500 mt-1 uppercase font-bold tracking-widest">Niche Beauté · Sérum Vitamine C · 4.3k vues est.</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-white font-black">+347,15€ GMV</div>
-                    <div className="text-[10px] text-zinc-600 mt-1">IL Y A 43 MIN</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        )}
-
-        {/* ONGLET : STATUS AGENTS */}
-        {activeTab === 'agents' && (
-          <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <AgentStatusPanel />
           </div>
-        )}
 
-        {/* ONGLET : GROWTH HACKER */}
-        {activeTab === 'growth' && (
-           <div className="text-center py-40 bg-zinc-900/20 rounded-[40px] border-2 border-dashed border-zinc-800 animate-pulse">
-             <div className="text-7xl mb-8">🧠</div>
-             <h2 className="text-3xl font-black italic uppercase font-display tracking-tight text-zinc-400">Analyse Stratégique en cours...</h2>
-             <p className="text-zinc-600 mt-4 font-mono text-xs uppercase tracking-widest italic">Swarm Intelligence : CONNECTED</p>
-           </div>
-        )}
+          {/* KPIs */}
+          <div className="grid grid-cols-4 gap-3">
+            {[
+              { label: 'Signaux filtrés', val: kpis.signals,  sub: '24h', color: 'text-emerald-400' },
+              { label: 'Contenus prêts',  val: kpis.contents, sub: 'Nexo', color: 'text-[#d0d2d8]' },
+              { label: 'Leads CRM',       val: kpis.leads,    sub: '24h',  color: 'text-emerald-400' },
+              { label: 'Trades BUY',      val: kpis.trades,   sub: 'privé', color: 'text-amber-400' },
+            ].map((k, i) => (
+              <div key={i} className="bg-[#0a0c11] border border-[#1a1d24] rounded-xl p-4">
+                <div className="font-mono text-[9px] tracking-widest text-[#3a3f4a] uppercase mb-2">{k.label}</div>
+                <div className={`text-2xl font-medium ${k.color} leading-none tracking-tight`}>{k.val}</div>
+                <div className="font-mono text-[9px] text-[#2a3040] mt-1">{k.sub}</div>
+              </div>
+            ))}
+          </div>
 
-        {/* ONGLET : TRADER PRIVÉ */}
-        {activeTab === 'trader' && (
-          <div className="animate-in fade-in slide-in-from-bottom-6 duration-1000">
-             <h2 className="text-6xl font-black tracking-tighter italic uppercase font-display mb-10">
-               Trader <span className="text-emerald-500">Privé</span>
-             </h2>
-             <div className="grid gap-6">
-                {traderSignals.map((signal, index) => (
-                  <div key={index} className="bg-zinc-900/30 p-10 rounded-[35px] border border-zinc-800 hover:border-emerald-500/40 transition-all">
-                    <div className="flex justify-between items-start">
-                      <h3 className="text-3xl font-black italic uppercase">{signal.opportunity}</h3>
-                      <span className="bg-emerald-500 text-black px-6 py-2 rounded-xl text-xs font-black uppercase tracking-tighter">{signal.action}</span>
+          {/* Trader privé */}
+          <div className="bg-[#0d0f14] border border-[#1a1d24] rounded-2xl p-5">
+            <div className="flex items-center justify-between mb-4">
+              <div className="text-[10px] font-medium tracking-[0.14em] uppercase text-[#3a3f4a]">Trader · privé</div>
+              <span className="font-mono text-[9px] text-[#2a3040]">{traderSigs.length} signal{traderSigs.length !== 1 ? 's' : ''}</span>
+            </div>
+            {traderSigs.length === 0
+              ? <div className="font-mono text-[11px] text-[#2a3040] italic py-3">En attente du Trader...</div>
+              : <div className="flex flex-col gap-2 max-h-56 overflow-y-auto">
+                  {traderSigs.map((sig, i) => (
+                    <div key={sig.id ?? i} className="flex items-center justify-between px-3 py-2.5 bg-[#0a0c11] border border-[#1a1d24] rounded-xl hover:border-[#2a3040] transition-all">
+                      <div className="flex items-center gap-3">
+                        <span className="text-[13px] font-medium text-[#d0d2d8] w-12">{sig.asset}</span>
+                        <span className="font-mono text-[10px] text-[#4a5060] max-w-[180px] truncate">{sig.opportunity}</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        {sig.original_score && <span className="font-mono text-[9px] text-[#2a3040]">{sig.original_score.toFixed(2)}</span>}
+                        <span className={`font-mono text-[10px] px-2.5 py-1 rounded-lg ${verdictStyle(sig.verdict)}`}>{sig.verdict}</span>
+                      </div>
                     </div>
-                    <p className="mt-4 text-zinc-400 italic text-lg">{signal.analysis}</p>
-                  </div>
-                ))}
-             </div>
+                  ))}
+                </div>
+            }
           </div>
-        )}
-      </main>
+        </div>
 
-      <div className="fixed -bottom-20 -left-20 w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-[120px]
+        {/* Colonne droite */}
+        <div className="col-span-5 flex flex-col gap-4">
+
+          {/* Mirror Memory */}
+          <div className="bg-[#0d0f14] border border-[#1a1d24] rounded-2xl p-5">
+            <div className="flex items-center justify-between mb-4">
+              <div className="text-[10px] font-medium tracking-[0.14em] uppercase text-[#3a3f4a]">Mirror Memory · Ancalagone</div>
+              {mirror && <span className="font-mono text-[9px] text-[#2a3040]">v{mirror.version}</span>}
+            </div>
+            {!mirror
+              ? <div className="font-mono text-[11px] text-[#2a3040] italic py-2">En attente d'Ancalagone...</div>
+              : <>
+                  <div className="bg-[#080a0f] border-l-2 border-[#534AB720] rounded-lg p-3.5 mb-3">
+                    <p className="text-[12px] text-[#5a6070] italic leading-relaxed">
+                      <span className="text-[#AFA9EC] not-italic font-medium">Ancalagone</span> — "{mirror.message_dragon}"
+                    </p>
+                  </div>
+                  {mirror.prediction_48h && (
+                    <div className="bg-[#080a0f] rounded-lg p-3 mb-3">
+                      <div className="font-mono text-[9px] text-[#2a3040] uppercase tracking-widest mb-1.5">Prédiction 48h</div>
+                      <p className="text-[11px] text-[#4a5060] leading-relaxed">{mirror.prediction_48h}</p>
+                    </div>
+                  )}
+                  {mirror.action_critique && (
+                    <div className="bg-[#0a1408] border border-[#1a2a10] rounded-lg p-3 mb-3">
+                      <div className="font-mono text-[9px] text-emerald-600 uppercase tracking-widest mb-1">Action critique</div>
+                      <p className="text-[11px] text-emerald-400/70">{mirror.action_critique}</p>
+                    </div>
+                  )}
+                  <div className="flex flex-wrap gap-2">
+                    {(mirror.niches_chaudes ?? []).slice(0,3).map((n,i) => (
+                      <span key={i} className="font-mono text-[9px] px-2 py-1 rounded bg-[#1a0d0d] text-red-400 border border-[#2a1010]">{n}</span>
+                    ))}
+                    {(mirror.niches_mortes ?? []).slice(0,2).map((n,i) => (
+                      <span key={i} className="font-mono text-[9px] px-2 py-1 rounded bg-[#0a1428] text-blue-400 border border-[#0d1e38]">{n} ✗</span>
+                    ))}
+                    <span className="font-mono text-[9px] px-2 py-1 rounded bg-[#14101a] text-[#AFA9EC] border border-[#201828]">{mirror.etat_swarm}</span>
+                  </div>
+                </>
+            }
+          </div>
+
+          {/* Contenus Nexo prêts */}
+          {contents.length > 0 && (
+            <div className="bg-[#0d0f14] border border-[#1a1d24] rounded-2xl p-5">
+              <div className="flex items-center justify-between mb-4">
+                <div className="text-[10px] font-medium tracking-[0.14em] uppercase text-[#3a3f4a]">Nexo · contenus prêts</div>
+                <button onClick={() => setShowContent(!showContent)} className="font-mono text-[9px] text-[#3a3f4a] hover:text-[#5a6070]">
+                  {showContent ? 'réduire' : `voir ${contents.length}`}
+                </button>
+              </div>
+              {showContent && (
+                <div className="flex flex-col gap-2 max-h-48 overflow-y-auto">
+                  {contents.map(c => (
+                    <div key={c.id} className="flex items-center justify-between px-3 py-2 bg-[#0a0c11] border border-[#1a1d24] rounded-xl">
+                      <div>
+                        <div className="text-[11px] text-[#d0d2d8] max-w-[220px] truncate">{c.angle_nexo}</div>
+                        <div className="font-mono text-[9px] text-[#2a3040] mt-0.5">{c.domain} · {c.meilleur_moment}</div>
+                      </div>
+                      <button onClick={() => markPosted(c.id)}
+                        className="font-mono text-[9px] px-2.5 py-1 bg-[#0a1f14] border border-[#0d2b1a] text-emerald-400 rounded-lg hover:bg-[#0f3320] transition-all flex-shrink-0">
+                        Posté ✓
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Live feed */}
+          <div className="bg-[#0d0f14] border border-[#1a1d24] rounded-2xl p-5 flex-1">
+            <div className="flex items-center justify-between mb-4">
+              <div className="text-[10px] font-medium tracking-[0.14em] uppercase text-[#3a3f4a]">Live feed</div>
+              <div className="flex items-center gap-2">
+                <div className={`w-1.5 h-1.5 rounded-full ${feedItems.length > 0 ? 'bg-emerald-500 animate-pulse' : 'bg-[#1e2028]'}`} />
+                <span className="font-mono text-[9px] text-[#2a3040]">{feedItems.length} événements</span>
+              </div>
+            </div>
+            <div className="flex flex-col gap-1.5 max-h-[380px] overflow-y-auto pr-1">
+              {feedItems.length === 0
+                ? <div className="font-mono text-[11px] text-[#2a3040] italic py-4">Feed vide — démarrer le swarm.</div>
+                : feedItems.map((item, i) => (
+                    <div key={item.id ?? i} className={`flex items-start gap-3 px-3 py-2 bg-[#0a0c11] rounded-lg border-l-2 ${feedClass(item.type)}`}>
+                      <span className="font-mono text-[9px] text-[#2a3040] whitespace-nowrap mt-0.5 flex-shrink-0">
+                        {new Date(item.created_at).toLocaleTimeString('fr-FR', { hour:'2-digit', minute:'2-digit', second:'2-digit' })}
+                      </span>
+                      <span className="text-[11px] text-[#5a6070] leading-relaxed">
+                        {item.message.replace(/^\[.*?\]\s*\d{2}:\d{2}:\d{2}\s*→\s*/, '')}
+                      </span>
+                    </div>
+                  ))
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Modal ajouter agent */}
+      {showModal && (
+        <div className="fixed inset-0 bg-[#08090c]/90 flex items-center justify-center z-50">
+          <div className="bg-[#0d0f14] border border-[#2a2d34] rounded-2xl p-6 w-80">
+            <h3 className="text-[14px] font-medium text-[#d0d2d8] mb-1">Nouvel agent</h3>
+            <p className="text-[12px] text-[#4a5060] mb-4 leading-relaxed">Agent expérimental — contrôle manuel via toggle.</p>
+            <input value={newName} onChange={e => setNewName(e.target.value)} placeholder="Nom de l'agent"
+              className="w-full bg-[#0a0c11] border border-[#2a2d34] rounded-xl px-3 py-2 text-[12px] font-mono text-[#d0d2d8] placeholder-[#2a3040] outline-none focus:border-[#2dca7240] mb-2" />
+            <input value={newScript} onChange={e => setNewScript(e.target.value)} placeholder="Script (ex: mon_agent.js)"
+              className="w-full bg-[#0a0c11] border border-[#2a2d34] rounded-xl px-3 py-2 text-[12px] font-mono text-[#d0d2d8] placeholder-[#2a3040] outline-none focus:border-[#2dca7240] mb-4" />
+            <div className="flex gap-2">
+              <button onClick={addAgent} className="flex-1 py-2 bg-[#0d2b1a] border border-[#1a4a2a] rounded-xl text-emerald-400 text-[12px] hover:bg-[#0f3320] transition-all">Ajouter</button>
+              <button onClick={() => setShowModal(false)} className="px-4 py-2 border border-[#2a2d34] rounded-xl text-[#4a5060] text-[12px] hover:border-[#3a3f4a] transition-all">Annuler</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

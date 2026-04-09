@@ -3854,3 +3854,31 @@
 ║             /api/leads · /api/trigger                       ║
 ╚══════════════════════════════════════════════════════════════╝
   
+
+
+[2026-04-09T12:48:18.497Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  
+
+
+[2026-04-09T12:54:17.041Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  

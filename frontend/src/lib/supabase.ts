@@ -22,7 +22,7 @@ if (!supabaseConfigured) {
     '⚠️ Supabase non configuré — mode démo actif.\n' +
     'Pour activer Supabase, crée src/.env.local avec :\n' +
     '  VITE_SUPABASE_URL=https://ton-projet.supabase.co\n' +
-    '  VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpkZ3duanF0cG1lZHpwcmd5cWphIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ1MzgxMjAsImV4cCI6MjA5MDExNDEyMH0.7d9_PYdEAv4Wlnx5sHm1SDm9nL1sYyP9mMpHvtf6gUY'
+    
   );
 }
 
@@ -41,4 +41,8 @@ export const CHANNELS = {
   AGENTS:    'swarm:agents',
   JOBS:      'swarm:video_jobs',
   ANALYTICS: 'swarm:analytics_gmv',
+  FEED:      'swarm:live_feed',
+  TRADER:    'swarm:trader_signals',
+  MIRROR:    'swarm:mirror_memory',
+  CONTENTS:  'swarm:generated_contents',
 } as const;

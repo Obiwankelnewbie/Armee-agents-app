@@ -21,11 +21,10 @@
 //   Version : 2.0 — Avril 2026
 // ═══════════════════════════════════════════════════════════════
 
-'use strict';
-require('dotenv').config();
-
-const { createClient }     = require('@supabase/supabase-js');
-const { execSync, spawn }  = require('child_process');
+import dotenv from 'dotenv';
+dotenv.config();
+import { createClient } from '@supabase/supabase-js';
+import { execSync, spawn } from 'child_process';
 
 // ═══════════════════════════════════════════════════════════════
 // ⚙️  CONFIG CENTRALISÉE

@@ -3882,3 +3882,58 @@
 ║             /api/leads · /api/trigger                       ║
 ╚══════════════════════════════════════════════════════════════╝
   
+
+
+[2026-04-09T13:04:39.874Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  
+
+
+[2026-04-09T13:20:13.558Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  
+
+
+[2026-04-09T13:24:04.756Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  
+
+
+[2026-04-09T13:49:04.891Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.1                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port  : 3000                                               ║
+║  LLM   : http://127.0.0.1:1234                              ║
+║  DB    : https://zdgwnjqtpmedzprgyqja.supabase.co           ║
+╚══════════════════════════════════════════════════════════════╝
+  

@@ -43,10 +43,9 @@
 //   Version : 2.0 — Avril 2026
 // ═══════════════════════════════════════════════════════════════
 
-'use strict';
-require('dotenv').config();
-
-const { createClient } = require('@supabase/supabase-js');
+import dotenv from 'dotenv';
+dotenv.config();
+import { createClient } from '@supabase/supabase-js';
 
 // ═══════════════════════════════════════════════════════════════
 // ⚙️  CONFIG

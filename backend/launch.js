@@ -45,7 +45,7 @@ const LAUNCH_SEQUENCE = [
     note:     'LLM gateway + API dashboard',
   },
   {
-    id:       'agent-ancalagone',
+    id:       'AGENT-ANCALAGONE-01',
     name:     '🐉 Ancalagone',
     script:   'ancalagone.js',
     delay:    10000,
@@ -54,7 +54,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Mémoire épisodique — démarre avant tout',
   },
   {
-    id:       'agent-argus',
+    id:       'AGENT-ARGUS-O1',
     name:     '🔭 Argus',
     script:   'argus.js',
     delay:    14000,
@@ -63,7 +63,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Scraping 35+ sources',
   },
   {
-    id:       'agent-general',
+    id:       'AGENT-GENERAL-01',
     name:     '🎖️  Le Général',
     script:   'le_general.js',
     delay:    17000,
@@ -72,7 +72,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Supervision · filtrage · routing',
   },
   {
-    id:       'agent-stratege',
+    id:       'AGENT-STRATEGE-01',
     name:     '⚔️  Le Stratège',
     script:   'le_stratege.js',
     delay:    20000,
@@ -81,7 +81,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Growth · War Room · contenu',
   },
   {
-    id:       'agent-nexo',
+    id:       'AGENT-NEXO-01',
     name:     '🌟 Nexo',
     script:   'nexo.js',
     delay:    23000,
@@ -90,7 +90,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Influenceur · leads · CRM',
   },
   {
-    id:       'agent-trader',
+    id:       'AGENT-TRADER-01',
     name:     '💹 Le Trader',
     script:   'le_trader.js',
     delay:    26000,
@@ -99,7 +99,7 @@ const LAUNCH_SEQUENCE = [
     note:     'Signaux privés · BUY/WAIT/SKIP',
   },
   {
-    id:       'agent-executor',
+    id:       'AGENT-EXECUTOR-01',
     name:     '⚡ L\'Executor',
     script:   'le_executor.js',
     delay:    29000,

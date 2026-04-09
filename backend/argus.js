@@ -5,11 +5,11 @@
 //   Version : 2.0 — Avril 2026
 // ═══════════════════════════════════════════════════════════════
 
-'use strict';
-require('dotenv').config();
+import dotenv from 'dotenv';
+dotenv.config();
+import { createClient } from '@supabase/supabase-js';
 
-const { createClient } = require('@supabase/supabase-js');
-const Parser           = require('rss-parser');
+import Parser from 'rss-parser';
 
 // ═══════════════════════════════════════════════════════════════
 // ⚙️  CONFIG & CONSTANTES

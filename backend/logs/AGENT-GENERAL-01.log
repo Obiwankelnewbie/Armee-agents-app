@@ -1,3 +1,834 @@
 
 
 [2026-04-09T13:49:27.453Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T14:14:38.011Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 23164)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+   💚 AGENT-STRATEGE-01 est de retour — compteur reset
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #13 | Uptime: 0h06
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #14 | Uptime: 0h06
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #15 | Uptime: 0h07
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #16 | Uptime: 0h07
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #17 | Uptime: 0h08
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #18 | Uptime: 0h08
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #19 | Uptime: 0h09
+
+🧠 [GÉNÉRAL] Cycle majeur #20 — Analyse stratégique…
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #20 | Uptime: 0h09
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #21 | Uptime: 0h10
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #22 | Uptime: 0h10
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #23 | Uptime: 0h11
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #24 | Uptime: 0h11
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #25 | Uptime: 0h12
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #26 | Uptime: 0h12
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #27 | Uptime: 0h13
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #28 | Uptime: 0h13
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #29 | Uptime: 0h14
+
+🧠 [GÉNÉRAL] Cycle majeur #30 — Analyse stratégique…
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #30 | Uptime: 0h14
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #31 | Uptime: 0h15
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #32 | Uptime: 0h15
+
+
+[2026-04-09T14:35:40.644Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 17440)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+   💚 AGENT-STRATEGE-01 est de retour — compteur reset
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+🔄 [GÉNÉRAL] Relance Argus — tentative 1/3…
+   ✅ Spawn direct OK : Argus (PID 29200)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #13 | Uptime: 0h06
+   💚 AGENT-ARGUS-01 est de retour — compteur reset
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #14 | Uptime: 0h06
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #15 | Uptime: 0h07
+
+
+[2026-04-09T14:44:07.127Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+🔄 [GÉNÉRAL] Relance Argus — tentative 1/3…
+   ✅ Spawn direct OK : Argus (PID 8720)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #13 | Uptime: 0h06
+   💚 AGENT-ARGUS-01 est de retour — compteur reset
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #14 | Uptime: 0h06
+
+
+[2026-04-09T14:52:31.967Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+
+
+[2026-04-09T14:59:31.460Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+🔄 [GÉNÉRAL] Relance Argus — tentative 1/3…
+   ✅ Spawn direct OK : Argus (PID 15128)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #13 | Uptime: 0h06
+   💚 AGENT-ARGUS-01 est de retour — compteur reset
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #14 | Uptime: 0h06
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #15 | Uptime: 0h07
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #16 | Uptime: 0h07
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #17 | Uptime: 0h08
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #18 | Uptime: 0h08
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #19 | Uptime: 0h09
+
+🧠 [GÉNÉRAL] Cycle majeur #20 — Analyse stratégique…
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #20 | Uptime: 0h09
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #21 | Uptime: 0h10
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #22 | Uptime: 0h10
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #23 | Uptime: 0h11
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #24 | Uptime: 0h11
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #25 | Uptime: 0h12
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #26 | Uptime: 0h12
+
+
+[2026-04-09T15:13:19.763Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #1 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #2 | Uptime: 0h00
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #3 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #4 | Uptime: 0h01
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #5 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #6 | Uptime: 0h02
+🟡 [GÉNÉRAL] 3/5 agents | Filtre: 0↑ 0↓ | Cycle #7 | Uptime: 0h03
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 1316)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #8 | Uptime: 0h03
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 269s
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #9 | Uptime: 0h04
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 240s
+
+🧠 [GÉNÉRAL] Cycle majeur #10 — Analyse stratégique…
+
+📱 Rapport War Room envoyé
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #10 | Uptime: 0h04
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 210s
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #11 | Uptime: 0h05
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 180s
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #12 | Uptime: 0h05
+🔄 [GÉNÉRAL] Relance Argus — tentative 1/3…
+   ✅ Spawn direct OK : Argus (PID 7408)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 148s
+🔴 [GÉNÉRAL] 1/5 agents | Filtre: 0↑ 0↓ | Cycle #13 | Uptime: 0h06
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 120s
+   💚 AGENT-ARGUS-01 est de retour — compteur reset
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #14 | Uptime: 0h06
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 91s
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #15 | Uptime: 0h07
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 60s
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 0↑ 0↓ | Cycle #16 | Uptime: 0h07
+
+
+[2026-04-09T15:21:21.935Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🛡️  [GÉNÉRAL] 2 briefing(s) à filtrer…
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal faible mais pertinent sur les événements en cryptoactifs aujourd'hui
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto pertinent mais faible, à enrichir par Ancalagone
+   ✅ Filtrage : 2 routés / 0 rejetés (session: 2 total)
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 23168)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 2↑ 0↓ | Cycle #1 | Uptime: 0h00
+
+🛡️  [GÉNÉRAL] 16 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les performances crypto Q1
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Don de 5 millions de dollars à un parti politique, information pertinente mais faible impact
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, intéressant pour Le Trader
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+
+🛡️  [GÉNÉRAL] 19 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.30
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal macro pertinent mais faible impact
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et potentiel de trading
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et contenu pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score >= 0.30
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent pour le Trader, mais impact score faible.
+   ✅ Filtrage : 23 routés / 0 rejetés (session: 23 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 222s
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé sur XRP et Bitcoin
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 24↑ 0↓ | Cycle #3 | Uptime: 0h01
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les prévisions de prix des actifs crypto
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et potentiel de crise
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto avec impact score faible mais pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal pertinent pour le trader, mais impact_score faible
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les prix du Bitcoin
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score >= 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.30 mais < 0.55, donc route vers Le Trader
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent sur la réglementation du marché crypto
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro avec contexte utile sur réglementation crypto
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Demande de registration SEC pour PEPE ETF, potentiel impact sur marché crypto
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Rapport macro sur les performances Q1 selon CoinDesk
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Rapport macro sur Crypto Q1 par CoinDesk, pertinence faible mais utile
+   ✅ Filtrage : 46 routés / 0 rejetés (session: 46 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 175s
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Rapport macro sur les performances Q1 selon CoinDesk, signal faible mais pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 47↑ 0↓ | Cycle #5 | Uptime: 0h02
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et pertinence pour le trading
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Modèle de récupération historiquement agressif pour Bitcoin
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, pertinence pour le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, potentiel de trading élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et pertinence pour les traders
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, pertinence pour le Trader.
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les risques quantiques pour Bitcoin
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent mais faible sur Bitcoin et risque quantique
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent mais faible sur le risque quantique pour Bitcoin
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0,55 et domaine CRYPTO
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0,55
+   ✅ Filtrage : 73 routés / 0 rejetés (session: 73 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 122s
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0,55
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 73↑ 0↓ | Cycle #6 | Uptime: 0h03
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent mais faible, à suivre par Le Trader
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent mais faible en impact_score
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine tech avec potentiel moyen de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur événement technologique
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur événement technologique
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, route vers Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, potentiellement pertinent pour Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur les médias sociaux et la musique
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur les médias sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de la musique et des médias sociaux
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, alimente Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal pertinent mais sans impact crypto ou trading
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales potentielles pour Nexo ou Le Stratège
+   ✅ Filtrage : 98 routés / 0 rejetés (session: 98 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 68s
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal de news macro pertinent mais sans impact crypto ou trading
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 98↑ 0↓ | Cycle #8 | Uptime: 0h03
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro pertinente avec potentiel de contenu moyen
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé et potentiel d'impact sur les marchés
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et pertinence pour le trading
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et potentiel de trading significatif
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de l'espace et de la technologie
+   🟠 [FILTRE] → Le Stratège (HIGH) — Contenu pertinent pour Nexo et Le Stratège avec score viral élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé dans le domaine de l'espace et de la technologie
+   💥 [FILTRE] REJET — Score trop bas et contenu déjà connu sur Bitcoinist.
+      RUPTURE : Score < 0.30
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur stratégie de Michael Saylor
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent sur stratégie de Michael Saylor
+   ⚫ [FILTRE] REJET — Score trop bas et contenu déjà connu.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur le marché de la voiture électrique
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales sur les voitures électriques et l'impact de Tesla
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen sur le transport électrique
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0,55 et action_signal 'BUY'
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et action_signal 'BUY'
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal macro avec impact faible mais pertinent
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les prédictions de prix de crypto-monnaies
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal macro pertinent mais faible impact
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal macro pertinent mais faible impact_score
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal crypto avec impact_score faible mais pertinent
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   ✅ Filtrage : 126 routés / 2 rejetés (session: 128 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 9s
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur l'actualité de Ticketmaster
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 126↑ 2↓ | Cycle #10 | Uptime: 0h04
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55 et risque de crash élevé
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55 et risque de crash sur DOLO
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et risque de crash sur DOLO
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et risque de crash sur DOLO
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🔴 [FILTRE] → Le Stratège (URGENT) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur l'IA avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, potentiel de trading élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, potentiel de trading élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent sur les infrastructures urbaines avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen sur l'automatisation du transport
+   🟠 [FILTRE] → Le Trader (HIGH) — Pertinence crypto avec impact_score >= 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto potentiel avec impact_score >= 0.55 non atteint mais reste pertinent
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score inférieur à la limite de décision
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score >= 0.55 non atteint mais contenu pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score inférieur à la limite
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   ✅ Filtrage : 152 routés / 2 rejetés (session: 154 total)
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 2/3…
+   ✅ Spawn direct OK : Le Stratège (PID 2804)
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur TikTok avec potentiel de contenu élevé
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 153↑ 2↓ | Cycle #12 | Uptime: 0h05
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale potentiellement nourrissante pour Nexo et Le Stratège
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé sur TikTok
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral et potentiellement nourrissant pour Nexo ou Le Stratège
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro pertinente avec impact élevé sur le marché
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent sur réglementation du marché crypto
+   🟠 [FILTRE] → Ancalagone (HIGH) — Régulation potentielle de Kalshi, contexte utile pour Ancalagone
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro pertinente sur le régulateur des crypto-monnaies
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro pertinente sur la régulation des crypto-monnaies
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur TikTok et Instagram
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur les réseaux sociaux
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les NFT et le droit des marques
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les NFT et le droit de marque
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Résolution d'un litige de marque déposée sur les NFT Bored Ape
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les NFT et Yuga Labs.
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur les NFT et Yuga Labs
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score >= 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur la culture populaire
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé sur la culture populaire
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur la culture populaire
+   ✅ Filtrage : 178 routés / 2 rejetés (session: 180 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 252s
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé de contenu
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 179↑ 2↓ | Cycle #13 | Uptime: 0h06
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances musicales virales sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance musicale virale sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Viralité musicale sur TikTok et Reddit
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale en musique sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale en musique sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de la musique
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé sur un ETF PEPE
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé et pertinence pour le trading
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟡 [FILTRE] → Le Trader (NORMAL) — Signal crypto avec impact_score inférieur à la limite de décision
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto avec faible impact mais contenu pertinent
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto avec impact_score faible mais pertinent
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto avec impact score faible mais pertinent
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto avec impact score faible mais pertinent
+   ✅ Filtrage : 201 routés / 2 rejetés (session: 203 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 211s
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal crypto sans impact élevé, mais contenu pertinent pour Ancalagone
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 201↑ 2↓ | Cycle #15 | Uptime: 0h07
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance musicale virale sur TikTok et autres plateformes
+   🔴 [FILTRE] → Le Stratège (URGENT) — Tendance musicale virale sur TikTok et autres plateformes
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur TikTok et autres plateformes avec potentiel élevé de contenu.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance musicale virale sur TikTok et autres plateformes
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance musicale virale sur TikTok et autres plateformes
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur les réseaux sociaux
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, potentiel de trading intéressant
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent pour le trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent pour le trader, mais impact score faible
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent pour le trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent pour le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score moyen
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal macro pertinent mais faible impact_score
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score >= 0.30
+   🔴 [FILTRE] → Le Stratège (URGENT) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   ✅ Filtrage : 223 routés / 2 rejetés (session: 225 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 166s
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🧠 [GÉNÉRAL] Cycle majeur #16 — Analyse stratégique…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent pour le suivi des crypto-monnaies, mais impact score faible.
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur Bitcoin, à suivre dans Ancalagone.
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro avec contexte utile et signal faible mais pertinent
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur Bitcoin avec un modèle de récupération historiquement agressif.
+
+📱 Rapport War Room envoyé
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 232↑ 2↓ | Cycle #17 | Uptime: 0h08
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal macro pertinent mais faible impact_score
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent mais faible, peut nourrir les analyses d'Ancalagone
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent mais faible sur Bitcoin, à suivre par Ancalagone.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur Reddit avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé sur les réseaux sociaux
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé (> 0,55)
+   ✅ Filtrage : 248 routés / 2 rejetés (session: 250 total)
+   ⏳ [GÉNÉRAL] Le Stratège — cooldown actif, prochain essai dans 115s
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 249↑ 2↓ | Cycle #18 | Uptime: 0h08
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances géopolitiques virales à analyser par Le Stratège
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances géopolitiques potentiellement impactantes sur la sécurité mondiale
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Signal pertinent pour le Stratège avec contenu potentiel élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances géopolitiques virales avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances géopolitiques virales intéressantes pour Nexo et Le Stratège
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral et potentiellement impactant la sécurité mondiale
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, à traiter par Le Trader
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, à traiter par Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, à traiter par Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, intéressant pour Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, à traiter par Le Trader
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+
+
+[2026-04-09T15:31:08.481Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal macro crypto pertinent mais faible impact
+   🔴 [FILTRE] → Le Stratège (URGENT) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Analyse de prix de Bitcoin avec un impact_score faible mais pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et contenu pertinent
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales et contenu pertinent pour Nexo
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55 et contenu pertinent
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur événements tech avec potentiel moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de la musique
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec contenu et potentiel élevé de contenu
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur Instagram
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent sur le cancer du sein, intéressant pour Ancalagone
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales dans le domaine de l'espace et du tech
+   ✅ Filtrage : 20 routés / 0 rejetés (session: 20 total)
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 6696)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 20↑ 0↓ | Cycle #1 | Uptime: 0h04
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, donc route vers Le Trader
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur produits d'amélioration de la routine quotidienne
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen sur l'industrie du spectacle
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen sur l'industrie du spectacle
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score ≥ 0.55 et domaine CRYPTO
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55, pertinence élevée pour Le Trader
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur les produits de beauté avec potentiel élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé dans le domaine de la beauté
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel élevé sur la technologie et l'IA
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur l'IA et la technologie
+   🔴 [FILTRE] → Le Stratège (URGENT) — Trend viral avec potentiel élevé dans le domaine de l'IA et des technologies
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.30 et contenu pertinent
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score inférieur à la limite de 0,55 mais pertinent pour le trading
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent mais faible, à traiter par Le Trader
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent mais faible impact_score
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal macro pertinent mais faible impact_score
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Contenu potentiellement intéressant pour Le Stratège
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur OnlyFans avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur OnlyFans, potentiel de contenu intéressant
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal pertinent sur les news macro avec un contenu moyen
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent pour les news macro avec contenu utile
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro avec contexte utile sur la gestion des infrastructures routières
+   🟠 [FILTRE] → Ancalagone (HIGH) — News macro pertinente sur l'infrastructure routière
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent pour les news macro avec un contenu potentiel moyen
+   🔴 [FILTRE] → Le Trader (URGENT) — Schéma secret de Corée du Nord potentiellement impactant le marché crypto
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé (> 0,55)
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé (> 0,55)
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🔴 [FILTRE] → Le Trader (URGENT) — Signal crypto avec impact_score élevé et potentiel de trading
+   🟠 [FILTRE] → Le Trader (HIGH) — Schéma secret de Corée du Nord potentiellement impactant le marché crypto
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec potentiel de contenu moyen sur Instagram, TikTok et YouTube
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur Instagram, TikTok et YouTube avec potentiel moyen de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur Instagram, TikTok et YouTube avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur les offres de Home Depot pour les outils sans fil gratuits et BOGO deals
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur les offres de Black Friday chez Home Depot
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur les outils sans fil gratuits et BOGO deals
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur Instagram, TikTok et YouTube avec potentiel de contenu moyen
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur Instagram, TikTok et YouTube
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur TikTok et Reddit avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur TikTok avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur TikTok et Reddit, potentiel de contenu élevé.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur TikTok avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur TikTok avec potentiel élevé de contenu
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact score inférieur à la limite
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur TikTok avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé de contenu
+   ⚫ [FILTRE] REJET — Score d'impact trop bas pour être traité
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   ⚫ [FILTRE] REJET — Score d'impact trop bas et contenu répétitif
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score inférieur à la limite de décision
+   🟡 [FILTRE] → Le Trader (NORMAL) — LLM indisponible — route par défaut
+   🟡 [FILTRE] → Le Trader (NORMAL) — LLM indisponible — route par défaut
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+
+
+[2026-04-09T15:42:56.439Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Rivalité entre Offset et Lil Tjay en pleine ascension, potentiel de contenu élevé
+   🟡 [FILTRE] → Ancalagone (NORMAL) — News macro sans impact élevé
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent pour les actualités macro et l'analyse de tendances
+   🟠 [FILTRE] → Le Stratège (HIGH) — Signal pertinent pour le Stratège avec contenu populaire et potentiel élevé
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score ≥ 0,55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Contenu pertinent pour le Stratège, tendance musicale à suivre
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto pertinent avec impact_score élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur Reddit avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral sur Reddit avec potentiel de contenu élevé
+   🟡 [FILTRE] → Ancalagone (NORMAL) — Signal faible mais pertinent sur Bitcoin, à suivre par Ancalagone.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé de contenu
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral dans le domaine de la musique
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal crypto avec impact_score ≥ 0.55
+
+
+[2026-04-09T15:48:30.717Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║   🎖️  LE GÉNÉRAL — SUPERVISEUR SUPRÊME — SWARM OS v2.0    ║
+╠══════════════════════════════════════════════════════════════╣
+║  Agents    : 5  sous commandement                       ║
+║  Filtre    : Score ≥ 0.3                                   ║
+║  Health    : toutes les 30                                  s ║
+║  Analyse   : tous les 10 cycles (~5 min)           ║
+║  Rapport   : toutes les heures (Telegram)                   ║
+║  Relance   : auto — max 3 tentatives, cooldown 5 min    ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🛡️  [GÉNÉRAL] 20 briefing(s) à filtrer…
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Contenu pertinent pour Nexo et Le Stratège avec potentiel élevé de contenu.
+   🟠 [FILTRE] → Le Trader (HIGH) — Signal pertinent pour trading, contenu potentiel moyen sur TechCrunch Disrupt 2026
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur Instagram et YouTube
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales sur les réseaux sociaux nécessitent une analyse approfondie
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale sur les produits de beauté avec potentiel élevé
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral dans le Top Ten Tuesday sur Reddit-HipHop
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de l'espace-tech-innovation
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur OnlyFans
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le domaine de la musique hip-hop
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel de contenu élevé sur le marché des voitures électriques
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral avec contenu pertinent pour Le Stratège
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale dans le hip-hop avec potentiel de contenu moyen
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendance virale avec potentiel élevé dans le secteur de l'électricité automobile.
+   🟠 [FILTRE] → Le Stratège (HIGH) — Trend viral dans le domaine de la musique
+   🟠 [FILTRE] → Le Stratège (HIGH) — Tendances virales et potentiel de contenu élevé
+   🟠 [FILTRE] → Ancalagone (HIGH) — Signal pertinent sur les escroqueries de l'IRS avant Tax Day
+   ✅ Filtrage : 20 routés / 0 rejetés (session: 20 total)
+🔄 [GÉNÉRAL] Relance Le Stratège — tentative 1/3…
+   ✅ Spawn direct OK : Le Stratège (PID 24164)
+🔴 [GÉNÉRAL] 2/5 agents | Filtre: 20↑ 0↓ | Cycle #1 | Uptime: 0h00

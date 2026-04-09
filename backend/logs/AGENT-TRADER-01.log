@@ -1,3 +1,49 @@
 
 
 [2026-04-09T13:49:42.522Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T14:14:53.070Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+[2026-04-09T14:35:55.717Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+
+[2026-04-09T14:44:22.178Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+
+[2026-04-09T14:52:47.029Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+
+[2026-04-09T14:56:39.418Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+
+[2026-04-09T14:58:06.704Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+
+[2026-04-09T14:59:46.519Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+
+[2026-04-09T15:10:08.789Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T15:13:34.835Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T15:21:36.996Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T15:31:23.553Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T15:43:11.517Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T15:48:45.780Z] ═══ DÉMARRAGE ═══

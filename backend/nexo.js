@@ -49,6 +49,7 @@
 //   Version : 2.0 — Avril 2026
 // ═══════════════════════════════════════════════════════════════
 
+'use strict';
 import dotenv from 'dotenv';
 dotenv.config();
 import { createClient } from '@supabase/supabase-js';
@@ -948,7 +949,7 @@ process.on('unhandledRejection', async (reason) => {
 process.on('SIGINT',  () => gracefulShutdown('SIGINT'));
 process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
 
-if (require.main === module) {
+if (import.meta.url === new URL(process.argv[1], "file:").href) {
   start().catch(async (err) => {
     console.error('💀 Nexo s\'effondre :', err);
     await logToFeed('NEXO_ERROR', `Erreur fatale : ${err.message}`);
@@ -958,20 +959,3 @@ if (require.main === module) {
 
 module.exports = { mainLoop, runNicheScout, runInboxMode };
 
-// ═══════════════════════════════════════════════════════════════
-// 📋  MIGRATION SQL SUPABASE
-// ═══════════════════════════════════════════════════════════════
-//
-// -- Champ niche sur leads (si pas déjà présent)
-// ALTER TABLE leads ADD COLUMN IF NOT EXISTS niche TEXT;
-//
-// -- Index pour anti-redondance scout
-// CREATE INDEX IF NOT EXISTS idx_leads_nexo_scout
-//   ON leads (source, created_at DESC)
-//   WHERE source = 'NEXO_SCOUT';
-//
-// -- Champ lead_id sur live_feed_events (si pas déjà présent)
-// ALTER TABLE live_feed_events ADD COLUMN IF NOT EXISTS lead_id UUID;
-// ALTER TABLE live_feed_events ADD COLUMN IF NOT EXISTS metadata JSONB;
-//
-// ═══════════════════════════════════════════════════════════════

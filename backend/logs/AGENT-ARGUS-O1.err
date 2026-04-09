@@ -10,3 +10,1413 @@ This file is being treated as an ES module because it has a '.js' file extension
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
 
 Node.js v24.14.1
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:2004) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Deals] Status code 403
+   ⚠️  [Reddit-Sneakers] Status code 403
+   ⚠️  [Reddit-Frugal] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Entrepreneur] Status code 403
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:21168) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Deals] Status code 403
+   ⚠️  [Reddit-Sneakers] Status code 403
+   ⚠️  [Reddit-Frugal] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Entrepreneur] Status code 403
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:18464) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Deals] Status code 403
+   ⚠️  [Reddit-Sneakers] Status code 403
+   ⚠️  [Reddit-Frugal] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Entrepreneur] Status code 403
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:25476) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Deals] Status code 403
+   ⚠️  [Reddit-Sneakers] Status code 403
+   ⚠️  [Reddit-Frugal] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Entrepreneur] Status code 403
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:13588) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Deals] Status code 403
+   ⚠️  [Reddit-Sneakers] Status code 403
+   ⚠️  [Reddit-Frugal] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Entrepreneur] Status code 403
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-World] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-Futurology] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:17364) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-TikTokTrends] Status code 403
+   ⚠️  [Reddit-Viral] Status code 403
+   ⚠️  [Reddit-PopCulture] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-InternetIsBeautiful] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reddit-HipHop] Status code 403
+   ⚠️  [Reddit-Music] Status code 403
+   ⚠️  [Reddit-EDM] Status code 403
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [Reuters-Tech] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  [Reuters-Business] getaddrinfo ENOTFOUND feeds.reuters.com
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  [HackerNews] Request timed out after 15000ms
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+   ⚠️  Tentative 1/2 — fetch failed
+   ⚠️  Tentative 2/2 — fetch failed
+(node:28340) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — JSON non parsable
+   ⚠️  Tentative 2/2 — JSON non parsable
+   ⚠️  Tentative 1/2 — JSON non parsable
+   ⚠️  Tentative 2/2 — JSON non parsable
+   ⚠️  Tentative 1/2 — JSON non parsable
+   ⚠️  Tentative 2/2 — JSON non parsable
+(node:12068) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+   ⚠️  Tentative 1/2 — timeout
+   ⚠️  Tentative 2/2 — timeout
+   ⚠️  [CryptoSlate] Status code 403
+   ⚠️  [DeFiPulse-Blog] Status code 404
+   ⚠️  Tentative 1/2 — timeout
+   ⚠️  Tentative 2/2 — timeout
+(node:21140) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:3412) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)

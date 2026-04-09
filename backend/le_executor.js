@@ -44,7 +44,9 @@
 // ═══════════════════════════════════════════════════════════════
 
 import dotenv from 'dotenv';
+
 dotenv.config();
+
 import { createClient } from '@supabase/supabase-js';
 
 // ═══════════════════════════════════════════════════════════════
@@ -634,7 +636,7 @@ process.on('unhandledRejection', async (reason) => {
 process.on('SIGINT',  () => gracefulShutdown('SIGINT'));
 process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
 
-if (require.main === module) {
+if (import.meta.url === new URL(process.argv[1], "file:").href) {
   start().catch(async (err) => {
     console.error('💀 L\'Executor s\'effondre :', err);
     await logToFeed('EXECUTOR_ERROR', `Erreur fatale : ${err.message}`);
@@ -643,4 +645,6 @@ if (require.main === module) {
 }
 
 module.exports = { executeAction };
+
+
 

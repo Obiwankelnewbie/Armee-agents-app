@@ -1,3 +1,370 @@
 
 
 [2026-04-09T13:49:14.926Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T14:14:25.483Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #2
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+
+[2026-04-09T14:35:28.100Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T14:43:54.590Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T14:52:19.434Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T14:59:18.914Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T15:13:07.211Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T15:21:09.408Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T15:30:55.924Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T15:42:43.903Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente
+
+
+[2026-04-09T15:48:18.174Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║        🐉  A N C A L A G O N E  —  v2.0                  ║
+║            Dragon de Mémoire — Swarm OS                     ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  POSITION      : #1 — Priorité absolue                      ║
+║  Mémoire       : Épisodique sémantique — 30 jours           ║
+║  Apprentissage : Toutes les 15 min                          ║
+║  Recalibration : Toutes les heures                          ║
+║  Mirror Memory : Toutes les 30 min                          ║
+║  Profondeur    : 300 épisodes analysés             ║
+║                                                              ║
+║  "Il ne réagit pas. Il se souvient. Et il prédit."          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+────────────────────────────────────────────────────────────
+🐉 [ANCALAGONE] Cycle d'apprentissage #1
+────────────────────────────────────────────────────────────
+
+🧠 [ANCALAGONE] Construction mémoire épisodique…
+   ✅ 0 nouveaux épisodes mémorisés (0 trades · 0 leads · 0 contenus)
+
+📈 [ANCALAGONE] Calcul du scoring adaptatif…
+   ⚠️  Pas assez de mémoires pour calibrer
+
+🔮 [ANCALAGONE] Mise à jour Mirror Memory…
+   ⏳ 0/8 épisodes requis — Mirror en attente

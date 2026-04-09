@@ -1,3 +1,55 @@
 
 
 [2026-04-09T13:49:47.554Z] ═══ DÉMARRAGE ═══
+
+
+[2026-04-09T14:14:58.096Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+
+[2026-04-09T14:36:00.740Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+[2026-04-09T14:44:27.195Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+
+[2026-04-09T14:52:52.040Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+
+[2026-04-09T14:56:44.432Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+
+
+[2026-04-09T14:58:11.717Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+
+
+[2026-04-09T14:59:51.544Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+[2026-04-09T15:10:13.814Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+
+
+[2026-04-09T15:13:39.845Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+[2026-04-09T15:21:42.010Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+
+[2026-04-09T15:31:28.565Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+
+[2026-04-09T15:43:16.542Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+
+[2026-04-09T15:48:50.803Z] ═══ DÉMARRAGE ═══
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }

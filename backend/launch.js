@@ -1,131 +1,117 @@
 #!/usr/bin/env node
 // ═══════════════════════════════════════════════════════════════
-//   ⚡  SWARM OS — LAUNCHER
+//   ⚡  SWARM OS — LAUNCHER v2.0
 //   Un seul script. Tout démarre dans le bon ordre.
-//   Usage : node launch.js
-//           node launch.js --stop
-//           node launch.js --status
+//
+//   Usage :
+//     node launch.js            → démarrer tout
+//     node launch.js --stop     → arrêter tout
+//     node launch.js --status   → voir l'état
+//     node launch.js --restart  → stop + start
 // ═══════════════════════════════════════════════════════════════
 
-'use strict';
 import 'dotenv/config';
-import { spawn, execSync } from 'child_process';
-import path from 'path';
-import fs from 'fs';
-import readline from 'readline';
-import { fileURLToPath } from 'url';
+import { spawn }          from 'child_process';
+import path               from 'path';
+import fs                 from 'fs';
+import { fileURLToPath }  from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-// ─── CONFIG ───────────────────────────────────────────────────
-
-const SWARM_DIR = process.cwd();
-const LOG_DIR   = path.join(SWARM_DIR, 'logs');
-const PID_FILE  = path.join(SWARM_DIR, '.swarm.pids');
+const __dirname  = path.dirname(fileURLToPath(import.meta.url));
+const SWARM_DIR  = process.cwd();
+const LOG_DIR    = path.join(SWARM_DIR, 'logs');
+const PID_FILE   = path.join(SWARM_DIR, '.swarm.pids');
 
 if (!fs.existsSync(LOG_DIR)) fs.mkdirSync(LOG_DIR, { recursive: true });
 
-// Ordre de lancement — CRITIQUE : ne pas changer
+// ═══════════════════════════════════════════════════════════════
+// SÉQUENCE DE LANCEMENT — ordre critique respecté
+//
+// Règle : Ancalagone EN PREMIER (mémoire du swarm)
+//         Serveur EN SECOND (LLM gateway)
+//         Argus EN TROISIÈME (scraping)
+//         Le Général EN QUATRIÈME (filtre)
+//         Agents offensifs ENSUITE
+// ═══════════════════════════════════════════════════════════════
+
 const LAUNCH_SEQUENCE = [
   {
-    id:      'swarm-server',
-    name:    '🧠 Swarm Server',
-    script:  'swarm-server.js',
-    delay:   0,
-    waitMs:  10000,   // attendre qu'il soit prêt avant de continuer
-    health: `http://127.0.0.1:${process.env.PORT || 3000}/`,
+    id:       'swarm-server',
+    name:     '🔷 Swarm Server',
+    script:   'server.js',
+    delay:    0,
+    waitMs:   8000,
+    health:   `http://127.0.0.1:${process.env.PORT || 3000}/status`,
     critical: true,
+    note:     'LLM gateway + API dashboard',
   },
   {
-    id:      'agent-media',
-    name:    '📡 Agent Média RSS',
-    script:  'agent_media.js',
-    delay:   12000,
-    waitMs:  2000,
+    id:       'agent-ancalagone',
+    name:     '🐉 Ancalagone',
+    script:   'ancalagone.js',
+    delay:    10000,
+    waitMs:   3000,
+    critical: true,
+    note:     'Mémoire épisodique — démarre avant tout',
+  },
+  {
+    id:       'agent-argus',
+    name:     '🔭 Argus',
+    script:   'argus.js',
+    delay:    14000,
+    waitMs:   2500,
+    critical: true,
+    note:     'Scraping 35+ sources',
+  },
+  {
+    id:       'agent-general',
+    name:     '🎖️  Le Général',
+    script:   'le_general.js',
+    delay:    17000,
+    waitMs:   2000,
+    critical: true,
+    note:     'Supervision · filtrage · routing',
+  },
+  {
+    id:       'agent-stratege',
+    name:     '⚔️  Le Stratège',
+    script:   'le_stratege.js',
+    delay:    20000,
+    waitMs:   2000,
     critical: false,
+    note:     'Growth · War Room · contenu',
   },
   {
-    id:      'agent-sauron',
-    name:    "👁️  Œil de Sauron",
-    script:  'agent_sauron.js',
-    delay:   14000,
-    waitMs:  2000,
-    critical: true,
-  },
-  {
-    id:      'agent-sentinelle',
-    name:    '🛡️  Sentinelle',
-    script:  'agent_sentinelle_v2.js',
-    delay:   15000,
-    waitMs:  1500,
-    critical: true,
-  },
-  {
-    id:      'agent-trader',
-    name:    '💹 Trader',
-    script:  'agent_trader.js',
-    delay:   16000,
-    waitMs:  1500,
-    critical: true,
-  },
-  {
-    id:      'agent-executor',
-    name:    '⚡ Executor Base',
-    script:  'agent_executor.js',
-    delay:   17000,
-    waitMs:  1500,
-    critical: true,
-  },
-  {
-    id:      'agent-contenu sauron',
-    name:    '✍️  Agent Contenu',
-    script:  'agent_contenu_sauron.js',
-    delay:   18000,
-    waitMs:  2000,
+    id:       'agent-nexo',
+    name:     '🌟 Nexo',
+    script:   'nexo.js',
+    delay:    23000,
+    waitMs:   2000,
     critical: false,
+    note:     'Influenceur · leads · CRM',
   },
   {
-    id:      'agent-nexus',
-    name:    '📋 Supervisor crm',
-    script:  'agent_nexus.js',
-    delay:   19000,
-    waitMs:  2000,
+    id:       'agent-trader',
+    name:     '💹 Le Trader',
+    script:   'le_trader.js',
+    delay:    26000,
+    waitMs:   2000,
     critical: false,
+    note:     'Signaux privés · BUY/WAIT/SKIP',
   },
   {
-    id:      'agent-main sauron',
-    name:    '🖐️  Main de Sauron',
-    script:  'agent_main_sauron.js',
-    delay:   20000,
-    waitMs:  2000,
-    critical: true,
-  },
-  {
-    id:      'agent-gandalf',
-    name:    '🧙 Gandalf',
-    script:  'gandalf.js',
-    delay:   21000,
-    waitMs:  2000,
+    id:       'agent-executor',
+    name:     '⚡ L\'Executor',
+    script:   'le_executor.js',
+    delay:    29000,
+    waitMs:   1500,
     critical: false,
-  },
-  {
-    id:      'agent-morgoth',
-    name:    '🌑 Morgoth',
-    script:  'morgoth.js',
-    delay:   24000,
-    waitMs:  2000,
-    critical: true,
-  },
-  {
-    id:      'agent-ancalagon',
-    name:    '🐉 Ancalagon',
-    script:  'ancalagon.js',
-    delay:   27000,
-    waitMs:  2000,
-    critical: false,
+    note:     'Actions · DM · trades',
   },
 ];
 
-// ─── UTILS ────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════════════
 
 const sleep  = (ms) => new Promise(r => setTimeout(r, ms));
 const cyan   = (s)  => `\x1b[36m${s}\x1b[0m`;
@@ -140,26 +126,30 @@ function clearLine() { process.stdout.write('\r\x1b[K'); }
 function printBanner() {
   console.log(`
 ${cyan('╔══════════════════════════════════════════════════════════════╗')}
-${cyan('║')}   ${bold('🌑  SWARM OS — LAUNCHER  v1.0')}                              ${cyan('║')}
+${cyan('║')}   ${bold('🌑  SWARM OS — LAUNCHER  v2.0')}                              ${cyan('║')}
 ${cyan('╠══════════════════════════════════════════════════════════════╣')}
-${cyan('║')}  ${dim('12 agents · démarrage séquentiel · ordre critique')}           ${cyan('║')}
+${cyan('║')}  ${dim(`${LAUNCH_SEQUENCE.length} agents · démarrage séquentiel · ordre critique`)}         ${cyan('║')}
 ${cyan('║')}  ${dim('Logs → ./logs/  ·  PIDs → .swarm.pids')}                       ${cyan('║')}
 ${cyan('╚══════════════════════════════════════════════════════════════╝')}
 `);
 }
 
-async function healthCheck(url, retries = 5) {
+// Health check avec retry
+async function healthCheck(url, retries = 8, intervalMs = 1500) {
   for (let i = 0; i < retries; i++) {
     try {
       const res = await fetch(url, { signal: AbortSignal.timeout(4000) });
       if (res.ok) return true;
     } catch {}
-    await sleep(1000);
+    await sleep(intervalMs);
+    process.stdout.write('.');
   }
   return false;
 }
 
-// ─── PIDS ─────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// GESTION DES PIDs
+// ═══════════════════════════════════════════════════════════════
 
 function savePid(id, pid) {
   let pids = {};
@@ -169,27 +159,30 @@ function savePid(id, pid) {
 }
 
 function loadPids() {
-  try { return JSON.parse(fs.readFileSync(PID_FILE, 'utf8')); }
-  catch { return {}; }
+  try { return JSON.parse(fs.readFileSync(PID_FILE, 'utf8')); } catch { return {}; }
 }
 
 function isRunning(pid) {
-  try { process.kill(pid, 0); return true; }
-  catch { return false; }
+  try { process.kill(pid, 0); return true; } catch { return false; }
 }
 
-// ─── LAUNCH ───────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// LANCEMENT D'UN AGENT
+// ═══════════════════════════════════════════════════════════════
 
 async function launchAgent(agent) {
   const scriptPath = path.join(SWARM_DIR, agent.script);
 
   if (!fs.existsSync(scriptPath)) {
-    console.log(`  ${yellow('⚠')}  ${agent.name} ${dim(`→ ${agent.script} introuvable — ignoré`)}`);
-    return null;
+    return { pid: null, error: 'script introuvable' };
   }
 
   const logOut = fs.openSync(path.join(LOG_DIR, `${agent.id}.log`), 'a');
   const logErr = fs.openSync(path.join(LOG_DIR, `${agent.id}.err`), 'a');
+
+  // Timestamp dans les logs
+  const ts = new Date().toISOString();
+  fs.writeSync(logOut, `\n\n[${ts}] ═══ DÉMARRAGE ═══\n`);
 
   const child = spawn('node', [scriptPath], {
     detached: true,
@@ -200,44 +193,49 @@ async function launchAgent(agent) {
 
   child.unref();
   savePid(agent.id, child.pid);
-
-  return child.pid;
+  return { pid: child.pid, error: null };
 }
 
-// ─── START ALL ────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// DÉMARRER TOUT
+// ═══════════════════════════════════════════════════════════════
 
 async function startAll() {
   printBanner();
-  console.log(bold(`Démarrage de ${LAUNCH_SEQUENCE.length} agents...\n`));
 
-  const pids = loadPids();
+  const pids    = loadPids();
   const results = [];
+  let   lastDelay = 0;
 
   for (const agent of LAUNCH_SEQUENCE) {
-    // Check si déjà en vie
+
+    // Déjà en cours ?
     if (pids[agent.id] && isRunning(pids[agent.id])) {
-      console.log(`  ${green('●')} ${agent.name.padEnd(28)} ${dim(`déjà actif (PID ${pids[agent.id]})`)}`);
+      console.log(`  ${green('●')} ${agent.name.padEnd(26)} ${dim(`déjà actif (PID ${pids[agent.id]})`)}`);
       results.push({ ...agent, status: 'ALREADY_RUNNING' });
+      lastDelay = agent.delay;
       continue;
     }
 
-    // Attente avant lancement
-    if (agent.delay > 0) {
-      const elapsed = agent.delay / 1000;
-      process.stdout.write(`  ${dim('○')} ${agent.name.padEnd(28)} ${dim(`attente ${elapsed}s...`)}`);
-      await sleep(agent.delay - (results.length > 0 ? LAUNCH_SEQUENCE[results.length-1]?.delay || 0 : 0));
+    // Attente relative entre agents
+    const relDelay = agent.delay - lastDelay;
+    if (relDelay > 0) {
+      process.stdout.write(`  ${dim('○')} ${agent.name.padEnd(26)} ${dim(`attente ${(relDelay/1000).toFixed(0)}s`)}`);
+      await sleep(relDelay);
       clearLine();
     }
 
-    process.stdout.write(`  ${cyan('◎')} ${agent.name.padEnd(28)} ${dim('démarrage...')}`);
+    lastDelay = agent.delay;
 
-    const pid = await launchAgent(agent);
+    process.stdout.write(`  ${cyan('◎')} ${agent.name.padEnd(26)} ${dim('démarrage...')}`);
+
+    const { pid, error } = await launchAgent(agent);
 
     if (!pid) {
       clearLine();
-      console.log(`  ${red('✗')} ${agent.name.padEnd(28)} ${red('script introuvable')}`);
+      console.log(`  ${yellow('⚠')}  ${agent.name.padEnd(26)} ${yellow(error ?? 'échec')}`);
       if (agent.critical) {
-        console.log(`\n  ${red('ARRÊT')} : agent critique manquant — ${agent.name}`);
+        console.log(`\n  ${red('ARRÊT CRITIQUE')} : ${agent.name} est requis.\n`);
         process.exit(1);
       }
       results.push({ ...agent, status: 'MISSING' });
@@ -246,13 +244,16 @@ async function startAll() {
 
     // Health check si URL définie
     if (agent.health) {
-      process.stdout.write(`  ${cyan('◎')} ${agent.name.padEnd(28)} ${dim('health check...')}`);
+      process.stdout.write(`  ${cyan('◎')} ${agent.name.padEnd(26)} ${dim('health check')}`);
       const ok = await healthCheck(agent.health);
       clearLine();
       if (!ok) {
-        console.log(`  ${red('✗')} ${agent.name.padEnd(28)} ${red(`health check échoué (PID ${pid})`)}`);
-        if (agent.critical) { console.log(`\n  ${red('ARRÊT')} : serveur critique inaccessible.`); process.exit(1); }
-        results.push({ ...agent, status: 'UNHEALTHY' });
+        console.log(`  ${red('✗')} ${agent.name.padEnd(26)} ${red(`health check échoué (PID ${pid})`)}`);
+        if (agent.critical) {
+          console.log(`\n  ${red('ARRÊT')} : serveur critique inaccessible.\n`);
+          process.exit(1);
+        }
+        results.push({ ...agent, pid, status: 'UNHEALTHY' });
         continue;
       }
     } else {
@@ -260,43 +261,55 @@ async function startAll() {
     }
 
     clearLine();
-    console.log(`  ${green('✓')} ${agent.name.padEnd(28)} ${dim(`PID ${pid}`)}`);
+    const noteStr = agent.note ? dim(` · ${agent.note}`) : '';
+    console.log(`  ${green('✓')} ${agent.name.padEnd(26)} ${dim(`PID ${pid}`)}${noteStr}`);
     results.push({ ...agent, pid, status: 'STARTED' });
   }
 
   // ── Résumé ────────────────────────────────────────────────
-  const ok      = results.filter(r => r.status === 'STARTED' || r.status === 'ALREADY_RUNNING').length;
-  const failed  = results.filter(r => r.status === 'MISSING' || r.status === 'UNHEALTHY').length;
+  const ok     = results.filter(r => ['STARTED','ALREADY_RUNNING'].includes(r.status)).length;
+  const failed = results.filter(r => ['MISSING','UNHEALTHY'].includes(r.status)).length;
+  const total  = LAUNCH_SEQUENCE.length;
 
   console.log(`
 ${cyan('─'.repeat(62))}
-  ${green('✓')} ${ok} agents actifs   ${failed > 0 ? red(`✗ ${failed} en erreur`) : ''}
-  ${dim('Logs disponibles dans ./logs/')}
-  ${dim('Arrêt : node launch.js --stop')}
+  ${green(`✓ ${ok}/${total} agents actifs`)}${failed > 0 ? `   ${red(`✗ ${failed} en erreur`)}` : ''}
+  ${dim('Logs : ./logs/<agent-id>.log')}
+  ${dim('Stop : node launch.js --stop')}
 ${cyan('─'.repeat(62))}
 `);
 
-  if (ok >= LAUNCH_SEQUENCE.filter(a => a.critical).length) {
+  const criticalOk = LAUNCH_SEQUENCE.filter(a => a.critical).every(a =>
+    results.find(r => r.id === a.id && ['STARTED','ALREADY_RUNNING'].includes(r.status))
+  );
+
+  if (criticalOk) {
     console.log(green(bold('  🌑 SWARM OS — EN LIGNE\n')));
   } else {
     console.log(red(bold('  ⚠  Agents critiques manquants — Swarm dégradé\n')));
   }
 }
 
-// ─── STOP ALL ─────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// ARRÊTER TOUT
+// ═══════════════════════════════════════════════════════════════
 
 async function stopAll() {
   console.log(bold('\n🛑 Arrêt du Swarm...\n'));
   const pids = loadPids();
 
-  for (const [id, pid] of Object.entries(pids)) {
-    const agent = LAUNCH_SEQUENCE.find(a => a.id === id);
-    const name  = agent?.name ?? id;
+  // Arrêt en ordre inverse (Executor en premier, Ancalagone en dernier)
+  const reversed = [...LAUNCH_SEQUENCE].reverse();
+
+  for (const agent of reversed) {
+    const pid = pids[agent.id];
+    if (!pid) continue;
     try {
       process.kill(pid, 'SIGTERM');
-      console.log(`  ${green('✓')} ${name.padEnd(30)} ${dim(`SIGTERM → PID ${pid}`)}`);
+      console.log(`  ${green('✓')} ${agent.name.padEnd(28)} ${dim(`SIGTERM → PID ${pid}`)}`);
+      await sleep(300); // laisse le temps au graceful shutdown
     } catch {
-      console.log(`  ${dim('○')} ${name.padEnd(30)} ${dim('déjà arrêté')}`);
+      console.log(`  ${dim('○')} ${agent.name.padEnd(28)} ${dim('déjà arrêté')}`);
     }
   }
 
@@ -304,27 +317,59 @@ async function stopAll() {
   console.log(green('\n  ✓ Swarm arrêté proprement.\n'));
 }
 
-// ─── STATUS ───────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// STATUT
+// ═══════════════════════════════════════════════════════════════
 
 function showStatus() {
   const pids = loadPids();
   console.log(bold('\n📊 État du Swarm\n'));
 
+  let alive = 0;
   for (const agent of LAUNCH_SEQUENCE) {
     const pid     = pids[agent.id];
     const running = pid && isRunning(pid);
-    const icon    = running ? green('●') : red('○');
-    const label   = running ? green('ONLINE') : red('OFFLINE');
+    const icon    = running ? green('●') : dim('○');
+    const label   = running ? green('ONLINE ') : dim('OFFLINE');
     const pidStr  = pid ? dim(` PID ${pid}`) : '';
-    console.log(`  ${icon} ${agent.name.padEnd(28)} ${label}${pidStr}`);
+    const crit    = agent.critical ? '' : dim(' opt');
+    if (running) alive++;
+    console.log(`  ${icon} ${agent.name.padEnd(26)} ${label}${pidStr}${crit}`);
+  }
+
+  console.log(`\n  ${alive}/${LAUNCH_SEQUENCE.length} agents actifs\n`);
+
+  // Vérifie les logs récents
+  console.log(dim('  Logs récents (stderr) :'));
+  for (const agent of LAUNCH_SEQUENCE) {
+    const errFile = path.join(LOG_DIR, `${agent.id}.err`);
+    if (fs.existsSync(errFile)) {
+      const size = fs.statSync(errFile).size;
+      if (size > 0) {
+        const tail = fs.readFileSync(errFile, 'utf8').split('\n').filter(Boolean).slice(-1)[0] ?? '';
+        if (tail.includes('Error') || tail.includes('error')) {
+          console.log(`  ${red('!')} ${agent.name} : ${tail.slice(0, 80)}`);
+        }
+      }
+    }
   }
   console.log('');
 }
 
-// ─── CLI ──────────────────────────────────────────────────────
+// ═══════════════════════════════════════════════════════════════
+// CLI
+// ═══════════════════════════════════════════════════════════════
 
 const arg = process.argv[2];
 
-if (arg === '--stop')   { stopAll();    }
-else if (arg === '--status') { showStatus(); }
-else                   { startAll();   }
+if (arg === '--stop') {
+  stopAll();
+} else if (arg === '--status') {
+  showStatus();
+} else if (arg === '--restart') {
+  await stopAll();
+  await sleep(2000);
+  await startAll();
+} else {
+  startAll();
+}

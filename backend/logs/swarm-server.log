@@ -3843,3 +3843,14 @@
        Mode: ES Modules
     =========================================
     
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+╔══════════════════════════════════════════════════════════════╗
+║   🔷  SWARM OS — SERVEUR v2.0                               ║
+╠══════════════════════════════════════════════════════════════╣
+║  Port     : 3000                                           ║
+║  Routes   : /api/swarm/* · /api/signals · /api/feed         ║
+║             /api/mirror · /api/kpis · /api/contents         ║
+║             /api/leads · /api/trigger                       ║
+╚══════════════════════════════════════════════════════════════╝
+  
